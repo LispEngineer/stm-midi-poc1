@@ -1,0 +1,398 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "7cd74113-1f92-4dcc-8610-19aa9fc81e5f")
+	(paper "USLetter")
+	(title_block
+		(title "Block Diagram")
+		(date "2024-09-28")
+		(rev "1")
+		(company "Douglas P. Fields, Jr.")
+		(comment 1 "symbolics@lisp.engineer")
+		(comment 2 "https://creativecommons.org/licenses/by-sa/4.0/ ")
+		(comment 3 "License: CC BY-SA 4.0")
+		(comment 4 "Copyright 2024 Douglas P. Fields, Jr.")
+	)
+	(lib_symbols)
+	(polyline
+		(pts
+			(xy 96.52 87.63) (xy 96.52 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1dd7bdb7-8b1a-4638-a4d0-025bfde3446e")
+	)
+	(polyline
+		(pts
+			(xy 133.35 81.28) (xy 132.08 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ba0f4da-bfea-4687-aa37-765b6721d98b")
+	)
+	(polyline
+		(pts
+			(xy 132.08 81.28) (xy 135.89 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56485fd1-23c1-452a-8823-61036fbd3d90")
+	)
+	(polyline
+		(pts
+			(xy 128.27 81.28) (xy 132.08 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65a3d3eb-de33-46fb-83a5-deebd8190dda")
+	)
+	(polyline
+		(pts
+			(xy 118.11 60.96) (xy 118.11 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "676ea729-7d13-4fd4-a46b-febd9aff5a62")
+	)
+	(polyline
+		(pts
+			(xy 118.11 83.82) (xy 118.11 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7eebdd3e-cd36-4e5e-b533-0319673a5ee3")
+	)
+	(polyline
+		(pts
+			(xy 96.52 80.01) (xy 109.22 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93eff5a7-e2f7-4174-9244-892eda902662")
+	)
+	(polyline
+		(pts
+			(xy 128.27 69.85) (xy 135.89 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "940b0957-3613-4bb7-8274-edbdd69d6826")
+	)
+	(polyline
+		(pts
+			(xy 101.6 71.12) (xy 109.22 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8941eb0-f0e1-40fa-9f55-0d4e1490ab79")
+	)
+	(text_box "MIDI TRS\nIn/Out\n5 ports"
+		(exclude_from_sim no)
+		(at 90.17 67.31 0)
+		(size 11.43 8.89)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "0480607a-d389-4c15-92c6-22891c3c6b44")
+	)
+	(text_box "Misc I/O\nTTL UART\n2 I2C\nSPI\n12 GPIO"
+		(exclude_from_sim no)
+		(at 135.89 78.74 0)
+		(size 11.43 11.43)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "2aefeb97-7d17-424e-88da-bf4a450c6c13")
+	)
+	(text_box "MCU\nSTM32F722RET6\nLQFP-64"
+		(exclude_from_sim no)
+		(at 109.22 67.31 0)
+		(size 19.05 16.51)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "917dd3a5-5018-4914-a335-cc09e5c0eab5")
+	)
+	(text_box "UI\n3 LEDs\n2 Buttons"
+		(exclude_from_sim no)
+		(at 113.03 90.17 0)
+		(size 12.7 8.89)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "c14a3a28-ab59-41de-8e37-629ee9b94a73")
+	)
+	(text_box "USB-C 2.0 \nDevice\nPower input"
+		(exclude_from_sim no)
+		(at 111.76 52.07 0)
+		(size 13.97 8.89)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "d18182b4-e267-418d-aa81-f6ddbe7bb763")
+	)
+	(text_box "Audio\nI2S\nAmplifier\nHeadphone"
+		(exclude_from_sim no)
+		(at 90.17 87.63 0)
+		(size 12.7 10.16)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "d8582a58-5e17-4171-8c57-16faabd61f9a")
+	)
+	(text_box "Debug\nSWD"
+		(exclude_from_sim no)
+		(at 135.89 62.23 0)
+		(size 8.89 8.89)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "f87e8ae1-3fce-406c-9b4b-cc696cb2ba74")
+	)
+	(sheet
+		(at 234.95 124.46)
+		(size 16.51 16.51)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 125 2 1.0000)
+		)
+		(uuid "96c396b4-5394-4a50-9288-ad4476d1492f")
+		(property "Sheetname" "User Interface"
+			(at 234.95 123.7484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "user_interface.kicad_sch"
+			(at 234.95 141.5546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "stm-midi-poc1"
+				(path "/7cd74113-1f92-4dcc-8610-19aa9fc81e5f"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 234.95 148.59)
+		(size 16.51 15.24)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 0 0 1.0000)
+		)
+		(uuid "c9577070-7433-48cd-ae0f-c607bda27147")
+		(property "Sheetname" "Audio Output"
+			(at 234.95 147.8784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "audio_out.kicad_sch"
+			(at 234.95 164.4146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "stm-midi-poc1"
+				(path "/7cd74113-1f92-4dcc-8610-19aa9fc81e5f"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 205.74 148.59)
+		(size 16.51 15.24)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 6 159 2 1.0000)
+		)
+		(uuid "d4c8579f-7658-4ad2-a672-2baa765565aa")
+		(property "Sheetname" "MIDI"
+			(at 205.74 147.8784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "midi.kicad_sch"
+			(at 205.74 164.4146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "stm-midi-poc1"
+				(path "/7cd74113-1f92-4dcc-8610-19aa9fc81e5f"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 205.74 124.46)
+		(size 16.51 16.51)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 0 253 1.0000)
+		)
+		(uuid "fb10b81b-747c-4030-b31b-dec45474bc0e")
+		(property "Sheetname" "MCU"
+			(at 205.74 123.7484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 205.74 141.5546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "stm-midi-poc1"
+				(path "/7cd74113-1f92-4dcc-8610-19aa9fc81e5f"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

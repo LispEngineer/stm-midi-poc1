@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP PAM8908JER
+D Audio Amplifiers 25mW STEREO TRUE CAP FREE HEADPHONE AMP
+K
+F https://www.diodes.com//assets/Datasheets/PAM8908.pdf
+$ENDCMP
+#
+#End Doc Library
