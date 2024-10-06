@@ -15,188 +15,6 @@
 		(comment 4 "MIDI TRS Type A")
 	)
 	(lib_symbols
-		(symbol "Connector_Audio:AudioJack3"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "AudioJack3"
-				(at 0 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Audio Jack, 3 Poles (Stereo / TRS)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "audio jack receptacle stereo headphones phones TRS connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Jack*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "AudioJack3_0_1"
-				(rectangle
-					(start -5.08 -5.08)
-					(end -6.35 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy 0.635 -3.175) (xy 1.27 -2.54) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 -2.54) (xy -1.27 -3.175) (xy -0.635 -2.54) (xy -0.635 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy -2.54 2.54) (xy -2.54 -2.54) (xy -3.175 -3.175) (xy -3.81 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 2.54 3.81)
-					(end -5.08 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "AudioJack3_1_1"
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "R"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "T"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:C"
 			(pin_numbers hide)
 			(pin_names
@@ -616,53 +434,45 @@
 				)
 			)
 		)
-		(symbol "PCM_Optocoupler_Logic_AKL:6N137-X007T"
-			(pin_names
-				(offset 1.016)
-			)
+		(symbol "easyeda2kicad:6N137S-TA1"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "OC"
-				(at -7.62 15.24 0)
+			(property "Reference" "U"
+				(at 0 12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "6N137-X007T"
-				(at -7.62 12.7 0)
+			(property "Value" "6N137S-TA1"
+				(at 0 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Footprint" "PCM_Package_DIP_AKL:SMDIP-8_W9.53mm"
-				(at -7.62 -6.35 0)
+			(property "Footprint" "easyeda2kicad:SOP-8_L9.8-W6.6-P2.54-LS10.3-BL"
+				(at 0 -15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
-						(italic yes)
 					)
-					(justify left)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.vishay.com/docs/84732/6n137.pdf"
-				(at -2.159 -1.27 0)
+			(property "Datasheet" "https://lcsc.com/product-detail/SMD-Optocouplers_6N137S-TA1_C92651.html"
+				(at 0 -17.78 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 					(hide yes)
 				)
 			)
-			(property "Description" "SMDIP-8 Optocoupler, Open Collector/Drain output, Inverting, additional external input, 5.3kV, 10Mbs, Alternate KiCAD Library"
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -671,8 +481,8 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "Optocoupler logic output inverting external input generic open drain collector OC OD 6N137"
-				(at 0 0 0)
+			(property "LCSC Part" "C92651"
+				(at 0 -20.32 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -680,21 +490,12 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "DIP*W7.62mm*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "6N137-X007T_0_0"
+			(symbol "6N137S-TA1_0_1"
 				(rectangle
-					(start -10.16 10.16)
-					(end 10.16 -6.35)
+					(start -11.43 10.16)
+					(end 11.43 -10.16)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -703,57 +504,7 @@
 				)
 				(polyline
 					(pts
-						(xy 10.16 0) (xy 7.62 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "6N137-X007T_0_1"
-				(polyline
-					(pts
-						(xy -8.255 -0.635) (xy -6.985 -0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 3.81 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -0.635) (xy 3.81 -0.635)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -10.16 2.54) (xy -7.62 2.54) (xy -7.62 -0.635)
+						(xy -6.6 1.78) (xy -4.83 3.56)
 					)
 					(stroke
 						(width 0)
@@ -765,7 +516,7 @@
 				)
 				(polyline
 					(pts
-						(xy -7.62 -0.635) (xy -7.62 -2.54) (xy -10.16 -2.54)
+						(xy -6.35 0.51) (xy -4.57 2.29)
 					)
 					(stroke
 						(width 0)
@@ -777,31 +528,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0 -2.54) (xy 3.81 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -7.62 -0.635) (xy -8.255 0.635) (xy -6.985 0.635) (xy -7.62 -0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.207 -0.508) (xy -3.937 -0.508) (xy -4.318 -0.635) (xy -4.318 -0.381) (xy -3.937 -0.508)
+						(xy -6.1 -1.27) (xy -10.16 -1.27)
 					)
 					(stroke
 						(width 0)
@@ -813,7 +540,7 @@
 				)
 				(polyline
 					(pts
-						(xy -5.207 0.508) (xy -3.937 0.508) (xy -4.318 0.381) (xy -4.318 0.635) (xy -3.937 0.508)
+						(xy -4.83 4.32) (xy -0.76 4.32)
 					)
 					(stroke
 						(width 0)
@@ -825,81 +552,260 @@
 				)
 				(polyline
 					(pts
-						(xy 4.445 -0.635) (xy 3.81 0) (xy 4.445 0.635) (xy 5.08 0) (xy 4.445 -0.635)
+						(xy -0.76 -7.62) (xy -0.76 -4.06)
 					)
 					(stroke
-						(width 0.1524)
+						(width 0)
 						(type default)
 					)
 					(fill
 						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.05 -5.84) (xy 1.02 -5.84)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -5.84) (xy 10.16 -7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -5.08) (xy 6.6 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -2.79) (xy 7.62 -7.37)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -7.62) (xy 11.43 -7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -2.54) (xy 7.62 -4.32)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -2.54) (xy 11.43 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.76 -4.06) (xy 1.02 -5.84) (xy -0.76 -7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -4.83) (xy 0 7.62) (xy 11.43 7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -11.43 2.54) (xy -8.13 2.54) (xy -8.13 -2.54) (xy -11.43 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -9.65 1.27) (xy -8.13 -1.27) (xy -6.6 1.27) (xy -9.65 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.83 3.56) (xy -5.84 3.05) (xy -5.33 2.54) (xy -4.83 3.56)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.57 2.29) (xy -5.59 1.78) (xy -5.08 1.27) (xy -4.57 2.29)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.78) (xy -2.79 4.32) (xy -4.32 1.78) (xy -1.27 1.78)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -6.86) (xy 0 -8.13) (xy 10.16 -8.13) (xy 10.16 -7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.25 7.62) (xy -2.79 7.62) (xy -2.79 -5.84) (xy -1.02 -5.84)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.05 -4.32) (xy 2.03 -4.32) (xy 2.03 2.54) (xy 11.43 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -3.56) (xy 3.05 -3.56) (xy 3.05 -6.6) (xy 5.08 -6.6)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -7.62) (xy 9.4 -6.35) (xy 8.64 -7.37) (xy 10.16 -7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
 					)
 				)
 				(arc
-					(start 3.81 -2.54)
-					(mid 6.339 0)
-					(end 3.81 2.54)
+					(start 5.11 -6.6)
+					(mid 6.5788 -5.0703)
+					(end 5.08 -3.57)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-				(circle
-					(center 6.985 0)
-					(radius 0.635)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "6N137-X007T_1_1"
-				(polyline
-					(pts
-						(xy -1.27 0.635) (xy -2.54 0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 0.635) (xy -1.27 -0.635) (xy -2.54 -0.635) (xy -1.905 0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.905) (xy -1.905 -1.905) (xy -1.905 1.905) (xy 0 1.905)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin free line
-					(at -1.27 7.62 0)
-					(length 2.54) hide
-					(name "NC"
+				(pin unspecified line
+					(at -13.97 7.62 0)
+					(length 2.54)
+					(name "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -914,10 +820,10 @@
 						)
 					)
 				)
-				(pin passive line
-					(at -12.7 2.54 0)
+				(pin unspecified line
+					(at -13.97 2.54 0)
 					(length 2.54)
-					(name "~"
+					(name "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -932,10 +838,10 @@
 						)
 					)
 				)
-				(pin passive line
-					(at -12.7 -2.54 0)
+				(pin unspecified line
+					(at -13.97 -2.54 0)
 					(length 2.54)
-					(name "~"
+					(name "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -950,10 +856,10 @@
 						)
 					)
 				)
-				(pin free line
-					(at -1.27 5.08 0)
-					(length 2.54) hide
-					(name "NC"
+				(pin unspecified line
+					(at -13.97 -7.62 0)
+					(length 2.54)
+					(name "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -968,10 +874,10 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 12.7 -3.81 180)
+				(pin unspecified line
+					(at 13.97 -7.62 180)
 					(length 2.54)
-					(name "GND"
+					(name "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -986,10 +892,10 @@
 						)
 					)
 				)
-				(pin open_collector line
-					(at 12.7 0 180)
+				(pin unspecified line
+					(at 13.97 -2.54 180)
 					(length 2.54)
-					(name "~"
+					(name "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1004,10 +910,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at 12.7 3.81 180)
+				(pin unspecified line
+					(at 13.97 2.54 180)
 					(length 2.54)
-					(name "EN"
+					(name "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1022,10 +928,10 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 12.7 7.62 180)
+				(pin unspecified line
+					(at 13.97 7.62 180)
 					(length 2.54)
-					(name "VCC"
+					(name "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1033,6 +939,304 @@
 						)
 					)
 					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "easyeda2kicad:PJ-3210-4A"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Audio"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PJ-3210-4A"
+				(at 0 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:AUDIO_TH_PJ-3210-4A"
+				(at 0 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Audio-Connectors_PJ-3210-4A_C136686.html"
+				(at 0 -13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C136686"
+				(at 0 -16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PJ-3210-4A_0_1"
+				(polyline
+					(pts
+						(xy 1.27 -3.81) (xy -1.52 -3.81) (xy -2.03 -3.3) (xy -2.54 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy -6.35 1.27) (xy -6.35 -2.79) (xy -7.11 -1.78)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy -4.32 -1.27) (xy -4.83 -1.78) (xy -5.33 -1.27) (xy -5.33 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 6.35 1.27 180)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 6.35 -3.81 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 6.35 -1.27 180)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "easyeda2kicad:PJ-321A-4A"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "CN"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PJ-321A-4A"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:AUDIO-SMD_PJ-321A-4A"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Audio-Video-Connectors_Korean-Hroparts-Elec-PJ-321A-4A_C879743.html"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C879743"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PJ-321A-4A_0_1"
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy -2.03 -2.54) (xy -3.3 -1.27) (xy -4.57 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy -4.83 0) (xy -6.1 -1.27) (xy -7.37 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy -8.89 2.54) (xy -8.89 -3.05) (xy -9.4 -2.29)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at 2.54 2.54 180)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 2.54 -2.54 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 2.54 0 180)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1260,19 +1464,25 @@
 		)
 	)
 	(junction
-		(at 96.52 45.72)
+		(at 99.06 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "03fd204e-bcca-49bc-af46-4efae349fcc7")
 	)
 	(junction
-		(at 120.65 45.72)
+		(at 123.19 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2934c421-7b42-4514-9593-413b3909d022")
 	)
 	(junction
-		(at 96.52 53.34)
+		(at 57.15 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "33dcca6a-b3f5-421a-b62e-74e4dda006a8")
+	)
+	(junction
+		(at 99.06 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "36b1d506-965b-4fb2-a2ab-881bb37db103")
@@ -1284,54 +1494,118 @@
 		(uuid "3743ca92-a60a-4ce3-b2f1-1befb83c61c2")
 	)
 	(junction
+		(at 123.19 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4a3e6644-475b-44fc-b471-32fd039ec93a")
+	)
+	(junction
 		(at 57.15 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5058840d-6e80-49ce-bd59-1c091f65ddeb")
 	)
 	(junction
-		(at 120.65 57.15)
+		(at 57.15 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5b3201a0-0fa3-4a1f-b81b-511aa1a89c55")
+		(uuid "76e3b236-17cc-4663-b5d8-c8de6f897191")
 	)
 	(junction
-		(at 92.71 45.72)
+		(at 99.06 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "77520185-22a3-4efe-ae1a-b742b9821cb8")
+	)
+	(junction
+		(at 95.25 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7891dcb3-df2d-4407-9923-db58cdd1ca9f")
 	)
+	(junction
+		(at 99.06 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9898e9c3-ddcb-428e-a6e6-02da4d91304e")
+	)
+	(junction
+		(at 95.25 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b5f2a9e7-da37-43f9-ab3c-5125b502c86d")
+	)
+	(junction
+		(at 123.19 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c86eb1aa-ff93-42be-ad5a-2f40d257acc1")
+	)
+	(junction
+		(at 123.19 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fddb0a98-1045-42c2-9274-8cd923377f51")
+	)
 	(no_connect
-		(at 261.62 41.91)
+		(at 264.16 31.75)
 		(uuid "0f495287-201c-4bea-a7a5-0d17048913c0")
 	)
 	(no_connect
-		(at 262.89 21.59)
-		(uuid "333cbcf0-01cc-46b4-a90c-de2da9053fe7")
+		(at 64.77 59.69)
+		(uuid "3055ead6-9f62-4f65-b911-3f9c1013c9e1")
 	)
 	(no_connect
-		(at 250.19 29.21)
+		(at 252.73 19.05)
 		(uuid "8653122e-6269-4162-bea8-2389962c9178")
 	)
 	(no_connect
-		(at 261.62 44.45)
+		(at 264.16 34.29)
 		(uuid "914cd097-4379-4357-b29c-7c90e55b31cd")
 	)
 	(no_connect
-		(at 261.62 36.83)
+		(at 64.77 96.52)
+		(uuid "931281d1-0b2d-45ec-9847-f3f02c42bb6d")
+	)
+	(no_connect
+		(at 64.77 111.76)
+		(uuid "a4eae734-8e40-4e17-90d2-258f18bdf676")
+	)
+	(no_connect
+		(at 264.16 26.67)
 		(uuid "b7dc1cb7-ce10-4484-9deb-17bbc610e41f")
 	)
 	(no_connect
-		(at 261.62 34.29)
+		(at 264.16 24.13)
 		(uuid "bac96dbd-b141-43ab-aaef-5ac93bbde3c3")
 	)
 	(no_connect
-		(at 262.89 19.05)
-		(uuid "e9ea4761-543c-47be-bb84-5ffc93f39be0")
+		(at 64.77 44.45)
+		(uuid "d69c612a-8b21-4be6-b7b4-df72081a11cd")
 	)
 	(no_connect
-		(at 250.19 26.67)
+		(at 252.73 16.51)
 		(uuid "f7ccb640-984b-4ead-a6c8-7e6777f5baf3")
+	)
+	(wire
+		(pts
+			(xy 62.23 100.33) (xy 62.23 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10ae02d8-10d1-46b4-a9cb-9f664a6afd8e")
+	)
+	(wire
+		(pts
+			(xy 123.19 93.98) (xy 123.19 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "163c3eab-7445-4d53-a0e9-21e13d3f97d0")
 	)
 	(wire
 		(pts
@@ -1345,13 +1619,33 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 49.53) (xy 92.71 45.72)
+			(xy 95.25 49.53) (xy 95.25 44.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "1bc35efd-d2d7-4658-b068-1251782a7315")
+	)
+	(wire
+		(pts
+			(xy 34.29 105.41) (xy 38.1 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20db34d5-6080-4fb3-bdd3-0e3d0be0c34d")
+	)
+	(wire
+		(pts
+			(xy 34.29 81.28) (xy 36.83 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20e338c3-9055-4043-96a6-c8eb0baa5ebf")
 	)
 	(wire
 		(pts
@@ -1375,7 +1669,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 48.26) (xy 57.15 48.26)
+			(xy 57.15 48.26) (xy 62.23 48.26)
 		)
 		(stroke
 			(width 0)
@@ -1385,23 +1679,113 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 54.61) (xy 120.65 57.15)
+			(xy 38.1 102.87) (xy 38.1 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "268d315c-0015-41ea-b1cf-8379f314a99c")
+		(uuid "255ab775-d160-44b7-bcbd-7552d9dab593")
 	)
 	(wire
 		(pts
-			(xy 64.77 50.8) (xy 62.23 50.8)
+			(xy 92.71 59.69) (xy 123.19 59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "40312118-4a36-4f49-98c1-1aee9d92a28a")
+		(uuid "2ad2cb37-0794-43e0-afb4-6fe54cf5c7c0")
+	)
+	(wire
+		(pts
+			(xy 92.71 106.68) (xy 99.06 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2aefb8e0-020c-42ce-befd-0be3ce8bad92")
+	)
+	(wire
+		(pts
+			(xy 34.29 83.82) (xy 38.1 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b0e3e8e-b01d-4502-b325-51d6062fba22")
+	)
+	(wire
+		(pts
+			(xy 62.23 55.88) (xy 62.23 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b2c66ff-f938-41d3-bd49-3cefb692189b")
+	)
+	(wire
+		(pts
+			(xy 38.1 105.41) (xy 38.1 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d2bfb9d-a81c-40e0-bc9f-f5f65aadfe25")
+	)
+	(wire
+		(pts
+			(xy 49.53 83.82) (xy 45.72 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2dded7c9-4b71-4c16-875f-0b6d4cdcb38f")
+	)
+	(wire
+		(pts
+			(xy 92.71 111.76) (xy 123.19 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fb8ed13-5952-4f66-a75f-b36330c9e1d7")
+	)
+	(wire
+		(pts
+			(xy 62.23 106.68) (xy 64.77 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ab71768-87a1-4ae5-b856-7f8fa3671e83")
+	)
+	(wire
+		(pts
+			(xy 49.53 82.55) (xy 49.53 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "400c567d-52fe-4325-acd7-2db47e3586a4")
+	)
+	(wire
+		(pts
+			(xy 99.06 96.52) (xy 123.19 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40b699d1-a35f-478b-9d91-552a71485bc6")
 	)
 	(wire
 		(pts
@@ -1415,7 +1799,27 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 53.34) (xy 104.14 53.34)
+			(xy 62.23 101.6) (xy 64.77 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "453ff0ba-1035-47f8-80aa-af3256beb419")
+	)
+	(wire
+		(pts
+			(xy 95.25 101.6) (xy 95.25 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "474f915a-9d5d-4639-a427-6324548baa54")
+	)
+	(wire
+		(pts
+			(xy 99.06 54.61) (xy 106.68 54.61)
 		)
 		(stroke
 			(width 0)
@@ -1435,6 +1839,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 100.33) (xy 62.23 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4edc1f51-733f-47a9-841b-08bcb3592c67")
+	)
+	(wire
+		(pts
 			(xy 34.29 29.21) (xy 36.83 29.21)
 		)
 		(stroke
@@ -1445,13 +1859,23 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 45.72) (xy 92.71 45.72)
+			(xy 92.71 44.45) (xy 95.25 44.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "54b43f72-9d10-414f-9a30-f1c07009f34c")
+	)
+	(wire
+		(pts
+			(xy 62.23 49.53) (xy 64.77 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5552f636-0c28-4977-a353-4b4ecdaa3b2f")
 	)
 	(wire
 		(pts
@@ -1465,6 +1889,36 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 48.26) (xy 62.23 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d3aece8-3554-4275-a01f-797716161bbe")
+	)
+	(wire
+		(pts
+			(xy 99.06 106.68) (xy 99.06 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60807e6c-8738-468e-bf0b-4c4c59c1f5d3")
+	)
+	(wire
+		(pts
+			(xy 99.06 106.68) (xy 106.68 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a02c2a4-48c3-46c2-b38a-76b2335d7c2b")
+	)
+	(wire
+		(pts
 			(xy 38.1 48.26) (xy 45.72 48.26)
 		)
 		(stroke
@@ -1475,17 +1929,57 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 57.15) (xy 90.17 57.15)
+			(xy 99.06 44.45) (xy 99.06 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "739bd41a-323b-4b36-9b27-dd703aa40a8d")
+		(uuid "6eac3581-3a48-4c9a-a90a-705c5f5eef45")
 	)
 	(wire
 		(pts
-			(xy 96.52 45.72) (xy 120.65 45.72)
+			(xy 35.56 100.33) (xy 34.29 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70877182-5cbc-4bc9-9f57-215c2e7731fe")
+	)
+	(wire
+		(pts
+			(xy 95.25 96.52) (xy 99.06 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "712c76ad-7cf8-4599-a6b5-b46d3579370c")
+	)
+	(wire
+		(pts
+			(xy 35.56 97.79) (xy 35.56 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7253ded4-a125-4fa8-99b5-dcb237db1a8f")
+	)
+	(wire
+		(pts
+			(xy 53.34 100.33) (xy 57.15 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74d807b3-270c-441a-97b3-6c458c5dbfe2")
+	)
+	(wire
+		(pts
+			(xy 99.06 44.45) (xy 123.19 44.45)
 		)
 		(stroke
 			(width 0)
@@ -1495,13 +1989,43 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 57.15) (xy 120.65 59.69)
+			(xy 123.19 96.52) (xy 123.19 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "812f5172-bcf9-43ff-ad11-a57c2d479feb")
+		(uuid "78a37430-55a2-42ae-808c-7fc595a43095")
+	)
+	(wire
+		(pts
+			(xy 57.15 107.95) (xy 62.23 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e1ceabb-0ed1-4718-a1c5-4b78bc5c749e")
+	)
+	(wire
+		(pts
+			(xy 123.19 106.68) (xy 123.19 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80764b00-fd34-43e4-85e5-8661ef9664b4")
+	)
+	(wire
+		(pts
+			(xy 92.71 101.6) (xy 95.25 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8898d215-7775-4410-828d-3ceca19df948")
 	)
 	(wire
 		(pts
@@ -1525,7 +2049,17 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 43.18) (xy 120.65 45.72)
+			(xy 45.72 86.36) (xy 52.07 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e92fb24-a589-47d0-8d05-9ae34657788e")
+	)
+	(wire
+		(pts
+			(xy 123.19 41.91) (xy 123.19 44.45)
 		)
 		(stroke
 			(width 0)
@@ -1535,7 +2069,27 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 55.88) (xy 64.77 55.88)
+			(xy 99.06 54.61) (xy 99.06 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93f8292e-0a2e-4001-b27e-5f7c363b946d")
+	)
+	(wire
+		(pts
+			(xy 99.06 96.52) (xy 99.06 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95ea3c39-c53e-4b29-bb75-5c96113eb87f")
+	)
+	(wire
+		(pts
+			(xy 57.15 55.88) (xy 62.23 55.88)
 		)
 		(stroke
 			(width 0)
@@ -1555,6 +2109,36 @@
 	)
 	(wire
 		(pts
+			(xy 34.29 86.36) (xy 38.1 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad0a6f69-6b00-4f1e-b3d5-801d52a33038")
+	)
+	(wire
+		(pts
+			(xy 38.1 100.33) (xy 45.72 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af77450c-76d3-4368-bbfc-300683072af7")
+	)
+	(wire
+		(pts
+			(xy 92.71 96.52) (xy 95.25 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0c96e98-c677-42f0-a98b-4baae704dbba")
+	)
+	(wire
+		(pts
 			(xy 38.1 53.34) (xy 38.1 55.88)
 		)
 		(stroke
@@ -1565,13 +2149,33 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 49.53) (xy 92.71 49.53)
+			(xy 92.71 49.53) (xy 95.25 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ba215bf6-c4ac-46e1-bdf8-f1af2e23c5fd")
+	)
+	(wire
+		(pts
+			(xy 123.19 54.61) (xy 123.19 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf7e9a0e-4b77-4888-a3c2-3679805071c1")
+	)
+	(wire
+		(pts
+			(xy 62.23 54.61) (xy 64.77 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0d93b21-2394-4628-bc4b-6a5a07b7fae9")
 	)
 	(wire
 		(pts
@@ -1595,7 +2199,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 53.34) (xy 96.52 53.34)
+			(xy 92.71 54.61) (xy 99.06 54.61)
 		)
 		(stroke
 			(width 0)
@@ -1605,17 +2209,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 50.8) (xy 62.23 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d53fc2da-259a-4eb6-b011-368500295a9f")
-	)
-	(wire
-		(pts
-			(xy 120.65 45.72) (xy 120.65 46.99)
+			(xy 123.19 44.45) (xy 123.19 46.99)
 		)
 		(stroke
 			(width 0)
@@ -1625,7 +2219,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 45.72) (xy 96.52 45.72)
+			(xy 95.25 44.45) (xy 99.06 44.45)
 		)
 		(stroke
 			(width 0)
@@ -1653,9 +2247,49 @@
 		)
 		(uuid "e3f4c7f3-f219-4fc0-bd5a-e4008fc6277a")
 	)
+	(wire
+		(pts
+			(xy 36.83 81.28) (xy 36.83 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eaf72af3-cae5-4423-97ac-393dac63e0e5")
+	)
+	(wire
+		(pts
+			(xy 62.23 107.95) (xy 62.23 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee68f8ef-4c1e-4be4-92ed-b2c6050467f8")
+	)
+	(wire
+		(pts
+			(xy 38.1 107.95) (xy 57.15 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f73f1b38-934e-4a60-b1e1-6dee62691034")
+	)
+	(wire
+		(pts
+			(xy 34.29 102.87) (xy 38.1 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f996bd42-64d1-44e5-942d-e9e2d9564dd7")
+	)
 	(rectangle
 		(start 20.32 19.05)
-		(end 132.08 67.31)
+		(end 134.62 67.31)
 		(stroke
 			(width 0)
 			(type dash)
@@ -1665,7 +2299,39 @@
 		)
 		(uuid 02d9804e-ea52-4d98-8439-58d34e4e7f2f)
 	)
-	(text "TODO: Replicate for UART 3-6"
+	(rectangle
+		(start 20.32 71.12)
+		(end 134.62 119.38)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 987d2dfd-0a1b-4b4f-b8b4-237dd51335d5)
+	)
+	(text "Ring = 3"
+		(exclude_from_sim no)
+		(at 34.29 178.054 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "06846601-51e1-40a3-91ba-f7b61eaea64a")
+	)
+	(text "Ring = 3"
+		(exclude_from_sim no)
+		(at 70.358 84.328 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "166aefda-a927-43ad-a0cc-a7620cf7c490")
+	)
+	(text "TODO: Replicate for UART 4-6"
 		(exclude_from_sim no)
 		(at 228.854 22.098 0)
 		(effects
@@ -1675,31 +2341,139 @@
 		)
 		(uuid "398dfb47-79bb-4270-9af7-a8f7064dd1b0")
 	)
-	(global_label "USART3_RX"
-		(shape input)
-		(at 262.89 21.59 180)
-		(fields_autoplaced yes)
+	(text "Surface mount"
+		(exclude_from_sim no)
+		(at 36.068 172.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
 		)
-		(uuid "0a57ed8f-9a8b-4e69-94ae-bbf54eac7ce1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 249.382 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
+		(uuid "42a866d8-1eba-4137-8aba-1e351b294a9b")
+	)
+	(text "Through-hole"
+		(exclude_from_sim no)
+		(at 35.052 190.754 0)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
 		)
+		(uuid "60015d08-7f7e-48ee-ac16-07a48f70f6f2")
+	)
+	(text "Ring = 3"
+		(exclude_from_sim no)
+		(at 70.358 32.258 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6245bd5b-7834-4774-a1b4-0c5882b63d52")
+	)
+	(text "Tip = 1"
+		(exclude_from_sim no)
+		(at 35.052 193.294 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6664e6a3-9e02-4835-b6fd-6d1297f8211c")
+	)
+	(text "Tip = 1"
+		(exclude_from_sim no)
+		(at 69.85 86.868 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "98ba0304-faba-4c98-95f0-3a6a28c83b3c")
+	)
+	(text "Sleeve = 2"
+		(exclude_from_sim no)
+		(at 35.052 180.594 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9fab5a41-ba11-47a1-8247-d3379725552e")
+	)
+	(text "Sleeve = 2"
+		(exclude_from_sim no)
+		(at 71.374 81.788 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b22a9834-bdb7-454e-9581-dde7e47282bb")
+	)
+	(text "Sleeve = 2"
+		(exclude_from_sim no)
+		(at 36.576 198.374 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b8b5adbd-6ead-4605-87d0-339e365d6b34")
+	)
+	(text "Tip = 1"
+		(exclude_from_sim no)
+		(at 33.528 175.514 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "cdfb8040-bf9e-432d-9f82-fbbf5daae2b7")
+	)
+	(text "Ring = 3"
+		(exclude_from_sim no)
+		(at 35.814 195.834 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "de6888b9-c651-47dd-93a8-373256c5dab0")
+	)
+	(text "TODO: Make this a sub-schematic and instantiate it 5x"
+		(exclude_from_sim no)
+		(at 237.744 169.164 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e024a16f-f2d3-408f-9e35-02d8dc92aa49")
+	)
+	(text "Tip = 1"
+		(exclude_from_sim no)
+		(at 69.85 34.798 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e0f14739-8a77-4c1f-b7c2-c1e740ee8ae6")
+	)
+	(text "Sleeve = 2"
+		(exclude_from_sim no)
+		(at 71.374 29.718 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e6952e8f-f175-4edc-bb9a-c333b918e900")
 	)
 	(global_label "USART6_RX"
 		(shape input)
-		(at 261.62 44.45 180)
+		(at 264.16 34.29 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1709,7 +2483,7 @@
 		)
 		(uuid "1d645ebb-ce63-4706-9071-f7c7ffeda03d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 248.112 44.45 0)
+			(at 250.652 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1721,7 +2495,7 @@
 	)
 	(global_label "UART5_RX"
 		(shape input)
-		(at 261.62 34.29 180)
+		(at 264.16 24.13 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1731,7 +2505,7 @@
 		)
 		(uuid "2eed39f4-5d89-408f-9b6e-c30f7879f5c1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 249.3215 34.29 0)
+			(at 251.8615 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1743,7 +2517,7 @@
 	)
 	(global_label "USART1_RX"
 		(shape output)
-		(at 104.14 53.34 0)
+		(at 106.68 54.61 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1753,7 +2527,29 @@
 		)
 		(uuid "3dbd5fd1-1db3-4a4a-82de-ec1747c32ab2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 117.648 53.34 0)
+			(at 120.188 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USART3_RX"
+		(shape output)
+		(at 106.68 106.68 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "51f9d12a-0409-4a88-87a1-de4ee95cdbf1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 120.188 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1764,30 +2560,30 @@
 		)
 	)
 	(global_label "USART3_TX"
-		(shape output)
-		(at 262.89 19.05 180)
+		(shape input)
+		(at 52.07 86.36 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "88804684-9ab7-4c2f-a58b-7cb00e24940b")
+		(uuid "8f8b1e22-dfa3-4fbf-9ce6-4925c4db355d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 249.6844 19.05 0)
+			(at 65.2756 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
 	)
 	(global_label "UART4_TX"
 		(shape output)
-		(at 250.19 26.67 0)
+		(at 252.73 16.51 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1797,7 +2593,7 @@
 		)
 		(uuid "a2095a17-a3d9-4f0d-805a-c0fe4e5d605e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 262.1861 26.67 0)
+			(at 264.7261 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1809,7 +2605,7 @@
 	)
 	(global_label "UART4_RX"
 		(shape input)
-		(at 250.19 29.21 0)
+		(at 252.73 19.05 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1819,7 +2615,7 @@
 		)
 		(uuid "b9d1908e-773a-42a5-a8df-46964059452e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 262.4885 29.21 0)
+			(at 265.0285 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1831,7 +2627,7 @@
 	)
 	(global_label "UART5_TX"
 		(shape output)
-		(at 261.62 36.83 180)
+		(at 264.16 26.67 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1841,7 +2637,7 @@
 		)
 		(uuid "cc4400d3-0c22-47d2-b91d-6369d0603d66")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 249.6239 36.83 0)
+			(at 252.1639 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1853,7 +2649,7 @@
 	)
 	(global_label "USART6_TX"
 		(shape input)
-		(at 261.62 41.91 180)
+		(at 264.16 31.75 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1863,7 +2659,7 @@
 		)
 		(uuid "f00ef220-f2c1-42f7-bf5d-77161c964224")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 248.4144 41.91 0)
+			(at 250.9544 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1892,6 +2688,247 @@
 				)
 				(justify left)
 				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 36.83 78.74 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "025f73ac-54f7-4251-b969-e2e0e83c93f2")
+		(property "Reference" "#PWR072"
+			(at 36.83 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 36.83 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 36.83 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.83 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 36.83 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d7399ac4-e10f-43cc-a9ac-e314f73b7d1e")
+		)
+		(instances
+			(project "stm-midi-poc1"
+				(path "/7cd74113-1f92-4dcc-8610-19aa9fc81e5f/d4c8579f-7658-4ad2-a672-2baa765565aa"
+					(reference "#PWR072")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:PJ-321A-4A")
+		(at 31.75 83.82 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "08f816e4-7b32-491d-a4f0-89002d382f03")
+		(property "Reference" "CN3"
+			(at 27.05 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MIDI Out 2"
+			(at 27.05 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:AUDIO-SMD_PJ-321A-4A"
+			(at 31.75 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Audio-Video-Connectors_Korean-Hroparts-Elec-PJ-321A-4A_C879743.html"
+			(at 31.75 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Korean Hroparts Elec PJ-321A-4A -20℃~+70℃ 3.5mm Headphone Jack 30V 500mA SMD Audio Connectors (Headphones) ROHS"
+			(at 31.75 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C879743"
+			(at 31.75 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C879743"
+			(at 31.75 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPFNOTES" "In-stock 3.5mm TRS"
+			(at 31.75 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPFURL" "https://jlcpcb.com/partdetail/Korean_HropartsElec-PJ_321A4A/C879743"
+			(at 31.75 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "58a8ae58-26cf-4206-9881-4ff9aaaf0f8f")
+		)
+		(pin "2"
+			(uuid "44e89b73-b1f8-4710-b667-8524868bf0be")
+		)
+		(pin "3"
+			(uuid "e9e4addb-73d3-4740-baa0-93f50887743a")
+		)
+		(instances
+			(project "stm-midi-poc1"
+				(path "/7cd74113-1f92-4dcc-8610-19aa9fc81e5f/d4c8579f-7658-4ad2-a672-2baa765565aa"
+					(reference "CN3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 35.56 97.79 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1ffba2cf-0c0d-40b6-9fa9-820ed8e7b908")
+		(property "Reference" "#PWR071"
+			(at 35.56 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 35.56 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.56 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 35.56 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2ecd0cb0-b5ae-4e1d-a6a1-01136a008faf")
+		)
+		(instances
+			(project "stm-midi-poc1"
+				(path "/7cd74113-1f92-4dcc-8610-19aa9fc81e5f/d4c8579f-7658-4ad2-a672-2baa765565aa"
+					(reference "#PWR071")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -1963,54 +3000,17 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_Optocoupler_Logic_AKL:6N137-X007T")
-		(at 77.47 53.34 0)
+		(lib_id "power:+3V3")
+		(at 49.53 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "331f26f9-1335-4fa8-acad-c73c212c803c")
-		(property "Reference" "OC1"
-			(at 77.47 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "6N137S-TA1-L"
-			(at 77.47 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PCM_Package_DIP_AKL:SMDIP-8_W9.53mm"
-			(at 69.85 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/84732/6n137.pdf"
-			(at 75.311 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMDIP-8 Optocoupler, Open Collector/Drain output, Inverting, additional external input, 5.3kV, 10Mbs, Alternate KiCAD Library"
-			(at 77.47 53.34 0)
+		(uuid "2b5839a3-6fe0-4ca2-9c24-4f92c822f229")
+		(property "Reference" "#PWR073"
+			(at 49.53 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2018,85 +3018,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C92651"
-			(at 77.47 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DPFNOTES" "Lite-On 6N137S-TA1-L 15Mbit/s 4.5V~5.5V 10kV/us DC SOP-8-2.54mm Logic Output Optoisolators ROHS"
-			(at 77.47 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DPFURL" "https://jlcpcb.com/partdetail/liteon-6N137S_TA1L/C92651"
-			(at 77.47 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "565f081f-ce78-4141-b563-ee9426916c7a")
-		)
-		(pin "2"
-			(uuid "a8368cd5-b46e-4978-9fb1-2710d0bb1c61")
-		)
-		(pin "1"
-			(uuid "c748b4e6-cdcc-4fa4-8ee5-c89ec93f5703")
-		)
-		(pin "8"
-			(uuid "c58be3a0-1965-47c6-9dc8-effe8676f458")
-		)
-		(pin "3"
-			(uuid "db7fa0a6-5943-47af-bfd6-b717642e72ce")
-		)
-		(pin "6"
-			(uuid "a37a1fe3-1fed-4ead-922e-c2fbf2abe79b")
-		)
-		(pin "5"
-			(uuid "dc78fef8-5b39-4481-ae0f-9ec4ddcab57e")
-		)
-		(pin "7"
-			(uuid "6a523d95-e217-4b2a-af3f-007c65f73809")
-		)
-		(instances
-			(project ""
-				(path "/7cd74113-1f92-4dcc-8610-19aa9fc81e5f/d4c8579f-7658-4ad2-a672-2baa765565aa"
-					(reference "OC1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Audio:AudioJack3")
-		(at 29.21 50.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5163eb9c-1e31-4b84-8791-083604a15e84")
-		(property "Reference" "J8"
-			(at 27.305 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MIDI In 1"
-			(at 27.305 44.45 0)
+		(property "Value" "+3V3"
+			(at 49.53 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2104,7 +3027,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 29.21 50.8 0)
+			(at 49.53 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2112,8 +3035,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 29.21 50.8 0)
+		(property "Datasheet" ""
+			(at 49.53 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2121,8 +3044,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS)"
-			(at 29.21 50.8 0)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 49.53 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2130,61 +3053,46 @@
 				(hide yes)
 			)
 		)
-		(pin "R"
-			(uuid "7ce1186f-6960-4e06-bce4-ba36303c7fe3")
-		)
-		(pin "S"
-			(uuid "035a5226-536a-4fe6-b51a-0b6ba96e673c")
-		)
-		(pin "T"
-			(uuid "55c178a5-2b49-4974-aafa-f4967307d5ab")
+		(pin "1"
+			(uuid "91f5e531-3096-4864-a25f-2f13b9290a4c")
 		)
 		(instances
 			(project "stm-midi-poc1"
 				(path "/7cd74113-1f92-4dcc-8610-19aa9fc81e5f/d4c8579f-7658-4ad2-a672-2baa765565aa"
-					(reference "J8")
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 96.52 49.53 0)
+		(lib_id "easyeda2kicad:PJ-321A-4A")
+		(at 31.75 50.8 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "58daa288-eaa3-40cf-b567-4c5af9050e71")
-		(property "Reference" "R16"
-			(at 102.87 49.53 90)
+		(uuid "2f52b8b8-2c62-47b0-9e73-2de432aac672")
+		(property "Reference" "CN1"
+			(at 27.05 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "470Ω"
-			(at 100.33 49.53 90)
+		(property "Value" "MIDI In 1"
+			(at 27.05 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 94.742 49.53 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 96.52 49.53 0)
+		(property "Footprint" "easyeda2kicad:AUDIO-SMD_PJ-321A-4A"
+			(at 31.75 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2192,8 +3100,133 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 96.52 49.53 0)
+		(property "Datasheet" "https://lcsc.com/product-detail/Audio-Video-Connectors_Korean-Hroparts-Elec-PJ-321A-4A_C879743.html"
+			(at 31.75 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Korean Hroparts Elec PJ-321A-4A -20℃~+70℃ 3.5mm Headphone Jack 30V 500mA SMD Audio Connectors (Headphones) ROHS"
+			(at 31.75 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C879743"
+			(at 31.75 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C879743"
+			(at 31.75 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPFNOTES" "In-stock 3.5mm TRS"
+			(at 31.75 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPFURL" "https://jlcpcb.com/partdetail/Korean_HropartsElec-PJ_321A4A/C879743"
+			(at 31.75 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f5decb35-6b63-4984-bc0b-d8dea2db57ea")
+		)
+		(pin "2"
+			(uuid "61642b9b-83f9-4fb7-8471-6b86fcc31e49")
+		)
+		(pin "3"
+			(uuid "93792a4c-c128-4889-b9e7-5c67f21f1de8")
+		)
+		(instances
+			(project "stm-midi-poc1"
+				(path "/7cd74113-1f92-4dcc-8610-19aa9fc81e5f/d4c8579f-7658-4ad2-a672-2baa765565aa"
+					(reference "CN1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:PJ-3210-4A")
+		(at 24.13 194.31 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "3af0b010-0a69-4a8d-b2bb-57b99330298b")
+		(property "Reference" "CNxx1"
+			(at 21.21 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PJ-3210-4A"
+			(at 21.21 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:AUDIO_TH_PJ-3210-4A"
+			(at 24.13 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Audio-Connectors_PJ-3210-4A_C136686.html"
+			(at 24.13 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 24.13 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C136686"
+			(at 24.13 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2202,7 +3235,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 96.52 49.53 0)
+			(at 24.13 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2211,7 +3244,7 @@
 			)
 		)
 		(property "DPFNOTES" ""
-			(at 96.52 49.53 0)
+			(at 24.13 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2220,7 +3253,266 @@
 			)
 		)
 		(property "DPFURL" ""
-			(at 96.52 49.53 0)
+			(at 24.13 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "b5242044-7e51-4705-b2f1-a8077af32536")
+		)
+		(pin "1"
+			(uuid "b3a3740e-ba7f-46a4-b445-74d265f751e9")
+		)
+		(pin "2"
+			(uuid "b502578c-e6d0-4153-a0a8-ddb27c22b1fe")
+		)
+		(instances
+			(project ""
+				(path "/7cd74113-1f92-4dcc-8610-19aa9fc81e5f/d4c8579f-7658-4ad2-a672-2baa765565aa"
+					(reference "CNxx1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:6N137S-TA1")
+		(at 78.74 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3c52b7d0-7adc-49bb-ba28-ddfe60e8d98e")
+		(property "Reference" "U7"
+			(at 78.74 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "6N137S-TA1"
+			(at 78.74 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:SOP-8_L9.8-W6.6-P2.54-LS10.3-BL"
+			(at 78.74 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/SMD-Optocouplers_6N137S-TA1_C92651.html"
+			(at 78.74 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 78.74 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C92651"
+			(at 78.74 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "a2b541dc-af11-4d7a-93bd-5bffc77b5001")
+		)
+		(pin "1"
+			(uuid "af1248d8-c0f5-4747-af17-47b4a2725668")
+		)
+		(pin "7"
+			(uuid "2d9e5feb-6aca-4684-b847-65051a5f7b4e")
+		)
+		(pin "2"
+			(uuid "41f7820a-0a86-4b60-8aaf-84c1e80feeca")
+		)
+		(pin "6"
+			(uuid "1383ba73-a446-43b4-9a1e-c3823921562c")
+		)
+		(pin "5"
+			(uuid "7efd2a2a-0228-46de-bce8-f5afa4427c90")
+		)
+		(pin "4"
+			(uuid "8028a6ec-2ade-48a1-82a6-ca8f3fe51b17")
+		)
+		(pin "3"
+			(uuid "5810098e-d1a4-428a-9e6e-08ae8f82f42f")
+		)
+		(instances
+			(project "stm-midi-poc1"
+				(path "/7cd74113-1f92-4dcc-8610-19aa9fc81e5f/d4c8579f-7658-4ad2-a672-2baa765565aa"
+					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 123.19 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "53b737f9-27e7-458c-81e1-341c2ccf84d9")
+		(property "Reference" "#PWR074"
+			(at 123.19 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 123.19 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.19 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 123.19 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "847f2ebe-6d1b-4559-a1e7-6990da93f6fb")
+		)
+		(instances
+			(project "stm-midi-poc1"
+				(path "/7cd74113-1f92-4dcc-8610-19aa9fc81e5f/d4c8579f-7658-4ad2-a672-2baa765565aa"
+					(reference "#PWR074")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 99.06 49.53 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "58daa288-eaa3-40cf-b567-4c5af9050e71")
+		(property "Reference" "R16"
+			(at 105.41 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470Ω"
+			(at 102.87 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 97.282 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 99.06 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 99.06 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 99.06 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPFNOTES" ""
+			(at 99.06 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPFURL" ""
+			(at 99.06 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2238,6 +3530,261 @@
 			(project "stm-midi-poc1"
 				(path "/7cd74113-1f92-4dcc-8610-19aa9fc81e5f/d4c8579f-7658-4ad2-a672-2baa765565aa"
 					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 123.19 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "60f9629e-93f5-4ea0-b405-2e5885b7cac9")
+		(property "Reference" "#PWR075"
+			(at 123.19 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 123.19 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.19 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 123.19 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "738c3066-1790-4555-a76e-6d63ee9f687b")
+		)
+		(instances
+			(project "stm-midi-poc1"
+				(path "/7cd74113-1f92-4dcc-8610-19aa9fc81e5f/d4c8579f-7658-4ad2-a672-2baa765565aa"
+					(reference "#PWR075")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:6N137S-TA1")
+		(at 78.74 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "61c70e25-15f2-459c-83e8-9d3a39624d58")
+		(property "Reference" "U6"
+			(at 78.74 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "6N137S-TA1"
+			(at 78.74 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:SOP-8_L9.8-W6.6-P2.54-LS10.3-BL"
+			(at 78.74 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/SMD-Optocouplers_6N137S-TA1_C92651.html"
+			(at 78.74 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 78.74 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C92651"
+			(at 78.74 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "cbc4fc84-6de1-4a15-ad26-bbea96a37a8b")
+		)
+		(pin "1"
+			(uuid "c16c32f5-3745-4a70-8b9f-974fd6b54abd")
+		)
+		(pin "7"
+			(uuid "16abfb92-7f62-4072-8b95-7e7b07ff736d")
+		)
+		(pin "2"
+			(uuid "44e2dd2f-1227-4811-b279-6c7be7e2132f")
+		)
+		(pin "6"
+			(uuid "40ae02da-9a08-4801-9043-4b075dd24884")
+		)
+		(pin "5"
+			(uuid "6117c572-2d25-42a2-8064-df6e795e3e04")
+		)
+		(pin "4"
+			(uuid "de09398b-2258-46dc-8be6-78a9f42038f1")
+		)
+		(pin "3"
+			(uuid "e63a4c1b-c4b8-470a-ab32-730e4a194f42")
+		)
+		(instances
+			(project ""
+				(path "/7cd74113-1f92-4dcc-8610-19aa9fc81e5f/d4c8579f-7658-4ad2-a672-2baa765565aa"
+					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 41.91 86.36 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6b7a0f9b-66ee-48eb-8f96-d9be519af77e")
+		(property "Reference" "R27"
+			(at 41.91 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "47Ω"
+			(at 41.91 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 41.91 84.582 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 41.91 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 41.91 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 41.91 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPFNOTES" ""
+			(at 41.91 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPFURL" ""
+			(at 41.91 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d4295acf-308f-479a-8cd3-08d1eeb3fd55")
+		)
+		(pin "2"
+			(uuid "3e38b969-0aff-4712-b165-401d34f1e90b")
+		)
+		(instances
+			(project "stm-midi-poc1"
+				(path "/7cd74113-1f92-4dcc-8610-19aa9fc81e5f/d4c8579f-7658-4ad2-a672-2baa765565aa"
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -2339,78 +3886,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Audio:AudioJack3")
-		(at 29.21 31.75 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7d710274-e004-4570-b9af-84f63255a0ba")
-		(property "Reference" "J7"
-			(at 27.305 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MIDI Out 1"
-			(at 27.305 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 29.21 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 29.21 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS)"
-			(at 29.21 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "R"
-			(uuid "11683637-3f32-4f1d-b770-b31634500612")
-		)
-		(pin "S"
-			(uuid "50c7b84c-dd54-4bec-bdb5-f99357ceccc5")
-		)
-		(pin "T"
-			(uuid "0309a062-d6f3-44de-8205-1836ec823af7")
-		)
-		(instances
-			(project ""
-				(path "/7cd74113-1f92-4dcc-8610-19aa9fc81e5f/d4c8579f-7658-4ad2-a672-2baa765565aa"
-					(reference "J7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 120.65 59.69 0)
+		(at 123.19 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2418,7 +3895,7 @@
 		(dnp no)
 		(uuid "82cc6623-32e3-4565-a928-64ef95f0933d")
 		(property "Reference" "#PWR042"
-			(at 120.65 66.04 0)
+			(at 123.19 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2427,7 +3904,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 120.65 64.77 0)
+			(at 123.19 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2435,7 +3912,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 120.65 59.69 0)
+			(at 123.19 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2444,7 +3921,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.65 59.69 0)
+			(at 123.19 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2453,7 +3930,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 120.65 59.69 0)
+			(at 123.19 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2468,6 +3945,113 @@
 			(project "stm-midi-poc1"
 				(path "/7cd74113-1f92-4dcc-8610-19aa9fc81e5f/d4c8579f-7658-4ad2-a672-2baa765565aa"
 					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:PJ-321A-4A")
+		(at 31.75 102.87 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8c331865-b80f-4c60-b426-149db488f457")
+		(property "Reference" "CN4"
+			(at 27.05 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MIDI In 2"
+			(at 27.05 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:AUDIO-SMD_PJ-321A-4A"
+			(at 31.75 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Audio-Video-Connectors_Korean-Hroparts-Elec-PJ-321A-4A_C879743.html"
+			(at 31.75 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Korean Hroparts Elec PJ-321A-4A -20℃~+70℃ 3.5mm Headphone Jack 30V 500mA SMD Audio Connectors (Headphones) ROHS"
+			(at 31.75 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C879743"
+			(at 31.75 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C879743"
+			(at 31.75 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPFNOTES" "In-stock 3.5mm TRS"
+			(at 31.75 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPFURL" "https://jlcpcb.com/partdetail/Korean_HropartsElec-PJ_321A4A/C879743"
+			(at 31.75 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3544ca35-06cc-42a4-9792-e7a550eca804")
+		)
+		(pin "2"
+			(uuid "5770cbf5-9b46-48c4-93da-20b6f32c8693")
+		)
+		(pin "3"
+			(uuid "dfd0c0c0-9dd6-4dd8-a923-a04271e6c673")
+		)
+		(instances
+			(project "stm-midi-poc1"
+				(path "/7cd74113-1f92-4dcc-8610-19aa9fc81e5f/d4c8579f-7658-4ad2-a672-2baa765565aa"
+					(reference "CN4")
 					(unit 1)
 				)
 			)
@@ -2540,8 +4124,422 @@
 		)
 	)
 	(symbol
+		(lib_id "easyeda2kicad:PJ-321A-4A")
+		(at 26.67 177.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "9a636110-7904-4f0a-991d-c8b5abffd1ca")
+		(property "Reference" "CNxxx1"
+			(at 21.97 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PJ-321A-4A"
+			(at 21.97 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:AUDIO-SMD_PJ-321A-4A"
+			(at 26.67 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Audio-Video-Connectors_Korean-Hroparts-Elec-PJ-321A-4A_C879743.html"
+			(at 26.67 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 26.67 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C879743"
+			(at 26.67 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 26.67 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPFNOTES" ""
+			(at 26.67 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPFURL" ""
+			(at 26.67 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d6552d81-f957-47b2-a0ca-1c6350224bd6")
+		)
+		(pin "2"
+			(uuid "47c8df8e-da28-46f2-8566-a98fa088f94f")
+		)
+		(pin "3"
+			(uuid "bf776f50-0e11-455d-bf02-c353c365d0fe")
+		)
+		(instances
+			(project ""
+				(path "/7cd74113-1f92-4dcc-8610-19aa9fc81e5f/d4c8579f-7658-4ad2-a672-2baa765565aa"
+					(reference "CNxxx1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148W")
+		(at 57.15 104.14 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a3cb133a-bc22-415e-b769-9455ce256680")
+		(property "Reference" "D7"
+			(at 54.61 102.8699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 54.61 105.4099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 61.595 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 57.15 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 57.15 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 57.15 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 57.15 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C81598"
+			(at 57.15 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPFNOTES" "ST(Semtech) 1N4148W 75V Independent Type 1V@50mA 4ns 150mA SOD-123 Switching Diodes ROHS"
+			(at 57.15 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPFURL" "https://jlcpcb.com/parts/componentSearch?searchTxt=3225%2032.768"
+			(at 57.15 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "03807914-3fc9-4c82-bd67-c0f52fa337bd")
+		)
+		(pin "1"
+			(uuid "9ad29038-8bfc-4e2c-bf7a-2c08779ed41b")
+		)
+		(instances
+			(project "stm-midi-poc1"
+				(path "/7cd74113-1f92-4dcc-8610-19aa9fc81e5f/d4c8579f-7658-4ad2-a672-2baa765565aa"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 123.19 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aa921614-d347-4574-8688-836f5cf27da5")
+		(property "Reference" "C44"
+			(at 127 101.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 127 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 124.1552 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 123.19 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 123.19 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C307331"
+			(at 123.19 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPFNOTES" ""
+			(at 123.19 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPFURL" ""
+			(at 123.19 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bbf894c1-6b5f-48ff-bf17-5c1b97246b15")
+		)
+		(pin "1"
+			(uuid "97f35ea5-1155-44f6-9e0c-3020b0948b54")
+		)
+		(instances
+			(project "stm-midi-poc1"
+				(path "/7cd74113-1f92-4dcc-8610-19aa9fc81e5f/d4c8579f-7658-4ad2-a672-2baa765565aa"
+					(reference "C44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 99.06 101.6 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bb670963-7813-49f7-b04f-85c4ba651460")
+		(property "Reference" "R29"
+			(at 105.41 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470Ω"
+			(at 102.87 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 97.282 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 99.06 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 99.06 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 99.06 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPFNOTES" ""
+			(at 99.06 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPFURL" ""
+			(at 99.06 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d40ebc90-6e16-417a-bd29-6da6c608850a")
+		)
+		(pin "2"
+			(uuid "132a522a-8cf8-4bae-b6ec-2768568c75d3")
+		)
+		(instances
+			(project "stm-midi-poc1"
+				(path "/7cd74113-1f92-4dcc-8610-19aa9fc81e5f/d4c8579f-7658-4ad2-a672-2baa765565aa"
+					(reference "R29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
-		(at 120.65 43.18 0)
+		(at 123.19 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2550,7 +4548,7 @@
 		(fields_autoplaced yes)
 		(uuid "be9d8d38-c515-4d0d-9061-738f857c0715")
 		(property "Reference" "#PWR041"
-			(at 120.65 46.99 0)
+			(at 123.19 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2559,7 +4557,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 120.65 38.1 0)
+			(at 123.19 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2567,7 +4565,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 120.65 43.18 0)
+			(at 123.19 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2576,7 +4574,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.65 43.18 0)
+			(at 123.19 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2585,7 +4583,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 120.65 43.18 0)
+			(at 123.19 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2700,6 +4698,101 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 41.91 83.82 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cc4d2c2d-8194-4c3b-8c1c-cb7a6b4aa2de")
+		(property "Reference" "R26"
+			(at 41.91 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "47Ω"
+			(at 41.91 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 41.91 85.598 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 41.91 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 41.91 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 41.91 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPFNOTES" ""
+			(at 41.91 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPFURL" ""
+			(at 41.91 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "158d02bb-d595-44c4-9715-e4bff85fb281")
+		)
+		(pin "2"
+			(uuid "448430d9-e484-40b6-8af6-44a7904d3dea")
+		)
+		(instances
+			(project "stm-midi-poc1"
+				(path "/7cd74113-1f92-4dcc-8610-19aa9fc81e5f/d4c8579f-7658-4ad2-a672-2baa765565aa"
+					(reference "R26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 36.83 26.67 0)
 		(mirror x)
@@ -2768,7 +4861,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 120.65 50.8 0)
+		(at 123.19 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2777,7 +4870,7 @@
 		(fields_autoplaced yes)
 		(uuid "cea41b96-5528-4ada-ae94-9778eb4dbfc4")
 		(property "Reference" "C20"
-			(at 124.46 49.5299 0)
+			(at 127 49.5299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2786,7 +4879,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 124.46 52.0699 0)
+			(at 127 52.0699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2795,7 +4888,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 121.6152 54.61 0)
+			(at 124.1552 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2804,7 +4897,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 120.65 50.8 0)
+			(at 123.19 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2813,7 +4906,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 120.65 50.8 0)
+			(at 123.19 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2822,7 +4915,7 @@
 			)
 		)
 		(property "LCSC" "C307331"
-			(at 120.65 50.8 0)
+			(at 123.19 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2831,7 +4924,7 @@
 			)
 		)
 		(property "DPFNOTES" ""
-			(at 120.65 50.8 0)
+			(at 123.19 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2840,7 +4933,7 @@
 			)
 		)
 		(property "DPFURL" ""
-			(at 120.65 50.8 0)
+			(at 123.19 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2959,6 +5052,100 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 49.53 100.33 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d54615a8-9422-45ba-a9cf-af1265f5cd2f")
+		(property "Reference" "R28"
+			(at 49.53 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220Ω"
+			(at 49.53 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 49.53 102.108 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 49.53 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 49.53 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 49.53 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPFNOTES" ""
+			(at 49.53 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPFURL" ""
+			(at 49.53 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "97d9b1df-6068-4495-84fb-971bab3fa8c6")
+		)
+		(pin "2"
+			(uuid "0067b9e1-0512-4e59-b169-64bce97dfbe1")
+		)
+		(instances
+			(project "stm-midi-poc1"
+				(path "/7cd74113-1f92-4dcc-8610-19aa9fc81e5f/d4c8579f-7658-4ad2-a672-2baa765565aa"
+					(reference "R28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:1N4148W")
 		(at 57.15 52.07 90)
 		(mirror x)
@@ -3068,6 +5255,113 @@
 			(project ""
 				(path "/7cd74113-1f92-4dcc-8610-19aa9fc81e5f/d4c8579f-7658-4ad2-a672-2baa765565aa"
 					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:PJ-321A-4A")
+		(at 31.75 31.75 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fa233c5d-e6e3-4423-aff7-b8847fb8ba10")
+		(property "Reference" "CN2"
+			(at 27.05 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MIDI Out 1"
+			(at 27.05 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:AUDIO-SMD_PJ-321A-4A"
+			(at 31.75 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Audio-Video-Connectors_Korean-Hroparts-Elec-PJ-321A-4A_C879743.html"
+			(at 31.75 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Korean Hroparts Elec PJ-321A-4A -20℃~+70℃ 3.5mm Headphone Jack 30V 500mA SMD Audio Connectors (Headphones) ROHS"
+			(at 31.75 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C879743"
+			(at 31.75 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C879743"
+			(at 31.75 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPFNOTES" "In-stock 3.5mm TRS"
+			(at 31.75 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPFURL" "https://jlcpcb.com/partdetail/Korean_HropartsElec-PJ_321A4A/C879743"
+			(at 31.75 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "39bc9c9b-d05f-423c-bb5d-e6642394c9ee")
+		)
+		(pin "2"
+			(uuid "90b9efb6-a725-4966-824e-553c161c47f1")
+		)
+		(pin "3"
+			(uuid "3421438f-4f3f-4d71-9cb0-129927c4bdde")
+		)
+		(instances
+			(project "stm-midi-poc1"
+				(path "/7cd74113-1f92-4dcc-8610-19aa9fc81e5f/d4c8579f-7658-4ad2-a672-2baa765565aa"
+					(reference "CN2")
 					(unit 1)
 				)
 			)

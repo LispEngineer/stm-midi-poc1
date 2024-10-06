@@ -11,188 +11,6 @@
 		(company "Douglas P. Fields, Jr.")
 	)
 	(lib_symbols
-		(symbol "Connector_Audio:AudioJack3"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "AudioJack3"
-				(at 0 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Audio Jack, 3 Poles (Stereo / TRS)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "audio jack receptacle stereo headphones phones TRS connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Jack*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "AudioJack3_0_1"
-				(rectangle
-					(start -5.08 -5.08)
-					(end -6.35 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy 0.635 -3.175) (xy 1.27 -2.54) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 -2.54) (xy -1.27 -3.175) (xy -0.635 -2.54) (xy -0.635 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy -2.54 2.54) (xy -2.54 -2.54) (xy -3.175 -3.175) (xy -3.81 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 2.54 3.81)
-					(end -5.08 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "AudioJack3_1_1"
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "R"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "T"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:C"
 			(pin_numbers hide)
 			(pin_names
@@ -1492,43 +1310,37 @@
 				)
 			)
 		)
-		(symbol "TS-1187A-B-A-B:TS-1187A-B-A-B"
-			(pin_names
-				(offset 1.016)
-			)
+		(symbol "easyeda2kicad:PJ-321A-4A"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "S"
-				(at -2.54 2.54 0)
+			(property "Reference" "CN"
+				(at 0 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
 				)
 			)
-			(property "Value" "TS-1187A-B-A-B"
-				(at -2.54 -2.54 0)
+			(property "Value" "PJ-321A-4A"
+				(at 0 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 				)
 			)
-			(property "Footprint" "TS-1187A-B-A-B:SW_TS-1187A-B-A-B"
-				(at 0 0 0)
+			(property "Footprint" "easyeda2kicad:AUDIO-SMD_PJ-321A-4A"
+				(at 0 -10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
-				(at 0 0 0)
+			(property "Datasheet" "https://lcsc.com/product-detail/Audio-Video-Connectors_Korean-Hroparts-Elec-PJ-321A-4A_C879743.html"
+				(at 0 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1545,133 +1357,22 @@
 					(hide yes)
 				)
 			)
-			(property "MF" "XKB Industrial Precision"
-				(at 0 0 0)
+			(property "LCSC Part" "C879743"
+				(at 0 -15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "MAXIMUM_PACKAGE_HEIGHT" "1.5mm"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Package" "Package"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Price" "None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/TS-1187A-B-A-B/XKB+Industrial+Precision/view-part/?ref=eda"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "STANDARD" "Manufacturer Recommendations"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "PARTREV" "A0"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/TS-1187A-B-A-B/XKB+Industrial+Precision/view-part/?ref=snap"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MP" "TS-1187A-B-A-B"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Description_1" "\nTS-1187A-B-A-B XKB Connectivity\n"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Availability" "Not in stock"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MANUFACTURER" "XKB Industrial Precision"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "TS-1187A-B-A-B_0_0"
+			(symbol "PJ-321A-4A_0_1"
 				(polyline
 					(pts
-						(xy -2.54 0) (xy -5.08 0)
+						(xy 0 -2.54) (xy -2.03 -2.54) (xy -3.3 -1.27) (xy -4.57 -2.54)
 					)
 					(stroke
-						(width 0.1524)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -1680,10 +1381,10 @@
 				)
 				(polyline
 					(pts
-						(xy -2.54 0) (xy 2.794 2.1336)
+						(xy 0 0) (xy -4.83 0) (xy -6.1 -1.27) (xy -7.37 0)
 					)
 					(stroke
-						(width 0.1524)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -1692,10 +1393,194 @@
 				)
 				(polyline
 					(pts
-						(xy 5.08 0) (xy 2.921 0)
+						(xy 0 2.54) (xy -8.89 2.54) (xy -8.89 -3.05) (xy -9.4 -2.29)
 					)
 					(stroke
-						(width 0.1524)
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at 2.54 2.54 180)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 2.54 -2.54 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 2.54 0 180)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "easyeda2kicad:TS-1187A-B-A-B"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TS-1187A-B-A-B"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL-2"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Tactile-Switches_XKB-Enterprise-TS-1187-B-A-A_C318884.html"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C318884"
+				(at 0 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TS-1187A-B-A-B_0_1"
+				(circle
+					(center 0 -2.79)
+					(radius 0.32)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -5.08) (xy 2.54 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 2.54) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.51 0.76) (xy -1.27 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.3) (xy 0 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.76) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -1703,84 +1588,84 @@
 					)
 				)
 				(circle
-					(center 2.54 0)
-					(radius 0.3302)
+					(center 0 0.51)
+					(radius 0.32)
 					(stroke
-						(width 0.1524)
+						(width 0)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-				(pin passive line
-					(at -7.62 0 0)
+				(pin unspecified line
+					(at -5.08 2.54 0)
 					(length 2.54)
-					(name "~"
+					(name "A"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "A"
+					(number "1"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
-				(pin passive line
-					(at -7.62 0 0)
+				(pin unspecified line
+					(at 5.08 2.54 180)
 					(length 2.54)
-					(name "~"
+					(name "B"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "B"
+					(number "2"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
-				(pin passive line
-					(at 7.62 0 180)
+				(pin unspecified line
+					(at -5.08 -5.08 0)
 					(length 2.54)
-					(name "~"
+					(name "C"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "C"
+					(number "3"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
-				(pin passive line
-					(at 7.62 0 180)
+				(pin unspecified line
+					(at 5.08 -5.08 180)
 					(length 2.54)
-					(name "~"
+					(name "D"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "D"
+					(number "4"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -2017,12 +1902,6 @@
 		(uuid "14bbd71a-e789-4e37-9cd6-f4ce840ef40a")
 	)
 	(junction
-		(at 161.29 40.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1d62d6db-9a08-4304-967c-f704760df900")
-	)
-	(junction
 		(at 105.41 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2039,6 +1918,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "45030070-9c16-414b-ba3e-738bd9b32455")
+	)
+	(junction
+		(at 123.19 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "52e3713e-2455-49f1-b6f6-ee67151543fb")
 	)
 	(junction
 		(at 143.51 87.63)
@@ -2071,6 +1956,12 @@
 		(uuid "b8a91d22-bb6d-414f-b859-d195b354ee49")
 	)
 	(junction
+		(at 161.29 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d482cb86-06ef-44cd-9aef-a11e4cb8be87")
+	)
+	(junction
 		(at 171.45 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2081,12 +1972,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dcdd3d7b-73b8-4ec5-a845-0951624588ac")
-	)
-	(junction
-		(at 123.19 40.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e419092e-49a4-456c-acd7-570fe9e4cfb6")
 	)
 	(junction
 		(at 166.37 92.71)
@@ -2146,6 +2031,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 48.26) (xy 128.27 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15056d0a-4fff-4582-a5a0-eadd03e3b625")
+	)
+	(wire
+		(pts
 			(xy 143.51 97.79) (xy 143.51 95.25)
 		)
 		(stroke
@@ -2153,6 +2048,16 @@
 			(type default)
 		)
 		(uuid "1f5d79ab-921b-44a5-9f9d-a0ba2f1628aa")
+	)
+	(wire
+		(pts
+			(xy 166.37 48.26) (xy 166.37 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2935db28-f4bd-426a-bf68-77c6963d4515")
 	)
 	(wire
 		(pts
@@ -2203,6 +2108,16 @@
 			(type default)
 		)
 		(uuid "3eb86e8b-8966-4f48-88ad-aea3f203a36f")
+	)
+	(wire
+		(pts
+			(xy 166.37 40.64) (xy 171.45 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4562b2b6-2545-4446-bd6a-80ca3cd58103")
 	)
 	(wire
 		(pts
@@ -2286,6 +2201,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 40.64) (xy 133.35 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c5ee80a-328e-42c3-a731-bca99df795ed")
+	)
+	(wire
+		(pts
 			(xy 128.27 87.63) (xy 130.81 87.63)
 		)
 		(stroke
@@ -2303,6 +2228,16 @@
 			(type default)
 		)
 		(uuid "654afe2a-41fa-4a8d-9e28-e9422ba3c68f")
+	)
+	(wire
+		(pts
+			(xy 161.29 55.88) (xy 161.29 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65fa5f38-907f-4a44-90eb-d19913f2475b")
 	)
 	(wire
 		(pts
@@ -2333,6 +2268,16 @@
 			(type default)
 		)
 		(uuid "71d8a00e-8a13-4963-b11a-876d9fa20ac7")
+	)
+	(wire
+		(pts
+			(xy 123.19 55.88) (xy 123.19 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "757205c4-777b-4653-9c59-1288d0ad12a3")
 	)
 	(wire
 		(pts
@@ -2396,6 +2341,16 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 52.07) (xy 156.21 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ebaad36-2061-40ee-98c6-54a8a2cf4b88")
+	)
+	(wire
+		(pts
 			(xy 166.37 92.71) (xy 168.91 92.71)
 		)
 		(stroke
@@ -2423,6 +2378,16 @@
 			(type default)
 		)
 		(uuid "8b9ddb95-f243-4a49-82fe-1dab396cdd46")
+	)
+	(wire
+		(pts
+			(xy 166.37 52.07) (xy 161.29 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e491654-2fc5-466a-bb0d-85b4ec62e8ea")
 	)
 	(wire
 		(pts
@@ -2493,6 +2458,16 @@
 			(type default)
 		)
 		(uuid "a16481cd-9a6c-4fce-97d3-c21be95f08ff")
+	)
+	(wire
+		(pts
+			(xy 161.29 52.07) (xy 156.21 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a179c44b-b7c8-4b45-b5e3-7334a4519da7")
 	)
 	(wire
 		(pts
@@ -2576,6 +2551,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 52.07) (xy 118.11 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae089224-a95d-4a03-9140-9d84b2b89442")
+	)
+	(wire
+		(pts
 			(xy 128.27 82.55) (xy 128.27 87.63)
 		)
 		(stroke
@@ -2596,7 +2581,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 40.64) (xy 123.19 40.64)
+			(xy 115.57 40.64) (xy 118.11 40.64)
 		)
 		(stroke
 			(width 0)
@@ -2676,16 +2661,6 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 40.64) (xy 171.45 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cffd47f1-717a-4b7f-9016-2bc89d7140c4")
-	)
-	(wire
-		(pts
 			(xy 140.97 87.63) (xy 143.51 87.63)
 		)
 		(stroke
@@ -2693,16 +2668,6 @@
 			(type default)
 		)
 		(uuid "d8ebdf38-f24e-4630-9553-7469aa62b375")
-	)
-	(wire
-		(pts
-			(xy 123.19 40.64) (xy 133.35 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d9d5d545-58eb-4355-b69c-6bbf8dc9fcdc")
 	)
 	(wire
 		(pts
@@ -2733,6 +2698,16 @@
 			(type default)
 		)
 		(uuid "e3680b57-0b65-479f-a1ee-2cbb7c67fe1e")
+	)
+	(wire
+		(pts
+			(xy 118.11 52.07) (xy 118.11 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4e09459-6263-41b2-829e-c054aca32c93")
 	)
 	(wire
 		(pts
@@ -2846,7 +2821,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 40.64) (xy 161.29 40.64)
+			(xy 153.67 40.64) (xy 156.21 40.64)
 		)
 		(stroke
 			(width 0)
@@ -2863,6 +2838,16 @@
 			(type default)
 		)
 		(uuid "f4924484-9abc-4334-a5e3-c572b8c8f445")
+	)
+	(wire
+		(pts
+			(xy 128.27 52.07) (xy 123.19 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbb5668c-232c-4b63-a061-79293d398af3")
 	)
 	(wire
 		(pts
@@ -2994,6 +2979,16 @@
 		)
 		(uuid f3b262e5-be28-49c4-ba98-d5a2cb6baa8b)
 	)
+	(text "Ring = 3"
+		(exclude_from_sim no)
+		(at 204.216 42.418 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "17dd8454-0ec9-4292-9495-d0f60814e060")
+	)
 	(text "SPI Header"
 		(exclude_from_sim no)
 		(at 39.878 114.046 0)
@@ -3023,6 +3018,26 @@
 			)
 		)
 		(uuid "4a9a9e19-eac3-4ab3-9082-0faffbe4063f")
+	)
+	(text "Tip = 1"
+		(exclude_from_sim no)
+		(at 203.708 39.878 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4c815c82-4139-4510-8b67-00261ba380b7")
+	)
+	(text "Sleeve = 2"
+		(exclude_from_sim no)
+		(at 205.232 44.958 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "944f22a1-0a94-4ef5-a4dd-f5ffedf87b6d")
 	)
 	(text "Audio outputs"
 		(exclude_from_sim no)
@@ -3987,230 +4002,6 @@
 		)
 	)
 	(symbol
-		(lib_id "TS-1187A-B-A-B:TS-1187A-B-A-B")
-		(at 123.19 48.26 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0ef58922-f91d-48a1-9253-f9d3e6165bef")
-		(property "Reference" "S2"
-			(at 124.46 46.9899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "BTN1"
-			(at 124.46 49.5299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "stm-midi-poc1:SW_TS-1187A-B-A-B"
-			(at 123.19 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 123.19 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 123.19 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "XKB Industrial Precision"
-			(at 123.19 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "1.5mm"
-			(at 123.19 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "Package"
-			(at 123.19 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 123.19 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/TS-1187A-B-A-B/XKB+Industrial+Precision/view-part/?ref=eda"
-			(at 123.19 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 123.19 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "A0"
-			(at 123.19 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TS-1187A-B-A-B/XKB+Industrial+Precision/view-part/?ref=snap"
-			(at 123.19 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "TS-1187A-B-A-B"
-			(at 123.19 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "\nTS-1187A-B-A-B XKB Connectivity\n"
-			(at 123.19 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "Not in stock"
-			(at 123.19 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "XKB Industrial Precision"
-			(at 123.19 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C318884"
-			(at 123.19 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DPFNOTES" ""
-			(at 123.19 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DPFURL" "https://jlcpcb.com/partdetail/XkbConnection-TS_1187A_B_AB/C318884"
-			(at 123.19 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "D"
-			(uuid "08a9da84-9981-44f1-adb2-9687b50d02b7")
-		)
-		(pin "A"
-			(uuid "80323787-e93c-4c50-aa3f-a06ae243de94")
-		)
-		(pin "B"
-			(uuid "48407daa-e3e7-4799-9909-3d2b1a68a42f")
-		)
-		(pin "C"
-			(uuid "d00506a7-c87a-4cea-a0c1-86419c928bae")
-		)
-		(instances
-			(project "stm-midi-poc1"
-				(path "/7cd74113-1f92-4dcc-8610-19aa9fc81e5f/96c396b4-5394-4a50-9288-ad4476d1492f"
-					(reference "S2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
 		(at 81.28 41.91 90)
 		(unit 1)
@@ -4308,45 +4099,42 @@
 		)
 	)
 	(symbol
-		(lib_id "TS-1187A-B-A-B:TS-1187A-B-A-B")
-		(at 161.29 48.26 90)
+		(lib_id "easyeda2kicad:TS-1187A-B-A-B")
+		(at 123.19 45.72 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "300805e2-b5f9-4fcd-8eeb-8ebc835bd106")
-		(property "Reference" "S3"
-			(at 162.56 46.9899 90)
+		(uuid "2995d90f-731c-40f1-8048-426bb31cb48f")
+		(property "Reference" "SW4"
+			(at 123.19 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "BTN2"
-			(at 162.56 49.5299 90)
+		(property "Value" "BTN1"
+			(at 123.19 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "stm-midi-poc1:SW_TS-1187A-B-A-B"
-			(at 161.29 48.26 0)
+		(property "Footprint" "easyeda2kicad:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL-2"
+			(at 123.19 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 161.29 48.26 0)
+		(property "Datasheet" "https://lcsc.com/product-detail/Tactile-Switches_XKB-Enterprise-TS-1187-B-A-A_C318884.html"
+			(at 123.19 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4355,7 +4143,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 161.29 48.26 0)
+			(at 123.19 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4363,128 +4151,8 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "XKB Industrial Precision"
-			(at 161.29 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "1.5mm"
-			(at 161.29 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "Package"
-			(at 161.29 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 161.29 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/TS-1187A-B-A-B/XKB+Industrial+Precision/view-part/?ref=eda"
-			(at 161.29 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 161.29 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "A0"
-			(at 161.29 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TS-1187A-B-A-B/XKB+Industrial+Precision/view-part/?ref=snap"
-			(at 161.29 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "TS-1187A-B-A-B"
-			(at 161.29 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "\nTS-1187A-B-A-B XKB Connectivity\n"
-			(at 161.29 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "Not in stock"
-			(at 161.29 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "XKB Industrial Precision"
-			(at 161.29 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C318884"
-			(at 161.29 48.26 0)
+		(property "LCSC Part" "C318884"
+			(at 123.19 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4492,40 +4160,22 @@
 				(hide yes)
 			)
 		)
-		(property "DPFNOTES" ""
-			(at 161.29 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+		(pin "1"
+			(uuid "8c0f327e-0dce-4ed4-8f92-c09b3122dd64")
 		)
-		(property "DPFURL" "https://jlcpcb.com/partdetail/XkbConnection-TS_1187A_B_AB/C318884"
-			(at 161.29 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+		(pin "3"
+			(uuid "6bd5b8ad-f637-4cde-8624-044b22d288ce")
 		)
-		(pin "D"
-			(uuid "3b7a3e84-f372-4fae-b4e1-55250335df31")
+		(pin "4"
+			(uuid "2f25bf11-de87-4248-abbc-e7f2258bc152")
 		)
-		(pin "A"
-			(uuid "5094f4ea-edd0-4990-aa32-0a5706e5e007")
-		)
-		(pin "B"
-			(uuid "ea4a44ba-2a53-4c41-80d6-43d99bbd31b6")
-		)
-		(pin "C"
-			(uuid "572f38e5-a6c7-4e87-8994-aa33eac2c875")
+		(pin "2"
+			(uuid "e7dc2a90-81a9-435a-b59f-5b261b6421f6")
 		)
 		(instances
-			(project "stm-midi-poc1"
+			(project ""
 				(path "/7cd74113-1f92-4dcc-8610-19aa9fc81e5f/96c396b4-5394-4a50-9288-ad4476d1492f"
-					(reference "S3")
+					(reference "SW4")
 					(unit 1)
 				)
 			)
@@ -4772,6 +4422,89 @@
 			(project ""
 				(path "/7cd74113-1f92-4dcc-8610-19aa9fc81e5f/96c396b4-5394-4a50-9288-ad4476d1492f"
 					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:TS-1187A-B-A-B")
+		(at 161.29 45.72 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "47b5d16f-eb4f-4263-9d20-4e89f74d1ad7")
+		(property "Reference" "SW5"
+			(at 161.29 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BTN2"
+			(at 161.29 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL-2"
+			(at 161.29 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Tactile-Switches_XKB-Enterprise-TS-1187-B-A-A_C318884.html"
+			(at 161.29 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 161.29 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C318884"
+			(at 161.29 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c65aa780-0762-40ad-b47b-b191a1ac1f50")
+		)
+		(pin "3"
+			(uuid "73057a8d-a4a4-4341-b7a1-ce269a6770a8")
+		)
+		(pin "4"
+			(uuid "783858ae-f6f0-4d67-96c7-4c973556465b")
+		)
+		(pin "2"
+			(uuid "abb6709c-4f12-490c-adb6-75783b58e1d1")
+		)
+		(instances
+			(project "stm-midi-poc1"
+				(path "/7cd74113-1f92-4dcc-8610-19aa9fc81e5f/96c396b4-5394-4a50-9288-ad4476d1492f"
+					(reference "SW5")
 					(unit 1)
 				)
 			)
@@ -5507,76 +5240,6 @@
 			(project "stm-midi-poc1"
 				(path "/7cd74113-1f92-4dcc-8610-19aa9fc81e5f/96c396b4-5394-4a50-9288-ad4476d1492f"
 					(reference "#PWR032")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Audio:AudioJack3")
-		(at 224.79 34.29 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6c8cd891-0b6c-43a1-a446-51ad4248b076")
-		(property "Reference" "J10"
-			(at 226.695 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Line out"
-			(at 226.695 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 224.79 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 224.79 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS)"
-			(at 224.79 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "R"
-			(uuid "0a014bd2-6405-4b74-bb9d-39b8c48d8dda")
-		)
-		(pin "S"
-			(uuid "9bbf27fa-4352-42f6-af78-6892628f25a0")
-		)
-		(pin "T"
-			(uuid "832178e5-e401-4929-8a7e-cf978209d0e0")
-		)
-		(instances
-			(project "stm-midi-poc1"
-				(path "/7cd74113-1f92-4dcc-8610-19aa9fc81e5f/96c396b4-5394-4a50-9288-ad4476d1492f"
-					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -6686,6 +6349,113 @@
 		)
 	)
 	(symbol
+		(lib_id "easyeda2kicad:PJ-321A-4A")
+		(at 222.25 53.34 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ba252a33-b7ee-43ef-ba22-e7d494f03ecf")
+		(property "Reference" "CN6"
+			(at 226.95 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Headphone"
+			(at 226.95 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:AUDIO-SMD_PJ-321A-4A"
+			(at 222.25 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Audio-Video-Connectors_Korean-Hroparts-Elec-PJ-321A-4A_C879743.html"
+			(at 222.25 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Korean Hroparts Elec PJ-321A-4A -20℃~+70℃ 3.5mm Headphone Jack 30V 500mA SMD Audio Connectors (Headphones) ROHS"
+			(at 222.25 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C879743"
+			(at 222.25 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C879743"
+			(at 222.25 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPFNOTES" "In-stock 3.5mm TRS"
+			(at 222.25 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPFURL" "https://jlcpcb.com/partdetail/Korean_HropartsElec-PJ_321A4A/C879743"
+			(at 222.25 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e061de93-8704-425b-b953-48440d84490b")
+		)
+		(pin "2"
+			(uuid "bdede590-8bc9-47c8-ab53-942b1b7a335f")
+		)
+		(pin "3"
+			(uuid "5812650a-6546-4205-9bce-1b2fe88ecda2")
+		)
+		(instances
+			(project "stm-midi-poc1"
+				(path "/7cd74113-1f92-4dcc-8610-19aa9fc81e5f/96c396b4-5394-4a50-9288-ad4476d1492f"
+					(reference "CN6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 53.34 185.42 180)
 		(unit 1)
@@ -6831,76 +6601,6 @@
 			(project "stm-midi-poc1"
 				(path "/7cd74113-1f92-4dcc-8610-19aa9fc81e5f/96c396b4-5394-4a50-9288-ad4476d1492f"
 					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Audio:AudioJack3")
-		(at 224.79 53.34 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c44c2c94-1700-4673-950b-c177cb986849")
-		(property "Reference" "J11"
-			(at 226.695 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Headphone"
-			(at 226.695 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 224.79 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 224.79 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS)"
-			(at 224.79 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "R"
-			(uuid "7838311a-5fe0-4b9d-bf2c-b33000fa9ae1")
-		)
-		(pin "S"
-			(uuid "e2ed62b9-1a54-4e91-ae7e-b3baf01f0664")
-		)
-		(pin "T"
-			(uuid "e64c40cf-dfc0-4817-8780-4b43a9d3a20b")
-		)
-		(instances
-			(project "stm-midi-poc1"
-				(path "/7cd74113-1f92-4dcc-8610-19aa9fc81e5f/96c396b4-5394-4a50-9288-ad4476d1492f"
-					(reference "J11")
 					(unit 1)
 				)
 			)
@@ -7318,6 +7018,113 @@
 			(project "stm-midi-poc1"
 				(path "/7cd74113-1f92-4dcc-8610-19aa9fc81e5f/96c396b4-5394-4a50-9288-ad4476d1492f"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:PJ-321A-4A")
+		(at 222.25 34.29 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d4a2487d-044e-48d8-a604-00480ec2d1e1")
+		(property "Reference" "CN5"
+			(at 226.95 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Line out"
+			(at 226.95 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:AUDIO-SMD_PJ-321A-4A"
+			(at 222.25 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Audio-Video-Connectors_Korean-Hroparts-Elec-PJ-321A-4A_C879743.html"
+			(at 222.25 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Korean Hroparts Elec PJ-321A-4A -20℃~+70℃ 3.5mm Headphone Jack 30V 500mA SMD Audio Connectors (Headphones) ROHS"
+			(at 222.25 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C879743"
+			(at 222.25 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C879743"
+			(at 222.25 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPFNOTES" "In-stock 3.5mm TRS"
+			(at 222.25 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPFURL" "https://jlcpcb.com/partdetail/Korean_HropartsElec-PJ_321A4A/C879743"
+			(at 222.25 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "90e57e27-f877-4549-aae0-b29d2fd6a381")
+		)
+		(pin "2"
+			(uuid "3ccc621d-e36c-47c1-ac5a-70dad1d71d31")
+		)
+		(pin "3"
+			(uuid "dd414766-7397-4747-b4bd-0dc459444be1")
+		)
+		(instances
+			(project "stm-midi-poc1"
+				(path "/7cd74113-1f92-4dcc-8610-19aa9fc81e5f/96c396b4-5394-4a50-9288-ad4476d1492f"
+					(reference "CN5")
 					(unit 1)
 				)
 			)
