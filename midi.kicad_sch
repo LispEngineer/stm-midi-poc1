@@ -3075,7 +3075,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2f52b8b8-2c62-47b0-9e73-2de432aac672")
-		(property "Reference" "CN1"
+		(property "Reference" "CN2"
 			(at 27.05 58.42 0)
 			(effects
 				(font
@@ -3166,7 +3166,7 @@
 		(instances
 			(project "stm-midi-poc1"
 				(path "/7cd74113-1f92-4dcc-8610-19aa9fc81e5f/d4c8579f-7658-4ad2-a672-2baa765565aa"
-					(reference "CN1")
+					(reference "CN2")
 					(unit 1)
 				)
 			)
@@ -5270,7 +5270,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fa233c5d-e6e3-4423-aff7-b8847fb8ba10")
-		(property "Reference" "CN2"
+		(property "Reference" "CN1"
 			(at 27.05 39.37 0)
 			(effects
 				(font
@@ -5361,7 +5361,7 @@
 		(instances
 			(project "stm-midi-poc1"
 				(path "/7cd74113-1f92-4dcc-8610-19aa9fc81e5f/d4c8579f-7658-4ad2-a672-2baa765565aa"
-					(reference "CN2")
+					(reference "CN1")
 					(unit 1)
 				)
 			)
