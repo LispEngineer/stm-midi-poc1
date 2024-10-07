@@ -6146,13 +6146,14 @@
 		)
 		(uuid "fdc60579-4854-4744-8bda-0dfe262c2a0f")
 	)
-	(text "1x 100nF per VDD/VBAT"
+	(text "Decoupling Capacitors\n1x 100nF per VDD/VBAT\nSee DS11853 Rev 9 page 155"
 		(exclude_from_sim no)
-		(at 80.772 34.798 0)
+		(at 56.134 32.766 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify left)
 		)
 		(uuid "02c34666-3768-4966-99fa-5f10e8356932")
 	)
@@ -6226,16 +6227,6 @@
 			)
 		)
 		(uuid "8293a55d-8673-4138-9b67-e5cc449ab0bb")
-	)
-	(text "Bypass Capacitors"
-		(exclude_from_sim no)
-		(at 77.724 32.258 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "a01b00e5-eccb-433f-b6fc-57e5962b6623")
 	)
 	(text "VBUS from USB (nominally +5V); Min. 22μF input/output caps"
 		(exclude_from_sim no)
