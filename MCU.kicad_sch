@@ -6,7 +6,7 @@
 	(paper "USLetter")
 	(title_block
 		(title "MCU, Crystals, USB and Power")
-		(date "2024-09-28")
+		(date "2024-10-12")
 		(rev "1")
 		(company "Douglas P. Fields, Jr.")
 	)
@@ -3224,301 +3224,6 @@
 				)
 			)
 		)
-		(symbol "TS-1187A-B-A-B:TS-1187A-B-A-B"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "S"
-				(at -2.54 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "TS-1187A-B-A-B"
-				(at -2.54 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "TS-1187A-B-A-B:SW_TS-1187A-B-A-B"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MF" "XKB Industrial Precision"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MAXIMUM_PACKAGE_HEIGHT" "1.5mm"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Package" "Package"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Price" "None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/TS-1187A-B-A-B/XKB+Industrial+Precision/view-part/?ref=eda"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "STANDARD" "Manufacturer Recommendations"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "PARTREV" "A0"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/TS-1187A-B-A-B/XKB+Industrial+Precision/view-part/?ref=snap"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MP" "TS-1187A-B-A-B"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Description_1" "\nTS-1187A-B-A-B XKB Connectivity\n"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Availability" "Not in stock"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MANUFACTURER" "XKB Industrial Precision"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "TS-1187A-B-A-B_0_0"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -5.08 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 0) (xy 2.794 2.1336)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 0) (xy 2.921 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 0)
-					(radius 0.3302)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "A"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "B"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "C"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "D"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "easyeda2kicad:GT-USB-7010I"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4037,6 +3742,219 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "easyeda2kicad:TS-1187A-B-A-B"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TS-1187A-B-A-B"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL-2"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Tactile-Switches_XKB-Enterprise-TS-1187-B-A-A_C318884.html"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C318884"
+				(at 0 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TS-1187A-B-A-B_0_1"
+				(circle
+					(center 0 -2.79)
+					(radius 0.32)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -5.08) (xy 2.54 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 2.54) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.51 0.76) (xy -1.27 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.3) (xy 0 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.76) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0.51)
+					(radius 0.32)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 2.54 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -5.08 0)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 -5.08 180)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4666,16 +4584,16 @@
 		(uuid "2cf3a441-fe4a-4c3b-9c3e-425875298e63")
 	)
 	(junction
-		(at 46.99 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3409a604-59da-4100-b741-c1b68aa6250a")
-	)
-	(junction
 		(at 62.23 177.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3756c4d5-4fc5-4536-aa13-e1520824e280")
+	)
+	(junction
+		(at 43.18 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3c0bc707-a079-4b2c-88e9-68937767f4f6")
 	)
 	(junction
 		(at 63.5 44.45)
@@ -4732,6 +4650,12 @@
 		(uuid "679f794c-76c4-4b41-81b3-e6d54a10d336")
 	)
 	(junction
+		(at 46.99 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6b0164eb-2742-451e-a5a4-279c21b45e1a")
+	)
+	(junction
 		(at 204.47 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4742,6 +4666,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "75bd8321-f49e-4864-892f-1a3242b49948")
+	)
+	(junction
+		(at 43.18 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7af232f6-bb8b-4c46-a7b2-d13a5c80bf96")
 	)
 	(junction
 		(at 45.72 100.33)
@@ -4780,10 +4710,10 @@
 		(uuid "966f79af-789e-47f0-8a36-608618778e6d")
 	)
 	(junction
-		(at 46.99 64.77)
+		(at 46.99 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9e726029-805e-4ee3-a039-b4eb42f18833")
+		(uuid "9765b83d-0826-40b5-9b8d-3b75daad301c")
 	)
 	(junction
 		(at 50.8 36.83)
@@ -4929,6 +4859,16 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 68.58) (xy 46.99 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "070ec79b-5b7e-4165-abce-1894335cc405")
+	)
+	(wire
+		(pts
 			(xy 36.83 177.8) (xy 49.53 177.8)
 		)
 		(stroke
@@ -5019,6 +4959,16 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 68.58) (xy 43.18 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17aab336-a8ee-4cb2-b122-e393c1e931b6")
+	)
+	(wire
+		(pts
 			(xy 187.96 113.03) (xy 187.96 115.57)
 		)
 		(stroke
@@ -5046,6 +4996,16 @@
 			(type default)
 		)
 		(uuid "1a303716-3296-4117-9f3f-b0f3ca7f3fc3")
+	)
+	(wire
+		(pts
+			(xy 30.48 57.15) (xy 31.75 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d18e0bc-6c56-4f25-9b41-11d86fbf78d6")
 	)
 	(wire
 		(pts
@@ -5129,6 +5089,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 57.15) (xy 46.99 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26a0fd02-29c0-4d55-896e-5fe329234784")
+	)
+	(wire
+		(pts
 			(xy 83.82 113.03) (xy 118.11 113.03)
 		)
 		(stroke
@@ -5166,6 +5136,16 @@
 			(type default)
 		)
 		(uuid "2f0502ef-17ad-4e03-814a-f1c427c2c742")
+	)
+	(wire
+		(pts
+			(xy 46.99 69.85) (xy 46.99 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31424e5b-3c3e-4af0-bf42-e1ee5c6a98b2")
 	)
 	(wire
 		(pts
@@ -5279,6 +5259,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 124.46) (xy 74.93 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bffe1ce-0c6d-4754-b6fa-b20cf2235cbd")
+	)
+	(wire
+		(pts
 			(xy 204.47 97.79) (xy 204.47 100.33)
 		)
 		(stroke
@@ -5329,6 +5319,16 @@
 	)
 	(wire
 		(pts
+			(xy 255.27 85.09) (xy 255.27 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "564e2863-228c-4420-8d03-8129c80322ed")
+	)
+	(wire
+		(pts
 			(xy 210.82 82.55) (xy 210.82 85.09)
 		)
 		(stroke
@@ -5336,6 +5336,26 @@
 			(type default)
 		)
 		(uuid "570c6738-28fc-4801-84fb-8d2192737399")
+	)
+	(wire
+		(pts
+			(xy 30.48 57.15) (xy 30.48 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a930679-1aa7-49ca-8c0d-4d4ac3884375")
+	)
+	(wire
+		(pts
+			(xy 43.18 68.58) (xy 46.99 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c03e65a-8518-45a6-8c0d-838e73b9f96a")
 	)
 	(wire
 		(pts
@@ -5356,16 +5376,6 @@
 			(type default)
 		)
 		(uuid "5e798ecf-2f70-44bb-a5c0-baa40de2b48d")
-	)
-	(wire
-		(pts
-			(xy 31.75 64.77) (xy 46.99 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "602a3afc-9698-4463-8da6-bebd2bdc5181")
 	)
 	(wire
 		(pts
@@ -5399,16 +5409,6 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 57.15) (xy 31.75 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "66abee25-2721-4892-93e3-ef1563c10e22")
-	)
-	(wire
-		(pts
 			(xy 53.34 86.36) (xy 53.34 85.09)
 		)
 		(stroke
@@ -5439,13 +5439,23 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 83.82) (xy 255.27 83.82)
+			(xy 30.48 49.53) (xy 43.18 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "75696ba8-898a-4ffa-9344-23ee4ffa1f8c")
+		(uuid "6c7b324f-074d-4062-96cb-e3e2887839a1")
+	)
+	(wire
+		(pts
+			(xy 43.18 49.53) (xy 43.18 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "767aa935-c9cb-4e1e-8bf3-a6a36396d42f")
 	)
 	(wire
 		(pts
@@ -5566,6 +5576,16 @@
 			(type default)
 		)
 		(uuid "8f6dbd42-deb9-4fd2-9e70-632fe7036ef0")
+	)
+	(wire
+		(pts
+			(xy 41.91 57.15) (xy 43.18 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92c201f3-94cd-47be-a998-a56f8e1b7d57")
 	)
 	(wire
 		(pts
@@ -5779,6 +5799,16 @@
 	)
 	(wire
 		(pts
+			(xy 41.91 64.77) (xy 43.18 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7ddc510-420e-49ab-ad78-d701b5ba4b63")
+	)
+	(wire
+		(pts
 			(xy 102.87 36.83) (xy 115.57 36.83)
 		)
 		(stroke
@@ -5876,6 +5906,16 @@
 			(type default)
 		)
 		(uuid "ca976875-c7d3-44e4-b72d-6258cda3d2d3")
+	)
+	(wire
+		(pts
+			(xy 30.48 64.77) (xy 31.75 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc85387e-a158-4ef5-b5a5-2fdcd35e37f1")
 	)
 	(wire
 		(pts
@@ -5989,6 +6029,16 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 64.77) (xy 30.48 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc2f28b5-7220-4f68-9535-552e2a6dd77c")
+	)
+	(wire
+		(pts
 			(xy 82.55 115.57) (xy 118.11 115.57)
 		)
 		(stroke
@@ -6079,6 +6129,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 64.77) (xy 43.18 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f737b298-c195-4669-b01d-6394574b6bda")
+	)
+	(wire
+		(pts
 			(xy 90.17 36.83) (xy 102.87 36.83)
 		)
 		(stroke
@@ -6129,7 +6189,7 @@
 	)
 	(text_box "USB App Note\nAN4879"
 		(exclude_from_sim no)
-		(at 240.03 87.63 0)
+		(at 240.03 95.25 0)
 		(size 16.51 6.35)
 		(stroke
 			(width 0)
@@ -6190,7 +6250,7 @@
 	)
 	(text "USB Device Mode Only"
 		(exclude_from_sim no)
-		(at 248.92 96.52 0)
+		(at 248.92 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6261,7 +6321,7 @@
 	)
 	(text "TODO: Shield ground should NOT\nbe connected to regular ground"
 		(exclude_from_sim no)
-		(at 249.682 102.616 0)
+		(at 249.682 110.236 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8264,7 +8324,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 46.99 64.77 0)
+		(at 46.99 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8273,7 +8333,7 @@
 		(fields_autoplaced yes)
 		(uuid "37b070d9-e21e-49dc-9fe5-6da58933f03e")
 		(property "Reference" "#PWR08"
-			(at 46.99 71.12 0)
+			(at 46.99 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8282,6 +8342,14 @@
 			)
 		)
 		(property "Value" "GND"
+			(at 46.99 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
 			(at 46.99 69.85 0)
 			(effects
 				(font
@@ -8290,17 +8358,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
-			(at 46.99 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Datasheet" ""
-			(at 46.99 64.77 0)
+			(at 46.99 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8309,7 +8368,34 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 46.99 64.77 0)
+			(at 46.99 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 46.99 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPFNOTES" ""
+			(at 46.99 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPFURL" ""
+			(at 46.99 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8354,7 +8440,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -8376,6 +8461,33 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 187.96 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 187.96 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPFNOTES" ""
+			(at 187.96 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPFURL" ""
 			(at 187.96 115.57 0)
 			(effects
 				(font
@@ -9175,6 +9287,89 @@
 		)
 	)
 	(symbol
+		(lib_id "easyeda2kicad:TS-1187A-B-A-B")
+		(at 36.83 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7498f35c-a298-4b9a-a73f-14d1f0d340bf")
+		(property "Reference" "SW6"
+			(at 36.83 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Reset"
+			(at 36.83 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL-2"
+			(at 36.83 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Tactile-Switches_XKB-Enterprise-TS-1187-B-A-A_C318884.html"
+			(at 36.83 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 36.83 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C318884"
+			(at 36.83 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ae961f2e-898d-4e6d-8b49-c8e014e80481")
+		)
+		(pin "3"
+			(uuid "34fb718f-2cd3-4271-9ede-07e32fa7f52b")
+		)
+		(pin "4"
+			(uuid "75d558fb-d9f4-49f0-849c-1fff5014217f")
+		)
+		(pin "2"
+			(uuid "68761a64-fd64-4410-98a1-c67d3ef9f9c0")
+		)
+		(instances
+			(project "stm-midi-poc1"
+				(path "/7cd74113-1f92-4dcc-8610-19aa9fc81e5f/fb10b81b-747c-4030-b31b-dec45474bc0e"
+					(reference "SW6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3VA")
 		(at 172.72 33.02 0)
 		(unit 1)
@@ -9362,7 +9557,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -9384,6 +9578,33 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 226.06 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 226.06 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPFNOTES" ""
+			(at 226.06 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPFURL" ""
 			(at 226.06 109.22 0)
 			(effects
 				(font
@@ -9526,7 +9747,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -9548,6 +9768,33 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 50.8 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 50.8 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPFNOTES" ""
+			(at 50.8 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPFURL" ""
 			(at 50.8 45.72 0)
 			(effects
 				(font
@@ -9636,229 +9883,8 @@
 		)
 	)
 	(symbol
-		(lib_id "TS-1187A-B-A-B:TS-1187A-B-A-B")
-		(at 39.37 57.15 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "89dc7f86-7479-496c-9e77-0e57f7d7a23c")
-		(property "Reference" "S1"
-			(at 39.624 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Reset"
-			(at 39.37 60.452 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "stm-midi-poc1:SW_TS-1187A-B-A-B"
-			(at 39.37 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 39.37 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 39.37 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "XKB Industrial Precision"
-			(at 39.37 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "1.5mm"
-			(at 39.37 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "Package"
-			(at 39.37 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 39.37 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/TS-1187A-B-A-B/XKB+Industrial+Precision/view-part/?ref=eda"
-			(at 39.37 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 39.37 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "A0"
-			(at 39.37 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TS-1187A-B-A-B/XKB+Industrial+Precision/view-part/?ref=snap"
-			(at 39.37 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "TS-1187A-B-A-B"
-			(at 39.37 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "\nTS-1187A-B-A-B XKB Connectivity\n"
-			(at 39.37 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "Not in stock"
-			(at 39.37 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "XKB Industrial Precision"
-			(at 39.37 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C318884"
-			(at 39.37 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DPFNOTES" ""
-			(at 39.37 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DPFURL" "https://jlcpcb.com/partdetail/XkbConnection-TS_1187A_B_AB/C318884"
-			(at 39.37 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "D"
-			(uuid "322be893-f5d8-4bb4-8532-00d2ba14238e")
-		)
-		(pin "A"
-			(uuid "d6a562f2-b427-44a4-bd0b-0def82f36fe4")
-		)
-		(pin "B"
-			(uuid "8eedc3ab-2b74-40ed-ad9d-63554b4e6839")
-		)
-		(pin "C"
-			(uuid "90efeab4-b6e2-4c67-8378-88f92967b925")
-		)
-		(instances
-			(project ""
-				(path "/7cd74113-1f92-4dcc-8610-19aa9fc81e5f/fb10b81b-747c-4030-b31b-dec45474bc0e"
-					(reference "S1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 74.93 123.19 0)
+		(at 74.93 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9867,7 +9893,7 @@
 		(fields_autoplaced yes)
 		(uuid "90169fc1-d7fa-4c15-a862-637b75b96616")
 		(property "Reference" "#PWR022"
-			(at 74.93 129.54 0)
+			(at 74.93 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9876,7 +9902,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 74.93 128.27 0)
+			(at 74.93 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9884,7 +9910,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 74.93 123.19 0)
+			(at 74.93 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9893,7 +9919,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 74.93 123.19 0)
+			(at 74.93 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9902,7 +9928,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 74.93 123.19 0)
+			(at 74.93 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10452,7 +10478,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -10474,6 +10499,33 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 185.42 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 185.42 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPFNOTES" ""
+			(at 185.42 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPFURL" ""
 			(at 185.42 45.72 0)
 			(effects
 				(font
@@ -11385,8 +11437,8 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 256.54 83.82 90)
-		(mirror x)
+		(at 255.27 85.09 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11395,7 +11447,7 @@
 		(fields_autoplaced yes)
 		(uuid "ce020dd8-d4fa-4b96-b852-f33be5d857e0")
 		(property "Reference" "#PWR012"
-			(at 262.89 83.82 0)
+			(at 255.27 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11404,16 +11456,15 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 261.62 83.82 0)
+			(at 255.27 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 256.54 83.82 0)
+			(at 255.27 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11422,7 +11473,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 256.54 83.82 0)
+			(at 255.27 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11431,7 +11482,34 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 256.54 83.82 0)
+			(at 255.27 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 255.27 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPFNOTES" ""
+			(at 255.27 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPFURL" ""
+			(at 255.27 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11735,7 +11813,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -11757,6 +11834,33 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 45.72 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 45.72 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPFNOTES" ""
+			(at 45.72 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPFURL" ""
 			(at 45.72 100.33 0)
 			(effects
 				(font
@@ -12420,7 +12524,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -12442,6 +12545,33 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 201.93 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 201.93 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPFNOTES" ""
+			(at 201.93 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPFURL" ""
 			(at 201.93 45.72 0)
 			(effects
 				(font

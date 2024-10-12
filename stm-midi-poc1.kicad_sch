@@ -6,7 +6,7 @@
 	(paper "USLetter")
 	(title_block
 		(title "Block Diagram")
-		(date "2024-09-28")
+		(date "2024-10-12")
 		(rev "1")
 		(company "Douglas P. Fields, Jr.")
 		(comment 1 "symbolics@lisp.engineer")
@@ -237,6 +237,46 @@
 			(justify left top)
 		)
 		(uuid "f87e8ae1-3fce-406c-9b4b-cc696cb2ba74")
+	)
+	(text "Page 5"
+		(exclude_from_sim no)
+		(at 239.522 162.306 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "58e1e3fc-215a-4a51-af00-8c1fcb651189")
+	)
+	(text "Page 3\n"
+		(exclude_from_sim no)
+		(at 239.522 139.192 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "85af757c-566f-42cb-8c41-10d1f3ff29a5")
+	)
+	(text "Page 2"
+		(exclude_from_sim no)
+		(at 210.312 139.192 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e814e18d-8842-40ff-a732-020f1b7fa22a")
+	)
+	(text "Page 4"
+		(exclude_from_sim no)
+		(at 210.566 161.798 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "efec8f44-788f-410d-a938-cfb9d9ecd7d2")
 	)
 	(sheet
 		(at 234.95 124.46)
