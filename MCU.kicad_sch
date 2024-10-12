@@ -790,6 +790,163 @@
 				)
 			)
 		)
+		(symbol "Diode:SZESD9B5.0ST5G"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SZESD9B5.0ST5G"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_SOD-923"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "ESD protection diode, 5.0Vrwm, SOD-923"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode TVS ESD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*SOD?923*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SZESD9B5.0ST5G_0_1"
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy 0 0) (xy -2.54 1.27) (xy -2.54 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 1.27) (xy 0 1.27) (xy 0 -1.27) (xy -0.508 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy 2.54 -1.27) (xy 0 0) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SZESD9B5.0ST5G_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "MCU_ST_STM32F7:STM32F722RETx"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4518,6 +4675,12 @@
 		)
 	)
 	(junction
+		(at 185.42 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0500fc8c-6ce4-4048-afa4-20fbc184369e")
+	)
+	(junction
 		(at 53.34 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4608,6 +4771,12 @@
 		(uuid "4859ec93-d119-464a-baba-3b6b3f5b462f")
 	)
 	(junction
+		(at 187.96 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4ddfdfc5-c3b8-4b12-9ac8-30599f76f9cc")
+	)
+	(junction
 		(at 182.88 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4686,12 +4855,6 @@
 		(uuid "869fa553-b74e-4629-bf3d-b8f7365d6c76")
 	)
 	(junction
-		(at 185.42 85.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8852cdc9-05f3-462c-b52d-517776a85fbe")
-	)
-	(junction
 		(at 62.23 170.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4720,6 +4883,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "af59170a-1f7a-4e01-add0-5ecbd4f62d38")
+	)
+	(junction
+		(at 187.96 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b35dbc2a-a8ac-4a6b-ad4a-2ebd35554c7e")
 	)
 	(junction
 		(at 67.31 115.57)
@@ -4823,10 +4992,6 @@
 		(at 219.71 101.6)
 		(uuid "ed7b0aea-c457-4220-a995-79209287f793")
 	)
-	(no_connect
-		(at 190.5 97.79)
-		(uuid "f3fbc440-5c03-40bc-8863-4b86dee2b94a")
-	)
 	(wire
 		(pts
 			(xy 67.31 123.19) (xy 74.93 123.19)
@@ -4899,16 +5064,6 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 85.09) (xy 185.42 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0b291aef-aed1-4ad8-8173-daa601bce888")
-	)
-	(wire
-		(pts
 			(xy 95.25 82.55) (xy 95.25 67.31)
 		)
 		(stroke
@@ -4966,16 +5121,6 @@
 			(type default)
 		)
 		(uuid "17aab336-a8ee-4cb2-b122-e393c1e931b6")
-	)
-	(wire
-		(pts
-			(xy 187.96 113.03) (xy 187.96 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "18c24a2b-f86f-4f9d-82c3-c98df8726beb")
 	)
 	(wire
 		(pts
@@ -5046,16 +5191,6 @@
 			(type default)
 		)
 		(uuid "242052fc-5bcc-4934-9525-b2a321e43ae9")
-	)
-	(wire
-		(pts
-			(xy 193.04 96.52) (xy 193.04 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2441759c-3b95-4bd7-97d0-d98ca66414ca")
 	)
 	(wire
 		(pts
@@ -5159,6 +5294,16 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 109.22) (xy 185.42 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36ee7116-4828-4aba-b0b8-f37b6fa462a9")
+	)
+	(wire
+		(pts
 			(xy 95.25 67.31) (xy 118.11 67.31)
 		)
 		(stroke
@@ -5216,6 +5361,16 @@
 			(type default)
 		)
 		(uuid "422e680d-059e-4dad-bb78-398a89d87871")
+	)
+	(wire
+		(pts
+			(xy 185.42 109.22) (xy 185.42 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43a786c7-1a3b-4579-bf3c-3532a28e9ced")
 	)
 	(wire
 		(pts
@@ -5329,6 +5484,16 @@
 	)
 	(wire
 		(pts
+			(xy 187.96 85.09) (xy 187.96 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57ebacb8-f8a6-4f79-a797-19ae95592d76")
+	)
+	(wire
+		(pts
 			(xy 30.48 57.15) (xy 30.48 49.53)
 		)
 		(stroke
@@ -5366,6 +5531,26 @@
 			(type default)
 		)
 		(uuid "5e798ecf-2f70-44bb-a5c0-baa40de2b48d")
+	)
+	(wire
+		(pts
+			(xy 182.88 87.63) (xy 182.88 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f0266a3-3c77-4c70-95de-4ccaf9e23714")
+	)
+	(wire
+		(pts
+			(xy 187.96 109.22) (xy 195.58 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f29ceb7-f4c5-46d0-8b24-044ce03308de")
 	)
 	(wire
 		(pts
@@ -5436,6 +5621,16 @@
 			(type default)
 		)
 		(uuid "6c7b324f-074d-4062-96cb-e3e2887839a1")
+	)
+	(wire
+		(pts
+			(xy 195.58 99.06) (xy 195.58 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "749468d4-9ecc-4ecb-a740-2148e857fd47")
 	)
 	(wire
 		(pts
@@ -5556,6 +5751,16 @@
 			(type default)
 		)
 		(uuid "8b5f19f2-7d6a-4e54-bf72-3d4ec3dc9b47")
+	)
+	(wire
+		(pts
+			(xy 195.58 107.95) (xy 195.58 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c2ca1e4-a942-455a-a2b8-88dad9eeee65")
 	)
 	(wire
 		(pts
@@ -5739,6 +5944,16 @@
 	)
 	(wire
 		(pts
+			(xy 187.96 109.22) (xy 187.96 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "accd10ec-5228-4517-a49d-af86a17dea97")
+	)
+	(wire
+		(pts
 			(xy 226.06 105.41) (xy 226.06 107.95)
 		)
 		(stroke
@@ -5786,6 +6001,16 @@
 			(type default)
 		)
 		(uuid "b65e7123-dece-4f24-856c-c26855a1c4a3")
+	)
+	(wire
+		(pts
+			(xy 187.96 85.09) (xy 210.82 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b75a2662-0552-4eb7-9cf1-2cf846bfce10")
 	)
 	(wire
 		(pts
@@ -5879,16 +6104,6 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 87.63) (xy 182.88 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c8cc0068-da62-4e18-b2bb-1f45664126f4")
-	)
-	(wire
-		(pts
 			(xy 53.34 85.09) (xy 49.53 85.09)
 		)
 		(stroke
@@ -5929,7 +6144,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 85.09) (xy 185.42 85.09)
+			(xy 153.67 85.09) (xy 187.96 85.09)
 		)
 		(stroke
 			(width 0)
@@ -5969,6 +6184,16 @@
 	)
 	(wire
 		(pts
+			(xy 185.42 109.22) (xy 187.96 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5181657-850b-4908-8ac0-849d2f24bc1a")
+	)
+	(wire
+		(pts
 			(xy 250.19 83.82) (xy 236.22 83.82)
 		)
 		(stroke
@@ -5999,6 +6224,16 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 109.22) (xy 182.88 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d772c928-3b89-4d5a-9562-4cc6bab02c40")
+	)
+	(wire
+		(pts
 			(xy 102.87 44.45) (xy 115.57 44.45)
 		)
 		(stroke
@@ -6016,16 +6251,6 @@
 			(type default)
 		)
 		(uuid "da57baef-3ba9-43dc-8e09-28a6a7e78b48")
-	)
-	(wire
-		(pts
-			(xy 185.42 85.09) (xy 210.82 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db969b6b-fbf8-45cf-abed-a8872b4aa16b")
 	)
 	(wire
 		(pts
@@ -6270,7 +6495,7 @@
 	)
 	(text "ESD Protection"
 		(exclude_from_sim no)
-		(at 196.596 112.522 0)
+		(at 221.488 144.78 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6280,7 +6505,7 @@
 	)
 	(text "TODO: resettable fuses"
 		(exclude_from_sim no)
-		(at 188.214 122.428 0)
+		(at 186.182 117.348 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8005,15 +8230,15 @@
 	)
 	(symbol
 		(lib_id "Power_Protection:ESDA6V1BC6")
-		(at 187.96 105.41 0)
+		(at 250.19 154.94 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(uuid "28158c93-bd76-4426-8a70-64f10d181e26")
 		(property "Reference" "D1"
-			(at 186.944 101.854 0)
+			(at 249.174 151.384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8022,7 +8247,7 @@
 			)
 		)
 		(property "Value" "ESDA6V1BC6"
-			(at 172.974 112.268 0)
+			(at 235.204 161.798 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8031,7 +8256,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 187.96 114.3 0)
+			(at 250.19 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8040,7 +8265,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.st.com/content/ccc/resource/technical/document/datasheet/21/07/21/e3/a8/df/42/a2/CD00001906.pdf/files/CD00001906.pdf/jcr:content/translations/en.CD00001906.pdf"
-			(at 187.96 105.41 90)
+			(at 250.19 154.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8049,7 +8274,34 @@
 			)
 		)
 		(property "Description" "Quad bidirectional transil, Suppressor for ESD protection, 5V Standoff, 4 Channels, SOT-23-6"
-			(at 187.96 105.41 0)
+			(at 250.19 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 250.19 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPFNOTES" ""
+			(at 250.19 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPFURL" ""
+			(at 250.19 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8182,6 +8434,103 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:SZESD9B5.0ST5G")
+		(at 182.88 104.14 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "29bd96d1-c9f1-427d-bf50-a26c2db38b60")
+		(property "Reference" "D9"
+			(at 180.34 102.8699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "ESD"
+			(at 180.34 105.4099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-923"
+			(at 182.88 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF"
+			(at 182.88 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "ESD protection diode, 5.0Vrwm, SOD-923 SZESD9B5.0ST5G"
+			(at 182.88 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 182.88 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPFNOTES" ""
+			(at 182.88 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPFURL" ""
+			(at 182.88 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0745d0b9-3b66-4b69-814d-4ee161c17705")
+		)
+		(pin "1"
+			(uuid "22fa0407-b38d-444d-b3c3-dc8105ba704f")
+		)
+		(instances
+			(project "stm-midi-poc1"
+				(path "/7cd74113-1f92-4dcc-8610-19aa9fc81e5f/fb10b81b-747c-4030-b31b-dec45474bc0e"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_SPDT")
 		(at 71.12 69.85 180)
 		(unit 1)
@@ -8273,6 +8622,103 @@
 			(project "stm-midi-poc1"
 				(path "/7cd74113-1f92-4dcc-8610-19aa9fc81e5f/fb10b81b-747c-4030-b31b-dec45474bc0e"
 					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SZESD9B5.0ST5G")
+		(at 187.96 104.14 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "356ef0e7-482a-4c5f-a13f-2296783a1e7c")
+		(property "Reference" "D8"
+			(at 190.5 102.8699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "ESD"
+			(at 190.5 105.4099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-923"
+			(at 187.96 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF"
+			(at 187.96 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "ESD protection diode, 5.0Vrwm, SOD-923 SZESD9B5.0ST5G"
+			(at 187.96 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 187.96 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPFNOTES" ""
+			(at 187.96 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPFURL" ""
+			(at 187.96 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e8ea8957-40e1-409a-aebc-d954e540c5d1")
+		)
+		(pin "1"
+			(uuid "ee63e369-1fb8-4381-8228-85a1b2eb1254")
+		)
+		(instances
+			(project ""
+				(path "/7cd74113-1f92-4dcc-8610-19aa9fc81e5f/fb10b81b-747c-4030-b31b-dec45474bc0e"
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -8439,7 +8885,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 187.96 115.57 0)
+		(at 185.42 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8448,7 +8894,7 @@
 		(fields_autoplaced yes)
 		(uuid "41d5ac2d-ddb9-4ce7-977b-071c47eed58a")
 		(property "Reference" "#PWR018"
-			(at 187.96 121.92 0)
+			(at 185.42 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8457,7 +8903,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 187.96 120.65 0)
+			(at 185.42 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8465,7 +8911,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 187.96 115.57 0)
+			(at 185.42 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8474,7 +8920,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 187.96 115.57 0)
+			(at 185.42 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8483,7 +8929,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 187.96 115.57 0)
+			(at 185.42 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8492,7 +8938,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 187.96 115.57 0)
+			(at 185.42 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8501,7 +8947,7 @@
 			)
 		)
 		(property "DPFNOTES" ""
-			(at 187.96 115.57 0)
+			(at 185.42 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8510,7 +8956,7 @@
 			)
 		)
 		(property "DPFURL" ""
-			(at 187.96 115.57 0)
+			(at 185.42 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11129,7 +11575,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 193.04 96.52 0)
+		(at 195.58 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11138,7 +11584,7 @@
 		(fields_autoplaced yes)
 		(uuid "add23f9e-3f29-4cb0-9097-48d82e0256f5")
 		(property "Reference" "#PWR016"
-			(at 193.04 100.33 0)
+			(at 195.58 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11147,7 +11593,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 193.04 91.44 0)
+			(at 195.58 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11155,7 +11601,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 193.04 96.52 0)
+			(at 195.58 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11164,7 +11610,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 193.04 96.52 0)
+			(at 195.58 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11173,7 +11619,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 193.04 96.52 0)
+			(at 195.58 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11284,6 +11730,103 @@
 			(project "stm-midi-poc1"
 				(path "/7cd74113-1f92-4dcc-8610-19aa9fc81e5f/fb10b81b-747c-4030-b31b-dec45474bc0e"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SZESD9B5.0ST5G")
+		(at 195.58 104.14 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ba74ffd2-5ab1-467e-ab80-f7991ff7ea0c")
+		(property "Reference" "D10"
+			(at 198.12 102.8699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "ESD"
+			(at 198.12 105.4099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-923"
+			(at 195.58 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF"
+			(at 195.58 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "ESD protection diode, 5.0Vrwm, SOD-923 SZESD9B5.0ST5G"
+			(at 195.58 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 195.58 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPFNOTES" ""
+			(at 195.58 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPFURL" ""
+			(at 195.58 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "93497d5c-36b4-49ba-901e-4bb05c1f6509")
+		)
+		(pin "1"
+			(uuid "ae3a4be2-9756-4ed2-aea6-e89347962d87")
+		)
+		(instances
+			(project "stm-midi-poc1"
+				(path "/7cd74113-1f92-4dcc-8610-19aa9fc81e5f/fb10b81b-747c-4030-b31b-dec45474bc0e"
+					(reference "D10")
 					(unit 1)
 				)
 			)
