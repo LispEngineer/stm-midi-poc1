@@ -2757,7 +2757,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 53.34) (xy 219.71 53.34)
+			(xy 212.09 53.34) (xy 220.98 53.34)
 		)
 		(stroke
 			(width 0)
@@ -3047,6 +3047,16 @@
 	)
 	(wire
 		(pts
+			(xy 226.06 53.34) (xy 232.41 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c5ec45d-88b7-461d-80e2-7598acb12c1b")
+	)
+	(wire
+		(pts
 			(xy 68.58 175.26) (xy 74.93 175.26)
 		)
 		(stroke
@@ -3077,7 +3087,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 50.8) (xy 219.71 50.8)
+			(xy 212.09 50.8) (xy 232.41 50.8)
 		)
 		(stroke
 			(width 0)
@@ -3357,7 +3367,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 55.88) (xy 219.71 55.88)
+			(xy 217.17 55.88) (xy 232.41 55.88)
 		)
 		(stroke
 			(width 0)
@@ -3567,7 +3577,7 @@
 	)
 	(rectangle
 		(start 193.04 19.05)
-		(end 236.22 67.31)
+		(end 251.46 67.31)
 		(stroke
 			(width 0)
 			(type dash)
@@ -3883,6 +3893,17 @@
 			(justify left bottom)
 		)
 		(uuid "c6151939-5c60-4085-99d2-6681d8beaa74")
+	)
+	(label "HPJ_R"
+		(at 226.06 53.34 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cc8b2e50-cfe0-44aa-8983-36e0e1fb81c5")
 	)
 	(label "BTN2_CR"
 		(at 171.45 48.26 0)
@@ -7415,7 +7436,7 @@
 	)
 	(symbol
 		(lib_id "easyeda2kicad:PJ-321A-4A")
-		(at 222.25 53.34 0)
+		(at 234.95 53.34 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7424,7 +7445,7 @@
 		(dnp no)
 		(uuid "ba252a33-b7ee-43ef-ba22-e7d494f03ecf")
 		(property "Reference" "CN6"
-			(at 226.95 45.72 0)
+			(at 239.65 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7432,7 +7453,7 @@
 			)
 		)
 		(property "Value" "Headphone"
-			(at 226.95 48.26 0)
+			(at 239.65 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7440,7 +7461,7 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:AUDIO-SMD_PJ-321A-4A"
-			(at 222.25 63.5 0)
+			(at 234.95 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7449,7 +7470,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Audio-Video-Connectors_Korean-Hroparts-Elec-PJ-321A-4A_C879743.html"
-			(at 222.25 66.04 0)
+			(at 234.95 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7458,7 +7479,7 @@
 			)
 		)
 		(property "Description" "Korean Hroparts Elec PJ-321A-4A -20℃~+70℃ 3.5mm Headphone Jack 30V 500mA SMD Audio Connectors (Headphones) ROHS"
-			(at 222.25 53.34 0)
+			(at 234.95 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7467,7 +7488,7 @@
 			)
 		)
 		(property "LCSC Part" "C879743"
-			(at 222.25 68.58 0)
+			(at 234.95 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7476,7 +7497,7 @@
 			)
 		)
 		(property "LCSC" "C879743"
-			(at 222.25 53.34 0)
+			(at 234.95 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7485,7 +7506,7 @@
 			)
 		)
 		(property "DPFNOTES" "In-stock 3.5mm TRS"
-			(at 222.25 53.34 0)
+			(at 234.95 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7494,7 +7515,7 @@
 			)
 		)
 		(property "DPFURL" "https://jlcpcb.com/partdetail/Korean_HropartsElec-PJ_321A4A/C879743"
-			(at 222.25 53.34 0)
+			(at 234.95 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8547,6 +8568,100 @@
 			(project "stm-midi-poc1"
 				(path "/7cd74113-1f92-4dcc-8610-19aa9fc81e5f/96c396b4-5394-4a50-9288-ad4476d1492f"
 					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 223.52 53.34 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ed3cc43c-ad7c-4ff7-bae7-8a834b9e7875")
+		(property "Reference" "R32"
+			(at 223.52 47.244 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Zero"
+			(at 223.52 49.276 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_2010_5025Metric"
+			(at 223.52 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 223.52 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 223.52 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 223.52 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPFNOTES" "For Routing"
+			(at 223.52 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPFURL" ""
+			(at 223.52 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4abc1328-29b0-4bd6-8901-320722e95298")
+		)
+		(pin "2"
+			(uuid "e5d5ae2e-f416-4ea2-966c-1db252c67726")
+		)
+		(instances
+			(project "stm-midi-poc1"
+				(path "/7cd74113-1f92-4dcc-8610-19aa9fc81e5f/96c396b4-5394-4a50-9288-ad4476d1492f"
+					(reference "R32")
 					(unit 1)
 				)
 			)
