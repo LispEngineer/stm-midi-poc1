@@ -3638,8 +3638,8 @@
 	)
 	(text_box "Audio Mute\nActive low\n(Output muted \nwhen low)"
 		(exclude_from_sim no)
-		(at 25.4 64.77 0)
-		(size 17.78 11.43)
+		(at 24.13 66.04 0)
+		(size 17.78 10.16)
 		(stroke
 			(width 0)
 			(type default)
