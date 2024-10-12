@@ -3719,7 +3719,7 @@
 		(uuid "43c091da-55f2-4f7b-aef1-ba0f8bafbde2")
 	)
 	(label "BTN1_CR"
-		(at 133.35 49.53 0)
+		(at 133.35 48.26 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3752,7 +3752,7 @@
 		(uuid "c6151939-5c60-4085-99d2-6681d8beaa74")
 	)
 	(label "BTN2_CR"
-		(at 171.45 49.53 0)
+		(at 171.45 48.26 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
