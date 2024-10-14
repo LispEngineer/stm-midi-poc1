@@ -1,5 +1,6 @@
 (version 1)
 # Custom Design Rules (DRC) for KiCAD 7.0 (Stored in '<project>.kicad_dru' file).
+# From: https://gist.github.com/darkxst/f713268e5469645425eed40115fb8b49?permalink_comment_id=4818217#file-rules-txt
 #
 # Matching JLCPCB capabilities: https://jlcpcb.com/capabilities/pcb-capabilities
 #
