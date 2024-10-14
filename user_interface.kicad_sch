@@ -3789,7 +3789,7 @@
 		)
 		(uuid "944f22a1-0a94-4ef5-a4dd-f5ffedf87b6d")
 	)
-	(text "Route 2 or 4 signals\nunderneath\n0805 = ?  (R35)\n1206 = 3  (R31)\n2010 = 4+ (R30)"
+	(text "Route 2 or 4 signals\nunderneath\n0805 = ?  (R35)\n1206 = 3  (R31)\n2010 = 4+ (R30)\n\nTODO: Find a 0-ohm\nresistor network"
 		(exclude_from_sim no)
 		(at 197.866 145.796 0)
 		(effects
