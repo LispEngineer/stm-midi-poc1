@@ -3789,7 +3789,7 @@
 		)
 		(uuid "944f22a1-0a94-4ef5-a4dd-f5ffedf87b6d")
 	)
-	(text "Route 2 or 4 signals\nunderneath\n1206 = 2\n2010 = 4"
+	(text "Route 2 or 4 signals\nunderneath\n0805 = ?  (R35)\n1206 = 3  (R31)\n2010 = 4+ (R30)"
 		(exclude_from_sim no)
 		(at 197.866 145.796 0)
 		(effects
@@ -4995,6 +4995,100 @@
 			(project "stm-midi-poc1"
 				(path "/7cd74113-1f92-4dcc-8610-19aa9fc81e5f/96c396b4-5394-4a50-9288-ad4476d1492f"
 					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 213.36 142.24 90)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
+		(uuid "1804c8e2-727e-42f6-b874-1aa888c7771b")
+		(property "Reference" "R35"
+			(at 213.36 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Zero"
+			(at 213.36 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 213.36 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 213.36 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 213.36 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 213.36 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPFNOTES" "For Routing"
+			(at 213.36 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPFURL" ""
+			(at 213.36 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "091fe254-ccfe-4174-94df-0e80d825ed94")
+		)
+		(pin "2"
+			(uuid "99c16561-171f-486e-b383-2d38a27d74e3")
+		)
+		(instances
+			(project "stm-midi-poc1"
+				(path "/7cd74113-1f92-4dcc-8610-19aa9fc81e5f/96c396b4-5394-4a50-9288-ad4476d1492f"
+					(reference "R35")
 					(unit 1)
 				)
 			)
@@ -7545,10 +7639,10 @@
 		(lib_id "Device:R_Small")
 		(at 207.01 142.24 90)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(uuid "bd913013-c217-46b5-9bdc-60c97dad0242")
 		(property "Reference" "R31"
 			(at 207.01 137.16 90)
@@ -8762,10 +8856,10 @@
 		(lib_id "Device:R_Small")
 		(at 200.66 142.24 90)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "eff0f0cd-2f3e-4d9a-a032-b4b8f1096f4a")
 		(property "Reference" "R30"
