@@ -31,3 +31,32 @@ More documentation to come.
 * Footprints: Done
 * 3D models: Done
 * PCB Layout: Not done
+
+# Board Layout Notes
+
+4-layer design with Signal/GND/GND/Signal for EVT board.
+
+Will do most important routing first on the top copper layer:
+* Decoupling/bypass capacitors
+* Clock signals
+* High speed signals
+  * USB
+  * DAC
+
+Remaining signals will be routed using "Manhattan routing."
+That is, one signal layer will run up/down, the other will
+run left/right, mostly.
+
+After that, do these routings:
+* Audio signals
+* MIDI signals
+* SPI
+* I²C
+* UI (Buttons, LEDs)
+* GPIO
+* Routed power
+
+The signal layers will be filled with GND at the end.
+
+TODO: Change P1 pinout to make the routing of the
+P1 signals easier.
