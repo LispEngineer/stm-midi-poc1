@@ -42,6 +42,7 @@ Will do most important routing first on the top copper layer:
 * High speed signals
   * USB
   * DAC
+  * SWD
 
 Remaining signals will be routed using "Manhattan routing."
 That is, one signal layer will run up/down, the other will
