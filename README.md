@@ -46,6 +46,8 @@ Will do most important routing first on the top copper layer:
 Remaining signals will be routed using "Manhattan routing."
 That is, one signal layer will run up/down, the other will
 run left/right, mostly.
+* Top layer: up/down
+* Bottom layer: left/right
 
 After that, do these routings:
 * Audio signals
