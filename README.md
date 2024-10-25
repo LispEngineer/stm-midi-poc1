@@ -36,6 +36,12 @@ More documentation to come.
   * (Take 2 extended that to a 4-layer with two signal layers)
   * (Take 3 is a Manhattan routing manual re-do of the whole routing)
 
+
+## TODOs
+
+* Find a much smaller Opto-isolator for MIDI than the one chosen here
+* Use a 4-pin 32kHz clock?
+
 # Board Layout Notes
 
 4-layer design with Signal/GND/GND/Signal for EVT board.
