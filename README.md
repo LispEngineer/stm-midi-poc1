@@ -6,7 +6,7 @@
   * AKA `CC BY-SA 4.0`
   * [See LICENSE.md](LICENSE.md) or [CC site](https://creativecommons.org/licenses/by-sa/4.0/deed.en)
 * Started 2024-09-28
-* Last updated 2024-10-06
+* Last updated 2024-10-25
 
 More documentation to come.
 
@@ -25,7 +25,7 @@ More documentation to come.
 
 # Status
 
-* Schematic: Mostly done
+* Schematic: Done
 * LCSC part IDs: Done
 * Schematic symbols: Done
 * Footprints: Done
@@ -66,6 +66,3 @@ After that, do these routings:
 Fill in some positive power areas with fill.
 
 Finally, the signal layers will be filled with GND at the end.
-
-TODO: Change P1 pinout to make the routing of the
-P1 signals easier.
