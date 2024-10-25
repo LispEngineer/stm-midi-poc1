@@ -3685,6 +3685,16 @@
 		)
 		(uuid "2789385f-c3e1-4677-b4a6-e4a61e2a2a98")
 	)
+	(text "TODO: Should R21\nAUDIO_MUTE pullup\nbe on VDAC or +3.3?"
+		(exclude_from_sim no)
+		(at 48.006 85.598 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2c30aae9-6d3d-4f13-ba18-2fdaf2fa6782")
+	)
 	(text "DAC bypass capacitors"
 		(exclude_from_sim no)
 		(at 74.676 170.18 0)
