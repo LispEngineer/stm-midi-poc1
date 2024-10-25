@@ -30,7 +30,11 @@ More documentation to come.
 * Schematic symbols: Done
 * Footprints: Done
 * 3D models: Done
-* PCB Layout: Not done
+* PCB Layout:
+  * Take 3 in progress
+  * (Take 1 was a 2-layer PCB)
+  * (Take 2 extended that to a 4-layer with two signal layers)
+  * (Take 3 is a Manhattan routing manual re-do of the whole routing)
 
 # Board Layout Notes
 
@@ -57,9 +61,11 @@ After that, do these routings:
 * I²C
 * UI (Buttons, LEDs)
 * GPIO
-* Routed power
+* Power
 
-The signal layers will be filled with GND at the end.
+Fill in some positive power areas with fill.
+
+Finally, the signal layers will be filled with GND at the end.
 
 TODO: Change P1 pinout to make the routing of the
 P1 signals easier.
