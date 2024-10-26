@@ -5320,7 +5320,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C72041"
+		(property "LCSC" "C5197644"
 			(at 81.28 38.1 0)
 			(effects
 				(font
@@ -5329,7 +5329,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPFNOTES" "5mA Colorless transparent lens -40℃~+85℃ 465nm~475nm Blue 120° 110mW 0603 LED Indication - Discrete ROHS (Note: If out of stock, Yellow is C72038)"
+		(property "DPFNOTES" "20mA 145mcd Colorless transparent lens 470nm Blue 140° 3.2V 0603 Light Emitting Diodes (LED) ROHS"
 			(at 81.28 38.1 0)
 			(effects
 				(font
@@ -5338,8 +5338,17 @@
 				(hide yes)
 			)
 		)
-		(property "DPFURL" ""
+		(property "DPFURL" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2306061153_Wurth-Elektronik-150060BS75000_C5197644.pdf"
 			(at 81.28 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Basic Part" "C72041 but not in stock ... 5mA Colorless transparent lens -40℃~+85℃ 465nm~475nm Blue 120° 110mW 0603 LED Indication - Discrete ROHS (Note: If out of stock, Yellow is C72038)"
+			(at 81.28 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)

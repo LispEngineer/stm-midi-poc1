@@ -7501,7 +7501,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1810231112_Hubei-KENTO-Elec-KT-0603R_C2286.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -29144,7 +29144,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811101510_Everlight-Elec-19-217-GHC-YR1S2-3T_C72043.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -29170,7 +29170,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2286"
+		(property "LCSC" "C72043"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -29183,7 +29183,7 @@
 				)
 			)
 		)
-		(property "DPFNOTES" "THIS IS A RED ONE - FIND THE REAL ONE"
+		(property "DPFNOTES" "20mA 199mcd Colorless transparent lens -40℃~+85℃ 520nm~535nm Emerald 120° 110mW 3.3V 0603 LED Indication - Discrete ROHS"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -30798,7 +30798,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2286"
+		(property "LCSC" "C5197644"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -30811,7 +30811,7 @@
 				)
 			)
 		)
-		(property "DPFNOTES" "THIS IS A RED ONE"
+		(property "DPFNOTES" "20mA 145mcd Colorless transparent lens 470nm Blue 140° 3.2V 0603 Light Emitting Diodes (LED) ROHS"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -30824,12 +30824,25 @@
 				)
 			)
 		)
-		(property "DPFURL" ""
+		(property "DPFURL" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2306061153_Wurth-Elektronik-150060BS75000_C5197644.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "57374b5d-6311-414c-9c2d-5b211213d733")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Basic Part" "C72041 but not in stock ... 5mA Colorless transparent lens -40℃~+85℃ 465nm~475nm Blue 120° 110mW 0603 LED Indication - Discrete ROHS (Note: If out of stock, Yellow is C72038)"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fc049fce-7baf-4882-b688-d8ee02c0955b")
 			(effects
 				(font
 					(size 1 1)
@@ -33044,7 +33057,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1810231112_Hubei-KENTO-Elec-KT-0603R_C2286.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
