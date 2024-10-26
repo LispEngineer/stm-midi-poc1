@@ -30798,7 +30798,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C5197644"
+		(property "LCSC" "C72038"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -30811,7 +30811,7 @@
 				)
 			)
 		)
-		(property "DPFNOTES" "20mA 145mcd Colorless transparent lens 470nm Blue 140° 3.2V 0603 Light Emitting Diodes (LED) ROHS"
+		(property "DPFNOTES" "This is YELLOW because the BLUE one is NOT in stock: 20mA Colorless transparent lens -40℃~+85℃ 585.5nm~591.5nm Yellow 120° 60mW 0603 LED Indication - Discrete ROHS"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -30824,7 +30824,7 @@
 				)
 			)
 		)
-		(property "DPFURL" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2306061153_Wurth-Elektronik-150060BS75000_C5197644.pdf"
+		(property "DPFURL" "https://www.lcsc.com/datasheet/lcsc_datasheet_1810101813_Everlight-Elec-19-213-Y2C-CQ2R2L-3T-CY_C72038.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
