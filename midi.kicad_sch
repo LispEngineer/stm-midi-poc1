@@ -4187,7 +4187,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C136686"
 			(at 24.13 194.31 0)
 			(effects
 				(font
@@ -4286,6 +4286,15 @@
 		)
 		(property "LCSC Part" "C92651"
 			(at 78.74 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C92651"
+			(at 78.74 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4561,7 +4570,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2205311900_UNI-ROYAL-Uniroyal-Elec-0402WGF4700TCE_C25117.pdf"
 			(at 99.06 49.53 0)
 			(effects
 				(font
@@ -4579,7 +4588,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C25117"
 			(at 99.06 49.53 0)
 			(effects
 				(font
@@ -4588,7 +4597,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPFNOTES" ""
+		(property "DPFNOTES" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 470Ω 0402 Chip Resistor - Surface Mount ROHS"
 			(at 99.06 49.53 0)
 			(effects
 				(font
@@ -4747,6 +4756,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C92651"
+			(at 78.74 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "8"
 			(uuid "cbc4fc84-6de1-4a15-ad26-bbea96a37a8b")
 		)
@@ -4815,7 +4833,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2205311900_UNI-ROYAL-Uniroyal-Elec-0402WGF470JTCE_C25118.pdf"
 			(at 46.99 86.36 0)
 			(effects
 				(font
@@ -4833,7 +4851,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C25118"
 			(at 46.99 86.36 0)
 			(effects
 				(font
@@ -4842,7 +4860,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPFNOTES" ""
+		(property "DPFNOTES" "62.5mW Thick Film Resistors 50V ±1% ±200ppm/℃ 47Ω 0402 Chip Resistor - Surface Mount ROHS"
 			(at 46.99 86.36 0)
 			(effects
 				(font
@@ -4909,7 +4927,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2205311900_UNI-ROYAL-Uniroyal-Elec-0402WGF470JTCE_C25118.pdf"
 			(at 46.99 31.75 0)
 			(effects
 				(font
@@ -4927,7 +4945,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C25118"
 			(at 46.99 31.75 0)
 			(effects
 				(font
@@ -4936,7 +4954,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPFNOTES" ""
+		(property "DPFNOTES" "62.5mW Thick Film Resistors 50V ±1% ±200ppm/℃ 47Ω 0402 Chip Resistor - Surface Mount ROHS"
 			(at 46.99 31.75 0)
 			(effects
 				(font
@@ -5014,6 +5032,15 @@
 			)
 		)
 		(property "Description" "Pin Header male with pin space 2.54mm. Pin Count -8"
+			(at 209.55 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5156676"
 			(at 209.55 44.45 0)
 			(effects
 				(font
@@ -5355,7 +5382,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C879743"
 			(at 26.67 177.8 0)
 			(effects
 				(font
@@ -5649,7 +5676,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2205311900_UNI-ROYAL-Uniroyal-Elec-0402WGF4700TCE_C25117.pdf"
 			(at 99.06 101.6 0)
 			(effects
 				(font
@@ -5667,7 +5694,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C25117"
 			(at 99.06 101.6 0)
 			(effects
 				(font
@@ -5676,7 +5703,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPFNOTES" ""
+		(property "DPFNOTES" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 470Ω 0402 Chip Resistor - Surface Mount ROHS"
 			(at 99.06 101.6 0)
 			(effects
 				(font
@@ -5809,7 +5836,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2205311900_UNI-ROYAL-Uniroyal-Elec-0402WGF2200TCE_C25091.pdf"
 			(at 49.53 48.26 0)
 			(effects
 				(font
@@ -5827,7 +5854,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C25091"
 			(at 49.53 48.26 0)
 			(effects
 				(font
@@ -5836,7 +5863,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPFNOTES" ""
+		(property "DPFNOTES" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 220Ω 0402 Chip Resistor - Surface Mount ROHS"
 			(at 49.53 48.26 0)
 			(effects
 				(font
@@ -5905,7 +5932,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2207291800_ZHOURI-2-54-1-4_C5116483.pdf"
 			(at 209.55 67.31 0)
 			(effects
 				(font
@@ -5915,6 +5942,24 @@
 			)
 		)
 		(property "Description" "Pin Header male with pin space 2.54mm. Pin Count -4"
+			(at 209.55 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPFNOTES" "4P 2.54mm Single Row 1x4P Plugin,P=2.54mm Pin Headers ROHS"
+			(at 209.55 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5116483"
 			(at 209.55 77.47 0)
 			(effects
 				(font
@@ -5979,7 +6024,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2205311900_UNI-ROYAL-Uniroyal-Elec-0402WGF470JTCE_C25118.pdf"
 			(at 46.99 83.82 0)
 			(effects
 				(font
@@ -5997,7 +6042,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C25118"
 			(at 46.99 83.82 0)
 			(effects
 				(font
@@ -6006,7 +6051,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPFNOTES" ""
+		(property "DPFNOTES" "62.5mW Thick Film Resistors 50V ±1% ±200ppm/℃ 47Ω 0402 Chip Resistor - Surface Mount ROHS"
 			(at 46.99 83.82 0)
 			(effects
 				(font
@@ -6304,7 +6349,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2205311900_UNI-ROYAL-Uniroyal-Elec-0402WGF470JTCE_C25118.pdf"
 			(at 46.99 34.29 0)
 			(effects
 				(font
@@ -6322,7 +6367,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C25118"
 			(at 46.99 34.29 0)
 			(effects
 				(font
@@ -6331,7 +6376,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPFNOTES" ""
+		(property "DPFNOTES" "62.5mW Thick Film Resistors 50V ±1% ±200ppm/℃ 47Ω 0402 Chip Resistor - Surface Mount ROHS"
 			(at 46.99 34.29 0)
 			(effects
 				(font
@@ -6398,7 +6443,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2205311900_UNI-ROYAL-Uniroyal-Elec-0402WGF2200TCE_C25091.pdf"
 			(at 49.53 100.33 0)
 			(effects
 				(font
@@ -6416,7 +6461,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C25091"
 			(at 49.53 100.33 0)
 			(effects
 				(font
@@ -6425,7 +6470,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPFNOTES" ""
+		(property "DPFNOTES" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 220Ω 0402 Chip Resistor - Surface Mount ROHS"
 			(at 49.53 100.33 0)
 			(effects
 				(font

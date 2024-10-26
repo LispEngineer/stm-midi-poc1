@@ -23,6 +23,21 @@ More documentation to come.
   * [EasyEDA2KiCAD](https://github.com/uPesy/easyeda2kicad.py)
 * Feedback is welcome
 
+# KiCAD Configuration Notes
+
+Using EasyEDA2KiCAD:
+
+* Create a Path Substitution
+  * Use main KiCAD window: Prefernces -> Configure Paths...
+  * `EASYEDA2KICAD`
+  * [Git Repository](https://github.com/LispEngineer/KiCAD_Libraries)
+* Create a Footprint Library
+  * `easyeda2kicad` Nickname
+  * `${EASYEDA2KICAD}/easyeda2kicad.pretty`
+* Create a Symbol Library
+  * `easyeda2kicad` Nickname
+  * `${EASYEDA2KICAD}/easyeda2kicad.kicad_sym` Library Path
+
 # Status
 
 * Schematic: Done
