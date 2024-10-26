@@ -6,7 +6,7 @@
 	(paper "USLetter")
 	(title_block
 		(title "MIDI")
-		(date "2024-10-12")
+		(date "2024-10-26")
 		(rev "1")
 		(company "Douglas P. Fields, Jr.")
 		(comment 1 "Sleeve: n/c (5-pin: 2)")
@@ -1530,155 +1530,6 @@
 				)
 			)
 		)
-		(symbol "easyeda2kicad:PJ-3210-4A"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Audio"
-				(at 0 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "PJ-3210-4A"
-				(at 0 -8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "easyeda2kicad:AUDIO_TH_PJ-3210-4A"
-				(at 0 -11.43 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Audio-Connectors_PJ-3210-4A_C136686.html"
-				(at 0 -13.97 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part" "C136686"
-				(at 0 -16.51 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "PJ-3210-4A_0_1"
-				(polyline
-					(pts
-						(xy 1.27 -3.81) (xy -1.52 -3.81) (xy -2.03 -3.3) (xy -2.54 -3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy -6.35 1.27) (xy -6.35 -2.79) (xy -7.11 -1.78)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy -4.32 -1.27) (xy -4.83 -1.78) (xy -5.33 -1.27) (xy -5.33 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at 6.35 1.27 180)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 6.35 -3.81 180)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 6.35 -1.27 180)
-					(length 5.08)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "easyeda2kicad:PJ-321A-4A"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3103,16 +2954,6 @@
 	)
 	(text "Ring = 3"
 		(exclude_from_sim no)
-		(at 34.29 178.054 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "06846601-51e1-40a3-91ba-f7b61eaea64a")
-	)
-	(text "Ring = 3"
-		(exclude_from_sim no)
 		(at 70.358 84.328 0)
 		(effects
 			(font
@@ -3141,26 +2982,6 @@
 		)
 		(uuid "416bb076-5678-481c-8b06-8c2703a4be58")
 	)
-	(text "Surface mount"
-		(exclude_from_sim no)
-		(at 36.068 172.72 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "42a866d8-1eba-4137-8aba-1e351b294a9b")
-	)
-	(text "Through-hole"
-		(exclude_from_sim no)
-		(at 35.052 190.754 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "60015d08-7f7e-48ee-ac16-07a48f70f6f2")
-	)
 	(text "Ring = 3"
 		(exclude_from_sim no)
 		(at 70.358 32.258 0)
@@ -3170,16 +2991,6 @@
 			)
 		)
 		(uuid "6245bd5b-7834-4774-a1b4-0c5882b63d52")
-	)
-	(text "Tip = 1"
-		(exclude_from_sim no)
-		(at 35.052 193.294 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "6664e6a3-9e02-4835-b6fd-6d1297f8211c")
 	)
 	(text "Tip = 1"
 		(exclude_from_sim no)
@@ -3193,16 +3004,6 @@
 	)
 	(text "Sleeve = 2"
 		(exclude_from_sim no)
-		(at 35.052 180.594 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "9fab5a41-ba11-47a1-8247-d3379725552e")
-	)
-	(text "Sleeve = 2"
-		(exclude_from_sim no)
 		(at 71.374 81.788 0)
 		(effects
 			(font
@@ -3210,16 +3011,6 @@
 			)
 		)
 		(uuid "b22a9834-bdb7-454e-9581-dde7e47282bb")
-	)
-	(text "Sleeve = 2"
-		(exclude_from_sim no)
-		(at 36.576 198.374 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "b8b5adbd-6ead-4605-87d0-339e365d6b34")
 	)
 	(text "Input opto-isolator"
 		(exclude_from_sim no)
@@ -3230,26 +3021,6 @@
 			)
 		)
 		(uuid "c982a987-1df4-4bf0-b8da-d6eb663ab3bb")
-	)
-	(text "Tip = 1"
-		(exclude_from_sim no)
-		(at 33.528 175.514 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "cdfb8040-bf9e-432d-9f82-fbbf5daae2b7")
-	)
-	(text "Ring = 3"
-		(exclude_from_sim no)
-		(at 35.814 195.834 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "de6888b9-c651-47dd-93a8-373256c5dab0")
 	)
 	(text "TODO: Make this a sub-schematic and instantiate it 5x"
 		(exclude_from_sim no)
@@ -4120,113 +3891,6 @@
 			(project "stm-midi-poc1"
 				(path "/7cd74113-1f92-4dcc-8610-19aa9fc81e5f/d4c8579f-7658-4ad2-a672-2baa765565aa"
 					(reference "CN2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "easyeda2kicad:PJ-3210-4A")
-		(at 24.13 194.31 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "3af0b010-0a69-4a8d-b2bb-57b99330298b")
-		(property "Reference" "CNxx1"
-			(at 21.21 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PJ-3210-4A"
-			(at 21.21 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:AUDIO_TH_PJ-3210-4A"
-			(at 24.13 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Audio-Connectors_PJ-3210-4A_C136686.html"
-			(at 24.13 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 24.13 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C136686"
-			(at 24.13 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C136686"
-			(at 24.13 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DPFNOTES" ""
-			(at 24.13 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DPFURL" ""
-			(at 24.13 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "b5242044-7e51-4705-b2f1-a8077af32536")
-		)
-		(pin "1"
-			(uuid "b3a3740e-ba7f-46a4-b445-74d265f751e9")
-		)
-		(pin "2"
-			(uuid "b502578c-e6d0-4153-a0a8-ddb27c22b1fe")
-		)
-		(instances
-			(project ""
-				(path "/7cd74113-1f92-4dcc-8610-19aa9fc81e5f/d4c8579f-7658-4ad2-a672-2baa765565aa"
-					(reference "CNxx1")
 					(unit 1)
 				)
 			)
@@ -5315,113 +4979,6 @@
 			(project ""
 				(path "/7cd74113-1f92-4dcc-8610-19aa9fc81e5f/d4c8579f-7658-4ad2-a672-2baa765565aa"
 					(reference "#PWR038")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "easyeda2kicad:PJ-321A-4A")
-		(at 26.67 177.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "9a636110-7904-4f0a-991d-c8b5abffd1ca")
-		(property "Reference" "CNxxx1"
-			(at 21.97 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PJ-321A-4A"
-			(at 21.97 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:AUDIO-SMD_PJ-321A-4A"
-			(at 26.67 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Audio-Video-Connectors_Korean-Hroparts-Elec-PJ-321A-4A_C879743.html"
-			(at 26.67 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 26.67 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C879743"
-			(at 26.67 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C879743"
-			(at 26.67 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DPFNOTES" ""
-			(at 26.67 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DPFURL" ""
-			(at 26.67 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d6552d81-f957-47b2-a0ca-1c6350224bd6")
-		)
-		(pin "2"
-			(uuid "47c8df8e-da28-46f2-8566-a98fa088f94f")
-		)
-		(pin "3"
-			(uuid "bf776f50-0e11-455d-bf02-c353c365d0fe")
-		)
-		(instances
-			(project ""
-				(path "/7cd74113-1f92-4dcc-8610-19aa9fc81e5f/d4c8579f-7658-4ad2-a672-2baa765565aa"
-					(reference "CNxxx1")
 					(unit 1)
 				)
 			)

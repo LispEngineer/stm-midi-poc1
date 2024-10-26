@@ -6,12 +6,12 @@
 	(paper "USLetter")
 	(title_block
 		(title "Audio Output")
-		(date "2024-09-28")
+		(date "2024-10-26")
 		(rev "1")
 		(company "Douglas P. Fields, Jr.")
 		(comment 1 "https://shop.pimoroni.com/products/pico-audio-pack")
 		(comment 2 "Reference: Pimoroni Pico Audio Pack")
-		(comment 4 "EP (Exposed Pad) must be soldered but can float or be connected to PGND")
+		(comment 4 "EPAD (Exposed Pad) must be soldered but can float or be connected to PGND")
 	)
 	(lib_symbols
 		(symbol "Audio:PCM5102A"

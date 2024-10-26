@@ -41,7 +41,8 @@ Using EasyEDA2KiCAD:
 # Status
 
 * Schematic: Done
-* LCSC part IDs: Done
+* LCSC part IDs: Almost Done
+  * Need non-Red LEDs
 * Schematic symbols: Done
 * Footprints: Done
 * 3D models: Done
