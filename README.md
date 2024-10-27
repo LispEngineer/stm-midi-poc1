@@ -57,6 +57,7 @@ Using EasyEDA2KiCAD:
 
 * Find a much smaller Opto-isolator for MIDI than the one chosen here
 * Use a 4-pin 32kHz clock?
+* RN1 footprint and 3D model look a little bit off - footprint is a bit too small?
 
 # Board Layout Notes
 
@@ -90,6 +91,11 @@ Fill in some positive power areas with fill.
 Finally, the signal layers will be filled with GND at the end,
 and the ground planes should be stitched together with lots
 of vias.
+
+## After Layout Is Done
+
+* DRC check
+* Cleanup Tracks & Vias
 
 
 # BOM Notes
