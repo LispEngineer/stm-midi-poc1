@@ -4038,7 +4038,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manu Part" ""
+		(property "Manu Part" "6N137S-TA1-L"
 			(at 78.74 104.14 0)
 			(effects
 				(font
@@ -4047,7 +4047,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Lite-On"
 			(at 78.74 104.14 0)
 			(effects
 				(font
@@ -4057,6 +4057,24 @@
 			)
 		)
 		(property "FIXME" ""
+			(at 78.74 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPFNOTES" "15Mbit/s 4.5V~5.5V 10kV/us DC SOP-8-2.54mm Logic Output Optoisolators ROHS"
+			(at 78.74 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Basic Part" "Extended"
 			(at 78.74 104.14 0)
 			(effects
 				(font
@@ -4378,7 +4396,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manu Part" ""
+		(property "Manu Part" "0402WGF4700TCE"
 			(at 99.06 49.53 0)
 			(effects
 				(font
@@ -4387,7 +4405,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 99.06 49.53 0)
 			(effects
 				(font
@@ -4397,6 +4415,15 @@
 			)
 		)
 		(property "FIXME" ""
+			(at 99.06 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Basic Part" "Basic"
 			(at 99.06 49.53 0)
 			(effects
 				(font
@@ -4555,7 +4582,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manu Part" ""
+		(property "Manu Part" "6N137S-TA1-L"
 			(at 78.74 52.07 0)
 			(effects
 				(font
@@ -4564,7 +4591,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Lite-On"
 			(at 78.74 52.07 0)
 			(effects
 				(font
@@ -4574,6 +4601,24 @@
 			)
 		)
 		(property "FIXME" ""
+			(at 78.74 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPFNOTES" "15Mbit/s 4.5V~5.5V 10kV/us DC SOP-8-2.54mm Logic Output Optoisolators ROHS"
+			(at 78.74 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Basic Part" "Extended"
 			(at 78.74 52.07 0)
 			(effects
 				(font
@@ -4722,7 +4767,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Basic Part" "Extended"
+		(property "JLC Basic Part" "Extended - Basic is C23182 but 0603"
 			(at 46.99 86.36 0)
 			(effects
 				(font
@@ -4852,7 +4897,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Basic Part" "Extended"
+		(property "JLC Basic Part" "Extended - Basic is C23182 but 0603"
 			(at 46.99 31.75 0)
 			(effects
 				(font
@@ -5532,7 +5577,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manu Part" ""
+		(property "Manu Part" "CL05B104KB54PNC"
 			(at 123.19 102.87 0)
 			(effects
 				(font
@@ -5541,7 +5586,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 123.19 102.87 0)
 			(effects
 				(font
@@ -5656,7 +5701,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manu Part" ""
+		(property "Manu Part" "0402WGF4700TCE"
 			(at 99.06 101.6 0)
 			(effects
 				(font
@@ -5665,7 +5710,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 99.06 101.6 0)
 			(effects
 				(font
@@ -5675,6 +5720,15 @@
 			)
 		)
 		(property "FIXME" ""
+			(at 99.06 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Basic Part" "Basic"
 			(at 99.06 101.6 0)
 			(effects
 				(font
@@ -5843,7 +5897,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manu Part" ""
+		(property "Manu Part" "0402WGF2200TCE"
 			(at 49.53 48.26 0)
 			(effects
 				(font
@@ -5852,7 +5906,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 49.53 48.26 0)
 			(effects
 				(font
@@ -5862,6 +5916,15 @@
 			)
 		)
 		(property "FIXME" ""
+			(at 49.53 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Basic Part" "Basic"
 			(at 49.53 48.26 0)
 			(effects
 				(font
@@ -6121,7 +6184,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Basic Part" "Extended"
+		(property "JLC Basic Part" "Extended - Basic is C23182 but 0603"
 			(at 46.99 83.82 0)
 			(effects
 				(font
@@ -6369,7 +6432,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manu Part" ""
+		(property "Manu Part" "CL05B104KB54PNC"
 			(at 123.19 50.8 0)
 			(effects
 				(font
@@ -6378,7 +6441,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 123.19 50.8 0)
 			(effects
 				(font
@@ -6518,7 +6581,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Basic Part" "Extended"
+		(property "JLC Basic Part" "Extended - Basic is C23182 but 0603"
 			(at 46.99 34.29 0)
 			(effects
 				(font
@@ -6621,7 +6684,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manu Part" ""
+		(property "Manu Part" "0402WGF2200TCE"
 			(at 49.53 100.33 0)
 			(effects
 				(font
@@ -6630,7 +6693,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 49.53 100.33 0)
 			(effects
 				(font
@@ -6640,6 +6703,15 @@
 			)
 		)
 		(property "FIXME" ""
+			(at 49.53 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Basic Part" "Basic"
 			(at 49.53 100.33 0)
 			(effects
 				(font

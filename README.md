@@ -102,4 +102,7 @@ of vias.
 # Notes for future
 
 * Use fewer header types, they're all extended parts
-* 
+* Find a smaller opto-isolator, or a dual one
+  * Remember MIDI is < 50 kHz
+* Don't use the Resistor Network - due to the Extended parts fee from JLC
+  * OTOH there are no 56Ω resistors in the Basic parts library
