@@ -310,7 +310,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2207291800_ZHOURI-2-54-1-4_C5116483.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -342,6 +342,71 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "40830727-c9f8-42e5-a5a9-054c1acfd167")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manu Part" "2.54-1*4"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c5696932-ff21-4ff6-a261-28335f9bbd37")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "ZHOURI"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3fbba829-ca90-4321-9731-f937258124a6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DPFNOTES" "4P 2.54mm Single Row 1x4P Plugin,P=2.54mm Pin Headers ROHS"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5f062ef8-c210-4e03-879f-998a21ca06fd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC Basic Part" "Extended"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "31458a8d-0277-460f-a899-f89c0964076f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FIXME" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "98eb65d5-9f21-4b2a-a9f0-6a2e01ca12b0")
 			(effects
 				(font
 					(size 1 1)
@@ -653,6 +718,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ab9a354f-f744-4132-a83b-b51e99d19bb2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manu Part" "STM32F722RET6"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8f95a8a1-dd6e-4670-9240-44ab3ec033af")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "STMicroelectronics"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "46f2ea13-6dda-4d26-b8ca-502511f3632f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FIXME" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2692b294-68a1-4b56-8c6a-00fee21d2e5e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC Basic Part" "Extended"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "967f6144-7784-4430-8844-d37e4e5cd737")
 			(effects
 				(font
 					(size 1 1)
@@ -1790,7 +1907,7 @@
 				)
 			)
 		)
-		(property "DPFNOTES" "7pF crystal, 3-5pF Cs, 7 - 3 = 4 x 2 = 8 -> 7 - 5 = 2 x 2 = 4"
+		(property "DPFNOTES" "7pF crystal, 3-5pF Cs, 7 - 3 = 4 x 2 = 8 -> 7 - 5 = 2 x 2 = 4 --- 50V 4.7pF C0G 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1809,6 +1926,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "eeec67fc-73aa-4ab9-a441-638ff850d731")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC Basic Part" "Extended"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7f4ec2be-e516-44ea-b5bd-2cdc5fcc3814")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manu Part" "0402CG4R7C500NT"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f4e43e80-4936-4790-ae58-95ed817d862e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "FH (Guangdong Fenghua Advanced Tech)"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0c9cfd27-fe68-4e3f-888f-49a8a0644ce8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FIXME" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c6a69740-8c65-4ee2-81b8-41658c920da6")
 			(effects
 				(font
 					(size 1 1)
@@ -2050,7 +2219,7 @@
 				)
 			)
 		)
-		(property "DPFNOTES" "In-stock 3.5mm TRS"
+		(property "DPFNOTES" "-20℃~+70℃ 3.5mm Headphone Jack 30V 500mA SMD Audio Connectors (Headphones) ROHS"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2069,6 +2238,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "5ed872f4-81e2-45a7-ae8c-8354239dc65e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC Basic Part" "Extended"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "26a80db6-c7cc-44ca-a256-3c1611a8eae2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manu Part" "PJ-321A-4A"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6244dd89-e956-4d06-ba3b-eef0be9f667e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Korean Hroparts Elec"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f2597bdf-b3fa-4d96-8e2b-87185d85aca7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FIXME" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "474586d2-353c-4e48-9bf5-c030676d5a6d")
 			(effects
 				(font
 					(size 1 1)
@@ -2329,7 +2550,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05B104KB54PNC_C307331.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2368,7 +2589,7 @@
 				)
 			)
 		)
-		(property "DPFNOTES" ""
+		(property "DPFNOTES" "50V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2387,6 +2608,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "65ca8a17-daf0-4fd1-a821-df475ab2f601")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC Basic Part" "Basic"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d275e66e-0c6f-46a1-8c1c-9944f89a8a4c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manu Part" "CL05B104KB54PNC"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7c9fdd13-7784-4872-be1f-d766e6262a75")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "058e77e4-cb57-494e-8840-c3e54a90342a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FIXME" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8159e049-c01f-4de0-9a67-e5048e4401ef")
 			(effects
 				(font
 					(size 1 1)
@@ -2581,7 +2854,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10A106MA8NRNC_C96446.pdf"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2639,6 +2912,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "24d65aa2-26c1-4b4c-9a79-5bb8e2063a82")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC Basic Part" "Basic"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "78a81367-de78-4369-8616-955e5113d690")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manu Part" "CL10A106MA8NRNC"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "be85bca7-a419-4dc1-ae84-2f950e089ea7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "16bc87c0-571d-476b-8249-7198a098cfe4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FIXME" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "121ab7fe-efcd-4300-952c-01f0e1bd6eb5")
 			(effects
 				(font
 					(size 1 1)
@@ -2898,6 +3223,58 @@
 				)
 			)
 		)
+		(property "Manu Part" "0402WGF470JTCE"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "79d59402-d8f0-45c4-a120-020c7703f412")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a8b07cc9-059c-4af3-9320-f6b89b39578b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FIXME" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "60fbaae9-b868-48e4-8b53-bf1c6dccf5b0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC Basic Part" "Extended - Basic is C23182 but 0603"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e536a76c-bba1-49c3-8827-381165f2c6b0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/d4c8579f-7658-4ad2-a672-2baa765565aa/6f392de9-c500-447f-93df-344e5f35febf")
 		(sheetname "MIDI")
@@ -3085,7 +3462,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05B103KB5NNNC_C15195.pdf"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3143,6 +3520,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "3c24d60c-17f0-4319-b88d-caacf315be72")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC Basic Part" "Basic"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "549d437f-7745-4ebf-ab4e-5c59b372b291")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manu Part" "CL05B103KB5NNNC"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bba6e840-1f8f-409f-9d87-21d67a523c3d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6084ae7a-ce3d-42fe-a47d-44f9f7c30100")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FIXME" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a3915e0c-621f-422e-bc72-3d1fb0f3dd0a")
 			(effects
 				(font
 					(size 1 1)
@@ -3377,6 +3806,71 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "db887a6d-0ac5-4934-aca2-3c982f0b2975")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manu Part" "TS-1187A-B-A-B"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "044d4cbb-d756-4556-b685-9d6155a3c823")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "XKB Connection"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d67724f8-e39d-4467-af11-a2559cf50113")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FIXME" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ec5b76c8-f3b2-4bba-b94f-af6af703b662")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DPFNOTES" "None Without 50mA 5.1mm 100000 Times 160gf 12V 5.1mm 1.5mm Round Button Standing paste SPST SMD Tactile Switches ROHS"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1c6e4595-71e0-423d-9876-3b1f4a799575")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC Basic Part" "Basic"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "74e4b0c9-367c-46ba-90e6-80d27f1817dc")
 			(effects
 				(font
 					(size 1 1)
@@ -3735,6 +4229,58 @@
 				)
 			)
 		)
+		(property "Manu Part" "DS1021-1x5SF11-B"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a0152f89-498c-49a2-90a5-5da5dc7f254e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "CONNFLY Elec"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4d66f868-c6b8-4853-89b2-2a87208cda89")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC Basic Part" "Extended"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d5498609-9911-4a22-97a9-215b3d7f43cf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FIXME" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "76922f53-5c40-4915-ac74-7ad47de3b291")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "PinHeader_1x05_P2.54mm*")
 		(path "/96c396b4-5394-4a50-9288-ad4476d1492f/323e1320-69a8-4725-a8e2-5784ddb87275")
 		(sheetname "User Interface")
@@ -4004,7 +4550,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05B104KB54PNC_C307331.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4043,7 +4589,7 @@
 				)
 			)
 		)
-		(property "DPFNOTES" ""
+		(property "DPFNOTES" "50V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4062,6 +4608,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e1e3f875-e67c-49ca-8759-18bbd6fcf988")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC Basic Part" "Basic"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "38e0488f-4ca8-45eb-ac8e-926a4520212c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manu Part" "CL05B104KB54PNC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dd728509-4683-4755-80df-6a2eb09397f3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5e521579-67b5-43a8-9a7e-4fd90529569b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FIXME" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "72fed503-afa0-4dfd-8eed-a6f66219d7f1")
 			(effects
 				(font
 					(size 1 1)
@@ -4314,6 +4912,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "71ca5178-8784-4ead-9b94-cbbcdd3c2a83")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manu Part" "PCM5102APWR"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "54f3b951-c926-4c06-a4b5-cb4cd4a12acc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b6f4f035-03a7-48d2-a28b-e0ffd3fdad57")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FIXME" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8e7b11bb-e36f-40e5-abae-dae9f7250acf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC Basic Part" "Extended"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "da46bafc-8d59-4cb2-b561-b02f11b83b9e")
 			(effects
 				(font
 					(size 1 1)
@@ -4797,6 +5447,58 @@
 				)
 			)
 		)
+		(property "Manu Part" "0402WGF1801TCE"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "90ab411c-48f0-4826-a332-0468fdc8d0dc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6839df40-9be2-4be1-900d-73dad053e2bb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FIXME" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "df0cf887-ee3b-4040-967c-3baeef6741eb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC Basic Part" "Extended - Basic is C4177 but is 0603"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aa2653a8-3bea-42d1-a3ea-7332ab0eb83c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/96c396b4-5394-4a50-9288-ad4476d1492f/d387fb37-3d65-453b-8857-8a9a99b9cc0f")
 		(sheetname "User Interface")
@@ -5024,6 +5726,71 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ac30a064-17c4-4a75-b33d-0d36f67d50f0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manu Part" "AP7333-33SRG-7"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "79d85d7c-1cd9-49e8-ae53-b29852fecb8b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Diodes Incorporated"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1175eb86-14ce-42fd-ad52-12944eed6d7c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FIXME" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ce1a3fc2-0b2c-483b-8cb3-a62d4273b6fd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DPFNOTES" "300mA 65dB@(100Hz) Fixed 3.3V Positive electrode 6V SOT-23 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ba725e4a-00b9-495b-9b3c-e7327c47045f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC Basic Part" "Extended"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "24d8c049-7985-4aa9-aa3a-24df22310432")
 			(effects
 				(font
 					(size 1 1)
@@ -5333,7 +6100,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05B103KB5NNNC_C15195.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5391,6 +6158,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8dd36b7e-8695-4758-9d36-965b87473dd4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC Basic Part" "Basic"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aaeddf2e-dbad-4da0-bb55-1903e243f9cf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manu Part" "CL05B103KB5NNNC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a81fdeda-ca91-4dcc-92f2-68f31565af9c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6b67d38a-50ba-4e51-9cf1-7df7cde986cd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FIXME" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "edc376dc-a546-4c62-a2c4-ab63bc784d83")
 			(effects
 				(font
 					(size 1 1)
@@ -5585,7 +6404,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05B103KB5NNNC_C15195.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5643,6 +6462,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "80181806-2907-479f-940d-587fbf3fa58b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC Basic Part" "Basic"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "39419c4d-4ebe-4be2-b3be-e73e53108139")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manu Part" "CL05B103KB5NNNC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2933c83f-97ab-4d2a-a8dc-081179c2a1b6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c0ee2f07-21c6-4a29-8d7f-b68ed857a884")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FIXME" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "121c55dc-72d1-48c0-b3a7-40225a148fda")
 			(effects
 				(font
 					(size 1 1)
@@ -5837,7 +6708,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05A105KA5NQNC_C52923.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5876,7 +6747,7 @@
 				)
 			)
 		)
-		(property "DPFNOTES" ""
+		(property "DPFNOTES" "25V 1uF X5R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5895,6 +6766,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "1dea54b8-c1f4-481c-a577-358347e65b56")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC Basic Part" "Basic"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8ca38ae6-939b-42a3-9fc0-28e870ad9d9d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manu Part" "CL05A105KA5NQNC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e7fd9dc5-5ff3-4bb0-abb1-1ea77597c525")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0dc5b192-5134-4b6e-b191-1a720aac7491")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FIXME" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3b33bce8-c8bd-41e4-bb7f-972310edd0e6")
 			(effects
 				(font
 					(size 1 1)
@@ -6089,7 +7012,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05B104KB54PNC_C307331.pdf"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6128,7 +7051,7 @@
 				)
 			)
 		)
-		(property "DPFNOTES" ""
+		(property "DPFNOTES" "50V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6147,6 +7070,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "5f1c9258-4b08-47af-a809-4f89f120b140")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC Basic Part" "Basic"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "acc6db8d-73ac-4ccc-810f-d4c6c41fd7a8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manu Part" "CL05B104KB54PNC"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c6092049-58e0-404d-90e4-b8b00e511834")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8e8abcd5-7fc5-439f-bfa8-221c8269dcd2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FIXME" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b9025016-f269-4a11-9a4e-6ea5031f954d")
 			(effects
 				(font
 					(size 1 1)
@@ -6399,6 +7374,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "466ea75d-7470-412f-994d-a6f674f839e8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC Basic Part" "Extended"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6b80a8f8-3748-4fe4-93ba-ffd74097e755")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manu Part" "ESD9B5.0ST5G"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "13ec9417-17fa-4843-9a5a-0f5858078125")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "onsemi"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dd33c5bd-fe31-4170-a89f-33bc850db00f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FIXME" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8b035be9-096c-4d4e-89a7-04d107deb154")
 			(effects
 				(font
 					(size 1 1)
@@ -6745,7 +7772,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL21A226MAQNNNE_C45783.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6784,7 +7811,7 @@
 				)
 			)
 		)
-		(property "DPFNOTES" ""
+		(property "DPFNOTES" "25V 22uF X5R ±20% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6803,6 +7830,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "1eb896c3-355e-44bc-9989-0023af8b8bd5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC Basic Part" "Basic"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bc22c37f-19d2-4216-9671-5c28d63b098b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manu Part" "CL21A226MAQNNNE"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "965e01c1-bfcb-4033-aa12-e7746cdc5c69")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c4085f20-ca7c-47fe-95a2-8854f99b43c0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FIXME" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4313231c-5181-4e84-a256-3935932278e3")
 			(effects
 				(font
 					(size 1 1)
@@ -6997,7 +8076,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05B104KB54PNC_C307331.pdf"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7036,7 +8115,7 @@
 				)
 			)
 		)
-		(property "DPFNOTES" ""
+		(property "DPFNOTES" "50V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7055,6 +8134,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "1f57ef00-e633-4881-a0f1-458757f9e18f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC Basic Part" "Basic"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fc8809a3-88ce-4f6f-bfad-a0621e7d956c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manu Part" "CL05B104KB54PNC"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fea683fa-0b48-4cfa-b76b-603d7786b2ae")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a13c8f51-d0db-4611-ac05-64009cd4ace8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FIXME" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1ff91f81-8bad-43a0-ad5a-1cd2d71cd22a")
 			(effects
 				(font
 					(size 1 1)
@@ -7249,7 +8380,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05A105KA5NQNC_C52923.pdf"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7288,7 +8419,7 @@
 				)
 			)
 		)
-		(property "DPFNOTES" ""
+		(property "DPFNOTES" "25V 1uF X5R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7307,6 +8438,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "23aca3b8-ae75-44c9-b086-477c26857c16")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC Basic Part" "Basic"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d71e6e9b-1739-44b0-81d8-651cd4690e99")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manu Part" "CL05A105KA5NQNC"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "deaadb0e-789b-481a-80ee-ca51bbe40d0b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "77bc7f7e-98c0-4299-a5ac-be6fbad00f9c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FIXME" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a7ae1fb5-b9c6-4242-9e80-673354c4c1f4")
 			(effects
 				(font
 					(size 1 1)
@@ -7540,7 +8723,7 @@
 				)
 			)
 		)
-		(property "DPFNOTES" "Hubei KENTO Elec KT-0603R"
+		(property "DPFNOTES" "-40℃~+85℃ Red 0603 LED Indication - Discrete ROHS"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7559,6 +8742,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f3d2f99e-ce52-4497-bd94-2e43963445a5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC Basic Part" "Basic"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "696ce496-0642-463a-88ae-67b112b94292")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manu Part" "KT-0603R"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "09feb505-5c9d-4b34-b558-f48da6c67c04")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Hubei KENTO Elec"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "235ab275-207e-415f-a0bc-e1018488a682")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FIXME" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d39e43da-b5e9-4df1-8458-3278efd86bab")
 			(effects
 				(font
 					(size 1 1)
@@ -7840,6 +9075,58 @@
 				)
 			)
 		)
+		(property "Manu Part" "0402WGF2200TCE"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "17630aa0-a9ae-4361-9af4-d41137b1e97b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "76d107b8-5e7f-400f-98cb-38a6ebf10e6e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FIXME" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cdf27696-91a5-432a-8c39-c4b9734e0917")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC Basic Part" "Basic"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4fa608ce-fb60-4edd-8b59-ac313d1365c2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/c9577070-7433-48cd-ae0f-c607bda27147/9ffd9ed6-33aa-4237-8061-b80fd889647b")
 		(sheetname "Audio Output")
@@ -8027,7 +9314,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2009171304_TAI-TECH-FCM1608KF-601T05_C133937.pdf"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8066,7 +9353,7 @@
 				)
 			)
 		)
-		(property "DPFNOTES" "TAI-TECH FCM1608KF-601T05, used on Nucleo-F767ZI"
+		(property "DPFNOTES" "TAI-TECH FCM1608KF-601T05, used on Nucleo-F767ZI --- 500mΩ ±25% 600Ω@100MHz 0603 Ferrite Beads ROHS"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8085,6 +9372,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b48c4650-445b-478d-a2a0-38d4d448ae44")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manu Part" "FCM1608KF-601T05"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5ffc67fe-e2ca-4f8b-a645-f84b74c3438d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "TAI-TECH"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "07fd748e-225d-4fc4-aa07-d1b4d0953518")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC Basic Part" "Extended"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "852570bb-2898-4c90-8055-2fdfecf26976")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FIXME" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "10dfd33e-53b7-4c3b-8d66-4ef4e030f9ca")
 			(effects
 				(font
 					(size 1 1)
@@ -8279,7 +9618,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2403291504_YXC-Crystal-Oscillators-X322516MMB4SI_C112972.pdf"
 			(at 0 0 125)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8318,7 +9657,7 @@
 				)
 			)
 		)
-		(property "DPFNOTES" "YXC Crystal Oscillators X322516MMB4SI"
+		(property "DPFNOTES" "16MHz Surface Mount Crystal 10pF ±10ppm ±20ppm SMD3225-4P Crystals ROHS"
 			(at 0 0 125)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8337,6 +9676,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "175d467d-f58f-459f-97db-9887634a9fb7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manu Part" "X322516MMB4SI"
+			(at 0 0 125)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9d436a07-3753-4d13-9fa2-ec3afa9a9679")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "YXC Crystal Oscillators"
+			(at 0 0 125)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f46d994a-56cd-4e84-b894-06467f29cec4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FIXME" ""
+			(at 0 0 125)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dfbcd8a0-924c-4e60-af74-259e62319bab")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC Basic Part" "Extended"
+			(at 0 0 125)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "02c64a21-23a5-49ea-8bb9-508895b6522b")
 			(effects
 				(font
 					(size 1 1)
@@ -8632,6 +10023,58 @@
 				)
 			)
 		)
+		(property "Manu Part" "Q13FC13500002"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5f0b46f0-d261-4ceb-9b11-3a1920b39422")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Seiko Epson"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fb79b730-0314-4184-98db-986a758923d3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FIXME" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9df31dc7-5e83-4ba3-86bd-449bff2cf62e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC Basic Part" "Extended"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ce8a0b24-a88c-437e-8e3f-9945765aee21")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/fb10b81b-747c-4030-b31b-dec45474bc0e/a3b744fa-9151-42a2-a123-95272f02d1ab")
 		(sheetname "MCU")
 		(sheetfile "MCU.kicad_sch")
@@ -8807,6 +10250,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "69a5c5de-cba6-43e2-9790-5e1023949bcc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manu Part" "0402WGF1002TCE"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a0554033-4df2-4abc-b267-23b64485992b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a34d67e7-1eb0-4e91-8912-e2259633763c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC Basic Part" "Basic"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cabcdd29-5a99-41bb-b204-d6b0fcad7a60")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FIXME" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ef5f8c04-4d51-47d2-b4e6-3aaaf782ea6f")
 			(effects
 				(font
 					(size 1 1)
@@ -9001,7 +10496,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05B104KB54PNC_C307331.pdf"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9040,7 +10535,7 @@
 				)
 			)
 		)
-		(property "DPFNOTES" ""
+		(property "DPFNOTES" "50V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9059,6 +10554,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f7f37a95-922d-480a-ab71-4ebb8210d8b0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC Basic Part" "Basic"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2c37b00f-972f-4f40-9837-58aa81c11ae6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manu Part" "CL05B104KB54PNC"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0ee0343e-8aa8-4179-ade5-2bbaa4cf6546")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bf23369c-72e0-423d-b0e7-67d02c131284")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FIXME" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9860e96b-8706-461e-9fa9-ccf4334ef6c6")
 			(effects
 				(font
 					(size 1 1)
@@ -9253,7 +10800,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05A105KA5NQNC_C52923.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9292,7 +10839,7 @@
 				)
 			)
 		)
-		(property "DPFNOTES" ""
+		(property "DPFNOTES" "25V 1uF X5R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9311,6 +10858,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "94383b94-ba9e-437f-a56d-a4a3e626fd7d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC Basic Part" "Basic"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c149e6cc-4527-41c2-b840-48b2b64f67ae")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manu Part" "CL05A105KA5NQNC"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "01640ae5-5de8-4639-aa60-b4a2115596eb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9e56a232-63e9-4bf4-8c24-4deaedea9fba")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FIXME" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a16dbb0e-01fc-4b6c-af1f-025ab71428a2")
 			(effects
 				(font
 					(size 1 1)
@@ -9543,7 +11142,7 @@
 				)
 			)
 		)
-		(property "DPFNOTES" "ALPSALPINE SSSS811101, Like C&K PCM-12-SMT PCM12SMTR"
+		(property "DPFNOTES" "ALPSALPINE SSSS811101, Like C&K PCM-12-SMT PCM12SMTR --- 300mA Horizontal attachment Single Pole Double Throw (SPDT) 5V 10,000 times SMD Slide Switches ROHS"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9562,6 +11161,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "65b9b929-eb88-48af-b9ee-9a6f85e49e49")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manu Part" "SSSS811101"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cbd11035-f102-43a7-acd0-291eeef47717")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "ALPSALPINE"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d0699feb-b9d3-4fad-86a0-122d650a4f6f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FIXME" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "86809a6a-8d7d-4f8b-8b9e-276ad8854cc6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC Basic Part" "Extended"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "30d64f12-2827-4028-a651-5dbb8b285a9c")
 			(effects
 				(font
 					(size 1 1)
@@ -9952,7 +11603,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05B104KB54PNC_C307331.pdf"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9991,7 +11642,7 @@
 				)
 			)
 		)
-		(property "DPFNOTES" ""
+		(property "DPFNOTES" "50V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10010,6 +11661,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "29bca660-9d43-4dd6-bee0-160fbb13d75c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC Basic Part" "Basic"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5fc9256d-6d88-47c3-9529-e93f00625eee")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manu Part" "CL05B104KB54PNC"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d2b7456c-da85-4dfd-951c-f1f6fa160acb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ebc4edf4-dee9-4180-8911-975cfbcf7ae1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FIXME" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e0e4e566-b50f-4f8d-b5d0-7553a398689c")
 			(effects
 				(font
 					(size 1 1)
@@ -10204,7 +11907,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05C100JB5NNNC_C32949.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10243,7 +11946,7 @@
 				)
 			)
 		)
-		(property "DPFNOTES" ""
+		(property "DPFNOTES" "50V 10pF C0G ±5% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10262,6 +11965,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "710cd087-571b-4ba6-9f83-199c6aa23973")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC Basic Part" "Basic"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "141b35fa-064b-4ce8-8d3a-dc5f4a6512de")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manu Part" "CL05C100JB5NNNC"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "194440ae-ed20-4a52-aa7a-309ef81d317f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1cb77a35-392b-472b-a8ff-9ca5bdca2159")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FIXME" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fd2812df-20b8-440f-a46f-67ab136eee34")
 			(effects
 				(font
 					(size 1 1)
@@ -10495,7 +12250,7 @@
 				)
 			)
 		)
-		(property "DPFNOTES" "7pF crystal, 3-5pF Cs, 7 - 3 = 4 x 2 = 8 -> 7 - 5 = 2 x 2 = 4"
+		(property "DPFNOTES" "7pF crystal, 3-5pF Cs, 7 - 3 = 4 x 2 = 8 -> 7 - 5 = 2 x 2 = 4 --- 50V 4.7pF C0G 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10514,6 +12269,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "fdf7812d-3e98-4b36-ab0d-a072aa9d65d0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC Basic Part" "Extended"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c5b31d6c-4c75-47bf-8167-17e7a79ec28d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manu Part" "0402CG4R7C500NT"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "75df93b5-bb23-4ce7-9478-91cf3bb9b980")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "FH (Guangdong Fenghua Advanced Tech)"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "365f13a1-e325-4eb7-ab9a-640c53d73c60")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FIXME" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a492368a-ff62-488d-9172-a0c3edc7f95e")
 			(effects
 				(font
 					(size 1 1)
@@ -10708,7 +12515,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05A105KA5NQNC_C52923.pdf"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10747,7 +12554,7 @@
 				)
 			)
 		)
-		(property "DPFNOTES" ""
+		(property "DPFNOTES" "25V 1uF X5R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10766,6 +12573,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b8d97a1f-e430-4aba-836c-a625d8cca205")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC Basic Part" "Basic"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "365ce7b0-feec-486f-bc91-cff4c33ea091")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manu Part" "CL05A105KA5NQNC"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "41cb10fb-ed7a-4158-a768-64627ac78ab9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e485b871-0fb0-41ac-9803-762be2a44d0a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FIXME" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9bec6316-13d6-4dbe-a430-d4d8fdd3669b")
 			(effects
 				(font
 					(size 1 1)
@@ -11025,6 +12884,58 @@
 				)
 			)
 		)
+		(property "Manu Part" "0402WGF4700TCE"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6666bb4e-d0e0-46d9-b9dc-7a90b36c9bf7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3acdb2ab-6c7f-4e13-853f-73384135cabb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FIXME" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7b34c53a-a91d-4d91-b25a-daaa059c75ce")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC Basic Part" "Basic"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "91f944d7-a58a-43da-83dc-012f6c3a7d0c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/d4c8579f-7658-4ad2-a672-2baa765565aa/bb670963-7813-49f7-b04f-85c4ba651460")
 		(sheetname "MIDI")
@@ -11259,7 +13170,7 @@
 				)
 			)
 		)
-		(property "DPFNOTES" "In-stock 3.5mm TRS"
+		(property "DPFNOTES" "-20℃~+70℃ 3.5mm Headphone Jack 30V 500mA SMD Audio Connectors (Headphones) ROHS"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11278,6 +13189,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "162a468e-11c8-4eec-b600-9db8b31ea91d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC Basic Part" "Extended"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "79631614-fe9b-4a3a-b9ab-6ff9a76a1b36")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manu Part" "PJ-321A-4A"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "91a27369-558e-4927-a1d3-51bea3664d93")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Korean Hroparts Elec"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c592ab03-dab4-4618-96a8-9d9517490c97")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FIXME" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a7c952d5-852c-4dd6-925f-86edf2f593c2")
 			(effects
 				(font
 					(size 1 1)
@@ -11538,7 +13501,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0603WAF1002T5E_C25804.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10A475KO8NNNC_C19666.pdf"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11564,7 +13527,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25804"
+		(property "LCSC" "C19666"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11577,7 +13540,7 @@
 				)
 			)
 		)
-		(property "DPFNOTES" "ESR between 0.1 and 0.2 ohms per DS11853 Rev 9 page 105"
+		(property "DPFNOTES" "NEEDED: ESR between 0.1 and 0.2 ohms per DS11853 Rev 9 page 105 --- 16V 4.7uF X5R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11596,6 +13559,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "44a2f68a-c46a-401d-a77d-472fdf35c67a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC Basic Part" "Basic"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "631d0e78-f558-4696-91d6-63c4ad0fa218")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manu Part" "CL10A475KO8NNNC"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2815cc58-81eb-4cd1-999a-4d619df3d4ad")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0fd22cba-786d-4aa5-b926-f82613de8eae")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FIXME" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "08b0d8be-8f0a-42c2-8233-6061b2684f4f")
 			(effects
 				(font
 					(size 1 1)
@@ -11869,6 +13884,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "476a3be5-fade-4649-83a3-b25147f21f0e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manu Part" "PAM8908JER"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8c556de3-1d05-42b0-a04b-d14807ca5b53")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Diodes Incorporated"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cd6e2033-c3ef-4061-8ef7-3448d5f22cc0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FIXME" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fdbefa4e-b3ff-4da1-8302-46822fdc314d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC Basic Part" "Extended"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "505f9e80-70bd-497e-ace3-ed8027b0d892")
 			(effects
 				(font
 					(size 1 1)
@@ -12286,6 +14353,45 @@
 				)
 			)
 		)
+		(property "Manu Part" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9263c991-b908-45a6-8703-bede8d2fd5f9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bd8f58e6-b6a5-4a06-abc0-f04ef0431fe1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FIXME" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "421b4f39-97ad-455d-bfa5-0d30f7182cf9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*")
 		(path "/96c396b4-5394-4a50-9288-ad4476d1492f/0c77b783-2f10-4176-9c61-b830b5755e6e")
 		(sheetname "User Interface")
@@ -12431,6 +14537,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "2b45c9f5-d13d-401a-9be2-4c79fd5fca29")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manu Part" "0402WGF470JTCE"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8311b7b0-ea4f-431f-ab52-0fa1c2ba0e23")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "42570e80-0c90-4a68-a4cc-eacfdb94e444")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FIXME" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4dbc4a7e-abfe-4ab6-8c8d-b907212d3e11")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC Basic Part" "Extended - Basic is C23182 but 0603"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0f7f86ba-96bd-426d-8c96-46e71efcc991")
 			(effects
 				(font
 					(size 1 1)
@@ -12625,7 +14783,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0402WGF1501TCE_C25867.pdf"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12664,7 +14822,7 @@
 				)
 			)
 		)
-		(property "DPFNOTES" ""
+		(property "DPFNOTES" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 1.5kΩ 0402 Chip Resistor - Surface Mount ROHS"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12683,6 +14841,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f6e3cb34-aba5-4260-9be7-0d528f8b7414")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manu Part" "0402WGF1501TCE"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3f98f7b9-d313-41ed-ab70-dee34e3f4fe8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bbc57ece-d1ed-4033-8660-90e4bb9e870d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC Basic Part" "Basic"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e115a888-1d4b-4952-9f15-88aa49f07dda")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FIXME" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7bb865af-f8f2-4edb-8b09-92ec52efc2fe")
 			(effects
 				(font
 					(size 1 1)
@@ -12942,6 +15152,58 @@
 				)
 			)
 		)
+		(property "Manu Part" "0402WGF3901TCE"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "96bbb707-1f4f-42eb-ab83-af6155a4f9ed")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cac660b9-5ca5-4d89-9963-c004bf9a941c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FIXME" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9e64692c-50d8-4143-909a-591e8b3b4f5c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC Basic Part" "Extended"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dd4c6252-d6bf-4612-871f-a382ec85419d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/c9577070-7433-48cd-ae0f-c607bda27147/007ea877-8216-4250-9e53-9da50461fc28")
 		(sheetname "Audio Output")
@@ -13174,6 +15436,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "905149eb-e4f5-44c3-a90a-64c360719142")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manu Part" "2.54-1*4"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d8437d43-2e52-4525-9f39-d9ee6ddaccb0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "ZHOURI"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6d23be6a-3076-4c39-b9a7-8e81e7819d27")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC Basic Part" "Extended"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8a18d9db-9977-497e-81ed-b11493e11a77")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FIXME" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4f44a703-49d2-476f-a362-57573def8838")
 			(effects
 				(font
 					(size 1 1)
@@ -13505,6 +15819,58 @@
 				)
 			)
 		)
+		(property "Manu Part" "0402WGF1801TCE"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1b6aecd4-a4fc-4d10-acf8-efdeac67c19d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f296d2ab-be63-4fba-b74f-409511149f87")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FIXME" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "71156cf5-2ce4-4676-a5f4-9a5e56fbadd2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC Basic Part" "Extended - Basic is C4177 but is 0603"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6e4a2db8-558d-45d6-bbd6-85397ead7a4b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/96c396b4-5394-4a50-9288-ad4476d1492f/9f47bb2d-7afa-4413-adb6-38a1a6dffbfc")
 		(sheetname "User Interface")
@@ -13692,7 +16058,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010116_UNI-ROYAL-Uniroyal-Elec-0603WAF4701T5E_C23162.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0402WGF4701TCE_C25900.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13718,7 +16084,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C23162"
+		(property "LCSC" "C25900"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13731,7 +16097,7 @@
 				)
 			)
 		)
-		(property "DPFNOTES" "100mW Thick Film Resistors 75V ±100ppm/℃ ±1% 4.7kΩ 0603 Chip Resistor - Surface Mount ROHS"
+		(property "DPFNOTES" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 4.7kΩ 0402 Chip Resistor - Surface Mount ROHS"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13750,6 +16116,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d1ca6562-c499-457f-aef0-d76295046946")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manu Part" "0402WGF4701TCE"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b8b267c4-e67b-474e-a869-6317982e3d07")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7e127da1-c868-4535-bef3-d5595f503fa2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FIXME" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8d62fca8-5f1f-4613-a948-d5687f09f429")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC Basic Part" "Basic"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bb5f9c55-a608-4dad-a48b-5cbb3c5bf7a8")
 			(effects
 				(font
 					(size 1 1)
@@ -13991,7 +16409,7 @@
 				)
 			)
 		)
-		(property "DPFNOTES" "In-stock 3.5mm TRS"
+		(property "DPFNOTES" "-20℃~+70℃ 3.5mm Headphone Jack 30V 500mA SMD Audio Connectors (Headphones) ROHS"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14010,6 +16428,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "53255cff-2e9b-481b-95ef-3f9469052713")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC Basic Part" "Extended"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2bf67d85-a841-474d-a473-c43f27967b97")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manu Part" "PJ-321A-4A"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aeae32cd-148d-4b0e-b449-beea56deb4e3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Korean Hroparts Elec"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4540f6e6-fb54-4a08-a026-bd95959ce384")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FIXME" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8b87d459-9eeb-479b-8432-a6c7877d4069")
 			(effects
 				(font
 					(size 1 1)
@@ -14335,6 +16805,58 @@
 				)
 			)
 		)
+		(property "Manu Part" "0402WGF2200TCE"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4037dcf0-daf1-4a69-b9ab-7971d1e9ad78")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "19a78623-b035-4fe2-a8f0-0988b4584005")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FIXME" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5557da44-ff2c-4cde-8cdb-8a25b46144d6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC Basic Part" "Basic"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bafcb575-a5ca-4dae-ab5c-267184d2ff96")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/c9577070-7433-48cd-ae0f-c607bda27147/c9875fa2-2d5f-4cfb-ace4-5493f63b96c4")
 		(sheetname "Audio Output")
@@ -14522,7 +17044,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05B104KB54PNC_C307331.pdf"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14561,7 +17083,7 @@
 				)
 			)
 		)
-		(property "DPFNOTES" ""
+		(property "DPFNOTES" "50V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14580,6 +17102,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "31be809a-990e-4031-b9d7-bb9b817389fa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC Basic Part" "Basic"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "12a61d8f-2830-4777-9a56-6f61525adb73")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manu Part" "CL05B104KB54PNC"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3039f82b-9ab5-4489-8fc2-da0f900a9913")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "01770c0b-c12f-45f2-aafd-318c9e004f6e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FIXME" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f49d5921-2ada-475b-9b4f-8e775f3610c3")
 			(effects
 				(font
 					(size 1 1)
@@ -14812,7 +17386,7 @@
 				)
 			)
 		)
-		(property "DPFNOTES" "ALPSALPINE SSSS811101, Like C&K PCM-12-SMT PCM12SMTR"
+		(property "DPFNOTES" "ALPSALPINE SSSS811101, Like C&K PCM-12-SMT PCM12SMTR --- 300mA Horizontal attachment Single Pole Double Throw (SPDT) 5V 10,000 times SMD Slide Switches ROHS"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14831,6 +17405,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "6f511c17-b96b-4daa-bf5a-33c88156c0d4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manu Part" "SSSS811101"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b748a971-b2a2-49f5-ba28-5b88c69de730")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "ALPSALPINE"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "14600cb1-990e-46c9-afa5-296232765c0c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FIXME" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0b0fb2b3-d0ab-43dc-ae91-9c40bf6436a3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC Basic Part" "Extended"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cac29310-ed50-4afb-b4a9-5b959c840863")
 			(effects
 				(font
 					(size 1 1)
@@ -15221,7 +17847,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0402WGF5101TCE_C25905.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15260,7 +17886,7 @@
 				)
 			)
 		)
-		(property "DPFNOTES" ""
+		(property "DPFNOTES" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 5.1kΩ 0402 Chip Resistor - Surface Mount ROHS"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15279,6 +17905,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e519afe8-568d-4489-b075-040d612fbf50")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manu Part" "0402WGF5101TCE"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "80f3e0a2-5435-4729-a275-318f34bc1afb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f59f4090-7b88-492d-a501-d4e144f6c89d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC Basic Part" "Basic"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "26cd5166-1109-4667-90d2-6734cded562a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FIXME" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fd0a9bcc-7853-40e2-b8b9-b48790436022")
 			(effects
 				(font
 					(size 1 1)
@@ -15520,7 +18198,7 @@
 				)
 			)
 		)
-		(property "DPFNOTES" ""
+		(property "DPFNOTES" "None Without 50mA 5.1mm 100000 Times 160gf 12V 5.1mm 1.5mm Round Button Standing paste SPST SMD Tactile Switches ROHS"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15539,6 +18217,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "87afc673-9189-416c-b486-d7a0beb89b1e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manu Part" "TS-1187A-B-A-B"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fd91b9c3-8ac6-483d-a6fc-dbca1f63ed69")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "XKB Connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5834324e-3c51-49fd-8376-015411d28b5f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FIXME" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "da24983d-47c7-4b27-91f6-468ad0e55c54")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC Basic Part" "Basic"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "56c1c654-3c72-46b8-a4aa-06fa71e89492")
 			(effects
 				(font
 					(size 1 1)
@@ -15871,7 +18601,7 @@
 				)
 			)
 		)
-		(property "DPFNOTES" ""
+		(property "DPFNOTES" "72dB@(120Hz) 1A Fixed 3.3V Positive electrode SOT-223 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15890,6 +18620,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "446ecc67-fd1b-4e6f-856a-03669b78d1df")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manu Part" "AMS1117-3.3"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5201e06f-8c17-4868-8517-8c7e7c3ba50f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Advanced Monolithic Systems"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1af4f43a-305a-4d22-b64c-bbb5b9c538b9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FIXME" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5cc62ae5-105e-4167-a65e-dc8030eac3d8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC Basic Part" "Basic"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2db896e0-38c0-4776-bfa8-f2269be5db8b")
 			(effects
 				(font
 					(size 1 1)
@@ -16148,7 +18930,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05B104KB54PNC_C307331.pdf"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16187,7 +18969,7 @@
 				)
 			)
 		)
-		(property "DPFNOTES" ""
+		(property "DPFNOTES" "50V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16206,6 +18988,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a5424bde-13a9-4576-95b6-1d84ed46dcb0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC Basic Part" "Basic"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "77ad616d-dc03-4932-a16d-1f8282298845")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manu Part" "CL05B104KB54PNC"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "777cc1b6-d908-4efe-851d-d0016c0280da")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3e892024-a17a-4ba6-96a5-a22f2095c3d4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FIXME" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4eb421ba-7559-454c-ac42-e12b4d2991d7")
 			(effects
 				(font
 					(size 1 1)
@@ -16445,6 +19279,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "dca96c79-5105-42f2-bcc8-85ece1dde827")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manu Part" "PZ2.54-2*4"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "94cc631a-923a-4dc5-be45-917c0e328a9a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "ZHOURI"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "de74072d-86e2-4700-b75d-6574bf25a10f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC Basic Part" "Extended"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "05e0fe6d-bb32-4976-8cec-69e4d9a0c523")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FIXME" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d5b24814-6745-4cba-8ac2-e47233dfac8c")
 			(effects
 				(font
 					(size 1 1)
@@ -16771,7 +19657,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05A105KA5NQNC_C52923.pdf"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16810,7 +19696,7 @@
 				)
 			)
 		)
-		(property "DPFNOTES" ""
+		(property "DPFNOTES" "25V 1uF X5R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16829,6 +19715,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d70f405a-168c-4f4d-b6ff-a6cbf0444e00")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC Basic Part" "Basic"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a84206ae-5cba-49c9-8505-89e4efb12710")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manu Part" "CL05A105KA5NQNC"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "93a59421-59b5-449a-bd4f-ab5ca6616316")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "caba65aa-c3c1-44fd-bfa1-564a3fd0e22c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FIXME" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "88f056d4-a08c-48b3-a82b-ef3421763b90")
 			(effects
 				(font
 					(size 1 1)
@@ -17061,7 +19999,7 @@
 				)
 			)
 		)
-		(property "DPFNOTES" "ALPSALPINE SSSS811101, Like C&K PCM-12-SMT PCM12SMTR"
+		(property "DPFNOTES" "ALPSALPINE SSSS811101, Like C&K PCM-12-SMT PCM12SMTR --- 300mA Horizontal attachment Single Pole Double Throw (SPDT) 5V 10,000 times SMD Slide Switches ROHS"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17080,6 +20018,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "30ed64bd-4674-467b-8424-c3eb924253d3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manu Part" "SSSS811101"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7e83daf9-6ad9-467c-928d-f752073af140")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "ALPSALPINE"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c8ecdf54-4bc5-42f9-a2fd-b1d427501c85")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FIXME" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a360054e-3016-4261-9d5d-9bc7ae9313d1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC Basic Part" "Extended"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c025e365-e7de-4424-8d02-e7a9aa3e94f5")
 			(effects
 				(font
 					(size 1 1)
@@ -17467,7 +20457,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2312191005_G-Switch-GT-USB-7010i_C5362630.pdf --- https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -17517,7 +20507,7 @@
 				)
 			)
 		)
-		(property "DPFNOTES" ""
+		(property "DPFNOTES" "Female Type-C USB Connectors ROHS"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17536,6 +20526,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "7df9420c-e13c-435f-9bfd-2f797d5184f1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manu Part" "GT-USB-7010i"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "05e24eb2-327a-4484-a73c-5c921d2ea979")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "G-Switch"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "531b281f-c50b-4baf-8b95-f8b2cd7aefbb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC Basic Part" "Extended"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "edefcf0b-a04d-42d7-b5a9-0d96fe66a999")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FIXME" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "876c3285-3e69-490f-93d6-8385f34c91f9")
 			(effects
 				(font
 					(size 1 1)
@@ -17814,7 +20856,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05B104KB54PNC_C307331.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17853,7 +20895,7 @@
 				)
 			)
 		)
-		(property "DPFNOTES" ""
+		(property "DPFNOTES" "50V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17872,6 +20914,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c73885c9-cf37-4c88-b7d1-f452f3e9f1e2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC Basic Part" "Basic"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eaa4b4bc-481f-43e8-912e-6d9b2ba271c9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manu Part" "CL05B104KB54PNC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4fac6bc7-ba44-4799-872d-eb8f61aef759")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7283fe20-b08d-4d93-97e2-0e7135a400d3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FIXME" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8d5e3063-d405-46b2-90e8-c6af851f0f8a")
 			(effects
 				(font
 					(size 1 1)
@@ -18066,7 +21160,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL21A226MAQNNNE_C45783.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18105,7 +21199,7 @@
 				)
 			)
 		)
-		(property "DPFNOTES" ""
+		(property "DPFNOTES" "25V 22uF X5R ±20% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18124,6 +21218,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a9e77f27-6672-4932-a660-e0028a246933")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC Basic Part" "Basic"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "66db442d-c4da-487f-92b6-94cb6aa1400a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manu Part" "CL21A226MAQNNNE"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b686d461-094a-4327-bc59-d19898198aa5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e6873d34-7b3b-4e72-aadf-4b7ba1b03e6c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FIXME" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9241b9f1-bf65-48c5-a3b7-4384d6560d72")
 			(effects
 				(font
 					(size 1 1)
@@ -18318,7 +21464,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05B104KB54PNC_C307331.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18357,7 +21503,7 @@
 				)
 			)
 		)
-		(property "DPFNOTES" ""
+		(property "DPFNOTES" "50V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18376,6 +21522,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "4ada2023-514e-41c4-af94-b99ea88f6996")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC Basic Part" "Basic"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "661f1f8a-d1d8-4225-904b-9ae3471cd650")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manu Part" "CL05B104KB54PNC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "71049973-04df-4e27-9393-e55f37850983")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "34d2f0bc-0db5-4436-b196-4e2da297ac95")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FIXME" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fb201d20-a50c-4dc1-8bc4-22f8c5b10908")
 			(effects
 				(font
 					(size 1 1)
@@ -18570,7 +21768,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05A105KA5NQNC_C52923.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18609,7 +21807,7 @@
 				)
 			)
 		)
-		(property "DPFNOTES" ""
+		(property "DPFNOTES" "25V 1uF X5R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18628,6 +21826,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d3cc1e86-dd78-41a0-889b-6fdd5e425a4e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC Basic Part" "Basic"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c6725a88-2476-4d42-8ef6-9bf17e4a8670")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manu Part" "CL05A105KA5NQNC"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7ef491bf-2d6d-47d0-8ebc-8241e8297f9d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e29754b4-67e4-4949-aa0b-3176c90ed9d0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FIXME" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cc770522-c990-4250-ae98-591736bdcd6d")
 			(effects
 				(font
 					(size 1 1)
@@ -18822,7 +22072,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05B104KB54PNC_C307331.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18861,7 +22111,7 @@
 				)
 			)
 		)
-		(property "DPFNOTES" ""
+		(property "DPFNOTES" "50V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18880,6 +22130,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "53c8539f-8785-4b4c-a752-b9b62e02a89f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC Basic Part" "Basic"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0bb1577b-5564-49b2-8cbb-2be39c008c05")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manu Part" "CL05B104KB54PNC"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9e0cc460-8b53-4099-9215-c6b06884485e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "31cb8943-d71c-4601-b062-d30f487f8137")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FIXME" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "50adbc66-3971-45f8-bff0-cbb8cb97a719")
 			(effects
 				(font
 					(size 1 1)
@@ -19074,7 +22376,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010130_UNI-ROYAL-Uniroyal-Elec-0603WAF1000T5E_C22775.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2205311900_UNI-ROYAL-Uniroyal-Elec-0402WGF1000TCE_C25076.pdf"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19100,7 +22402,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C22775"
+		(property "LCSC" "C25076"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19113,7 +22415,7 @@
 				)
 			)
 		)
-		(property "DPFNOTES" "100mW Thick Film Resistors 75V ±1% ±200ppm/℃ 100Ω 0603 Chip Resistor - Surface Mount ROHS"
+		(property "DPFNOTES" "62.5mW Thick Film Resistors 50V ±1% ±200ppm/℃ 100Ω 0402 Chip Resistor - Surface Mount ROHS"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19132,6 +22434,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "7c347b53-18c0-4e6f-b8a8-0b41365fd86c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manu Part" "0402WGF1000TCE"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "52e9ad4d-9b10-4f53-81c7-523fe8921800")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eaaee7a9-c6af-4a8c-af5b-b8c262a5fd6f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FIXME" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4a28a72e-bc55-4153-823f-a9424cfccefe")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC Basic Part" "Basic"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "de534ff5-fec8-49a1-a1e0-f344160e7043")
 			(effects
 				(font
 					(size 1 1)
@@ -19326,7 +22680,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2312201431_CONNFLY-Elec-DS1021-1x5SF11-B_C7430361.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19365,7 +22719,7 @@
 				)
 			)
 		)
-		(property "DPFNOTES" ""
+		(property "DPFNOTES" "Direct Insert 5P 2.54mm Single Row 1x5P Plugin,P=2.54mm  Pin Headers ROHS"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19384,6 +22738,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "583720c4-efa1-48e8-b902-9ace5b8eb0f4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manu Part" "DS1021-1x5SF11-B"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "217baa00-541b-4080-a3ce-40a5db5b3686")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "CONNFLY Elec"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "154b5cfc-53ee-49ea-a4d4-3fd57e7294a6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC Basic Part" "Extended"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e608ffae-fdd2-44cb-97ad-ee390f5c0793")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FIXME" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5fce84e4-b7a6-4a4b-a82f-710b49cfdd84")
 			(effects
 				(font
 					(size 1 1)
@@ -19726,6 +23132,45 @@
 				)
 			)
 		)
+		(property "Manu Part" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4df4f5ed-7136-4f18-be70-424978c760fd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "69ac04d6-1012-47ae-ae33-5ed1cf871681")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FIXME" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a53c4c18-3f84-4064-914c-1c7dbac92b28")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*")
 		(path "/96c396b4-5394-4a50-9288-ad4476d1492f/ef8343c5-d40a-4488-82d5-010d5c101fac")
 		(sheetname "User Interface")
@@ -19871,6 +23316,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "7af6128d-6700-4fb9-9e62-b145c5d3e7a9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manu Part" "0402WGF1801TCE"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1c3fa386-aaaf-44de-a8b4-3bc2c94b1e3c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b9f5632b-71f5-42c8-9e20-60f7c0e90bad")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FIXME" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1bbcbef5-3daf-4ca6-8b2e-36aeef8ffb6c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC Basic Part" "Extended - Basic is C4177 but is 0603"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "192fed43-a438-44e4-8328-c7263ea60af9")
 			(effects
 				(font
 					(size 1 1)
@@ -20112,7 +23609,7 @@
 				)
 			)
 		)
-		(property "DPFNOTES" "In-stock 3.5mm TRS"
+		(property "DPFNOTES" "-20℃~+70℃ 3.5mm Headphone Jack 30V 500mA SMD Audio Connectors (Headphones) ROHS"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20131,6 +23628,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "07039040-d07f-4b32-be36-50f545432807")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC Basic Part" "Extended"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a1cd93e1-2294-4d96-9ec3-28ff06aa637c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manu Part" "PJ-321A-4A"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "510bc169-30d2-49d0-878f-01a5317e8997")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Korean Hroparts Elec"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e7ec5991-75e5-4080-b19c-325ee19a5928")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FIXME" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3c844272-a6f4-4ff1-b08a-57d3929d668f")
 			(effects
 				(font
 					(size 1 1)
@@ -20391,7 +23940,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05C100JB5NNNC_C32949.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20430,7 +23979,7 @@
 				)
 			)
 		)
-		(property "DPFNOTES" ""
+		(property "DPFNOTES" "50V 10pF C0G ±5% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20449,6 +23998,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "646ab094-c792-49fa-a31b-f22da18fd2dd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC Basic Part" "Basic"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c62637c7-e607-44f0-9dbe-d53640cc9d78")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manu Part" "CL05C100JB5NNNC"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "40f090b4-9171-4cf0-94d6-e1f007484820")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b12938e9-c646-44ad-a09a-b8efa7a6e8b5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FIXME" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "08dfd80b-f7e9-4b67-9b1b-1ab4af99630b")
 			(effects
 				(font
 					(size 1 1)
@@ -20643,7 +24244,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05A105KA5NQNC_C52923.pdf"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20682,7 +24283,7 @@
 				)
 			)
 		)
-		(property "DPFNOTES" ""
+		(property "DPFNOTES" "25V 1uF X5R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20701,6 +24302,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8f98d75e-54ef-4fce-8e7a-60dec35f8bf5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC Basic Part" "Basic"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7d7b7efd-4e33-4b0c-83f8-77eeefd3bc72")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manu Part" "CL05A105KA5NQNC"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2cb076e9-53e9-4d30-bc55-08b89f9ddf2e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b921da0b-3d2d-4bac-8fe7-a6718d250fc2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FIXME" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fc7a0098-0211-4cae-a5cd-5980612f094d")
 			(effects
 				(font
 					(size 1 1)
@@ -20986,6 +24639,58 @@
 				)
 			)
 		)
+		(property "JLC Basic Part" "Basic"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7c61a3f0-e895-4cdb-af4b-06f8047a53c1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manu Part" "1N4148W"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5f1544d8-7e9f-41e3-8275-7468e93f3743")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "ST(Semtech)"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "94bc2688-1923-49a7-a154-3179230c297f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FIXME" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "93fa9862-a122-40d9-8c10-71dd019d04f0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "D*SOD?123*")
 		(path "/d4c8579f-7658-4ad2-a672-2baa765565aa/e05bec98-80f0-4afb-9dea-40030916b85c")
 		(sheetname "MIDI")
@@ -21255,7 +24960,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010116_UNI-ROYAL-Uniroyal-Elec-0603WAF4701T5E_C23162.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0402WGF4701TCE_C25900.pdf"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21281,7 +24986,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C23162"
+		(property "LCSC" "C25900"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21294,7 +24999,7 @@
 				)
 			)
 		)
-		(property "DPFNOTES" "100mW Thick Film Resistors 75V ±100ppm/℃ ±1% 4.7kΩ 0603 Chip Resistor - Surface Mount ROHS"
+		(property "DPFNOTES" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 4.7kΩ 0402 Chip Resistor - Surface Mount ROHS"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21313,6 +25018,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "0b968cb0-d95e-4304-b2c4-2ab8148d4872")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manu Part" "0402WGF4701TCE"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "360237ce-a3fe-4b97-b39f-1fa9b4ed78c0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5217029f-f177-4c9a-ace0-2b7fafc92965")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FIXME" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a030f695-da13-4b76-b263-d769760f6842")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC Basic Part" "Basic"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "280f8abb-2974-44ed-a512-c7cb465cbbdc")
 			(effects
 				(font
 					(size 1 1)
@@ -21572,6 +25329,45 @@
 				)
 			)
 		)
+		(property "Manu Part" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "55ebb94d-5d5b-4bbd-af05-cb8c111dc0f4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0ce32095-eff3-4688-8633-1a02fefa4603")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FIXME" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f88543d2-496f-41f8-8e61-1e8fe4231cc9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Fiducial*")
 		(path "/96c396b4-5394-4a50-9288-ad4476d1492f/04ba4bca-9cc6-4835-9836-0fb87b1f1cce")
 		(sheetname "User Interface")
@@ -21660,7 +25456,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05A105KA5NQNC_C52923.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21699,7 +25495,7 @@
 				)
 			)
 		)
-		(property "DPFNOTES" ""
+		(property "DPFNOTES" "25V 1uF X5R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21718,6 +25514,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "1344f59b-cf1b-4fba-8eb1-f291d2c84c20")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC Basic Part" "Basic"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ad327bf6-0743-4cb1-9c87-d8268c9670b7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manu Part" "CL05A105KA5NQNC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "122f08d9-5629-42e3-8562-d3908afd3fde")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1855fc98-2e70-448e-984d-4a0ebf949bbb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FIXME" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8869a8d4-061d-4c15-a5eb-62aab767ab48")
 			(effects
 				(font
 					(size 1 1)
@@ -21977,6 +25825,58 @@
 				)
 			)
 		)
+		(property "Manu Part" "0402WGF4700TCE"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b82710c5-90b7-4c6f-92ff-6534240d1edd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "54ececf2-f481-4ffa-95a4-0e9682acbf4d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FIXME" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2ea0c12d-0e20-44ce-b480-711cce85d63c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC Basic Part" "Basic"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4653e28c-a2d6-48de-a5c0-859fe3021db0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/d4c8579f-7658-4ad2-a672-2baa765565aa/58daa288-eaa3-40cf-b567-4c5af9050e71")
 		(sheetname "MIDI")
@@ -22203,7 +26103,7 @@
 				)
 			)
 		)
-		(property "DPFNOTES" ""
+		(property "DPFNOTES" "50V 2.2uF X5R ±10% 0805  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22222,6 +26122,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "961c8cd0-1326-4f89-a920-829d903b6312")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC Basic Part" "Basic"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6c503664-04a4-49d2-b507-3dc9f0a28491")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manu Part" "CL21A225KBQNNNE"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "41e14c6e-914b-4584-a0fa-c6a74294f719")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d230e881-1db9-4daf-98f7-8af1cbd8047c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FIXME" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a5d2aacd-365b-48ed-908a-fa5280fad0cc")
 			(effects
 				(font
 					(size 1 1)
@@ -22456,6 +26408,71 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9e76a15a-c5dc-4ff1-a3aa-3d9fcfda3e33")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manu Part" "6N137S-TA1-L"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d3c8f698-950a-4e12-8b49-33cae08f1a40")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Lite-On"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a6d2f071-dbac-4129-8e36-6420b617397a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FIXME" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "34e50e62-7dcf-4970-b715-e893c36ffad9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DPFNOTES" "15Mbit/s 4.5V~5.5V 10kV/us DC SOP-8-2.54mm Logic Output Optoisolators ROHS"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "be8ed12c-08e7-4eda-8ed9-65e6470a40d0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC Basic Part" "Extended"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0b095e9c-5b0a-4419-ac61-523c24c34867")
 			(effects
 				(font
 					(size 1 1)
@@ -22762,6 +26779,58 @@
 				)
 			)
 		)
+		(property "Manu Part" "0402WGF3901TCE"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b5c80875-0eee-4284-99a9-ec7c30f391fe")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "416b80f5-3efa-4b28-a684-d5bc01931226")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FIXME" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "06689a9e-281e-43ec-a433-a58bcc3353ba")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC Basic Part" "Extended"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8c5e724d-ea3b-4ffd-95b9-366b4436368b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/c9577070-7433-48cd-ae0f-c607bda27147/062a7568-ffd5-40cc-a6d3-fe411921b0c7")
 		(sheetname "Audio Output")
@@ -22949,7 +27018,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05B104KB54PNC_C307331.pdf"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22988,7 +27057,7 @@
 				)
 			)
 		)
-		(property "DPFNOTES" ""
+		(property "DPFNOTES" "50V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23007,6 +27076,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "421e2206-057e-401a-be9c-9ff58db0b825")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC Basic Part" "Basic"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "50803b1c-c3aa-4174-9dde-aa1219b1d7f7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manu Part" "CL05B104KB54PNC"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6abe075c-c8eb-4249-8c5b-f447f690eeaf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b9a99e30-693d-4d47-a960-ba841f943176")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FIXME" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "71f9e555-6271-4c59-a922-6771a7adffc6")
 			(effects
 				(font
 					(size 1 1)
@@ -23201,7 +27322,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05A105KA5NQNC_C52923.pdf"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23240,7 +27361,7 @@
 				)
 			)
 		)
-		(property "DPFNOTES" ""
+		(property "DPFNOTES" "25V 1uF X5R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23259,6 +27380,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d007d2c8-fd72-461b-bd63-1ed996498fcc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC Basic Part" "Basic"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "88aa14c9-73c2-43ff-9dc3-bd766d97ed89")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manu Part" "CL05A105KA5NQNC"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "66a72e2d-d980-4ea5-b957-514c1d1fec97")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2a438254-8db5-483e-8740-0268a60eef5e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FIXME" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a6fe818c-a310-47da-955b-0f3a7bd13c6c")
 			(effects
 				(font
 					(size 1 1)
@@ -23453,7 +27626,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0402WGF1501TCE_C25867.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23492,7 +27665,7 @@
 				)
 			)
 		)
-		(property "DPFNOTES" ""
+		(property "DPFNOTES" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 1.5kΩ 0402 Chip Resistor - Surface Mount ROHS"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23511,6 +27684,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "6aaa5a6b-d180-41a2-912b-1fd7f3b4b6e0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manu Part" "0402WGF1501TCE"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f09f3987-3ae5-4972-8af3-f0262c113eda")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "86c33cf1-babd-41d8-87ee-a5e0324b5f11")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC Basic Part" "Basic"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b56a2693-a503-401c-8682-953ccb64f63e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FIXME" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9a381514-30a5-41e3-9419-c2e18c978de5")
 			(effects
 				(font
 					(size 1 1)
@@ -23705,7 +27930,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0402WGF1501TCE_C25867.pdf"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23744,7 +27969,7 @@
 				)
 			)
 		)
-		(property "DPFNOTES" ""
+		(property "DPFNOTES" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 1.5kΩ 0402 Chip Resistor - Surface Mount ROHS"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23763,6 +27988,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "2e47a7f7-20cd-4eab-a6b1-f119e331911e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manu Part" "0402WGF1501TCE"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aeb8f2b8-7440-4d5b-bcb6-6c06af4ac266")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "90f42713-1f0f-48a8-afe9-8d0a07e91635")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC Basic Part" "Basic"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "06bbafb1-e644-4887-b976-f273ed9121b9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FIXME" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "29992c37-f938-42bf-ac62-32e70258a76a")
 			(effects
 				(font
 					(size 1 1)
@@ -24023,6 +28300,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8fcb9747-1b02-4feb-bc17-d883c5f84ea6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manu Part" "2.54-2*8P"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f5175e9a-2f45-4077-a35c-edc918236237")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "BOOMELE(Boom Precision Elec)"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2b2453a6-40c4-4d53-a734-3ea18294477a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC Basic Part" "Extended"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "34929314-3805-464c-ae95-3390ca701f3e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FIXME" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "37de0501-4bcb-4b3c-b6af-2f8f6c71aeb7")
 			(effects
 				(font
 					(size 1 1)
@@ -24325,7 +28654,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05B104KB54PNC_C307331.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -24364,7 +28693,7 @@
 				)
 			)
 		)
-		(property "DPFNOTES" ""
+		(property "DPFNOTES" "50V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -24383,6 +28712,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a97e90bb-39c9-4175-a8a2-45817f0ec458")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC Basic Part" "Basic"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d34fae32-1369-42d3-87a6-d031e3e6ffb1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manu Part" "CL05B104KB54PNC"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "45879e68-0a6d-4445-a565-1f4db572e7a2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "06f3e696-b66e-4c75-9af0-d01c018a3ad0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FIXME" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f8cac69c-9b3d-4958-b737-f7269919590e")
 			(effects
 				(font
 					(size 1 1)
@@ -24577,7 +28958,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0402WGF5101TCE_C25905.pdf"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -24616,7 +28997,7 @@
 				)
 			)
 		)
-		(property "DPFNOTES" ""
+		(property "DPFNOTES" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 5.1kΩ 0402 Chip Resistor - Surface Mount ROHS"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -24635,6 +29016,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "2bd484a7-4683-43c9-91b9-9926f2b9d7da")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manu Part" "0402WGF5101TCE"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "479f0508-e7ee-4eff-b044-315b6aace6c8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a32af49c-6570-4afc-b4f7-762c70a095c8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC Basic Part" "Basic"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "edb00e28-ee9a-4655-a0bb-6232108af88e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FIXME" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b5e1c550-a8b8-4e32-a57b-e84551fc130a")
 			(effects
 				(font
 					(size 1 1)
@@ -24894,6 +29327,58 @@
 				)
 			)
 		)
+		(property "Manu Part" "0402WGF2200TCE"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6ea75e7e-477c-4b09-bfd1-059c9f2b0fb0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cfe11249-2aba-4cdd-b35e-488db9aece9b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FIXME" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1c2e8019-b5d6-4fc4-a9ca-f19831bbdf64")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC Basic Part" "Basic"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "10650b4c-48cd-4dfe-a10b-b67e174289f4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/d4c8579f-7658-4ad2-a672-2baa765565aa/c3290f3c-2365-4904-86bd-a13a70c93227")
 		(sheetname "MIDI")
@@ -25081,7 +29566,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2209231730_ZHOURI-PZ2-54-2-4_C5156676.pdf"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -25113,6 +29598,71 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d42669be-1440-458b-a0e5-137f5601aa85")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manu Part" "PZ2.54-2*4"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1ddc11e0-d5c1-4875-b5bb-64c67a7d728b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "ZHOURI"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e521e527-8011-4ca2-9a05-b5804d1b8978")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DPFNOTES" "8P 2.54mm Double Row 2x4P Plugin,P=2.54mm Pin Headers ROHS"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ef5020cd-20c2-4806-b304-1e1b4615ebd1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC Basic Part" "Extended"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "049f4a7b-d456-4f27-9bea-5648d88d6446")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FIXME" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6ec44e8f-d628-4f15-8c3b-d2fd01b65903")
 			(effects
 				(font
 					(size 1 1)
@@ -25486,6 +30036,71 @@
 				)
 			)
 		)
+		(property "Manu Part" "6N137S-TA1-L"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8b4947a6-309d-403a-bbcd-ccc3fdf22ad8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Lite-On"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3feb287b-9661-4606-8b21-0bf03cb9ed93")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FIXME" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "06e69350-2ea5-41ac-8023-056e5f005167")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DPFNOTES" "15Mbit/s 4.5V~5.5V 10kV/us DC SOP-8-2.54mm Logic Output Optoisolators ROHS"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "12e1ed41-0e98-4d8d-9755-47f09ffc9fc7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC Basic Part" "Extended"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f9a7fb23-76ca-439a-9d29-c1612088da5f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/d4c8579f-7658-4ad2-a672-2baa765565aa/3c52b7d0-7adc-49bb-ba28-ddfe60e8d98e")
 		(sheetname "MIDI")
 		(sheetfile "midi.kicad_sch")
@@ -25767,7 +30382,7 @@
 				)
 			)
 		)
-		(property "DPFNOTES" "In-stock 3.5mm TRS"
+		(property "DPFNOTES" "-20℃~+70℃ 3.5mm Headphone Jack 30V 500mA SMD Audio Connectors (Headphones) ROHS"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -25786,6 +30401,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "90827147-6d4c-4c11-a858-65e8b2fbf4f8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC Basic Part" "Extended"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dd0ea580-4af3-4514-8a98-f7772af0b7d2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manu Part" "PJ-321A-4A"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4d4bde96-b21c-45f9-b72a-77caabba1f37")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Korean Hroparts Elec"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "73c847e6-f02b-43bc-8e73-5bcbf51783a1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FIXME" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ddb86fe3-1459-4086-997e-5871ddd87546")
 			(effects
 				(font
 					(size 1 1)
@@ -26046,7 +30713,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05A105KA5NQNC_C52923.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -26085,7 +30752,7 @@
 				)
 			)
 		)
-		(property "DPFNOTES" ""
+		(property "DPFNOTES" "25V 1uF X5R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -26104,6 +30771,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "1d80dcf0-6a2c-4e60-a928-40835e6fbc43")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC Basic Part" "Basic"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bb68ca44-2339-42d6-9727-c2f623917233")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manu Part" "CL05A105KA5NQNC"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1c8bafec-8e57-4c8a-937e-0c84278ac816")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d3760344-3b62-4734-be89-ef84e7f2c0b0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FIXME" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a13c2e52-95a5-45ed-b9ca-4de52e0bb1f7")
 			(effects
 				(font
 					(size 1 1)
@@ -26298,7 +31017,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05A105KA5NQNC_C52923.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -26337,7 +31056,7 @@
 				)
 			)
 		)
-		(property "DPFNOTES" ""
+		(property "DPFNOTES" "25V 1uF X5R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -26356,6 +31075,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "63eca486-804d-4fca-bfd7-3b0137cfab2a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC Basic Part" "Basic"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6e627a14-d8e5-4946-922d-c05bcecfc72a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manu Part" "CL05A105KA5NQNC"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dca63efa-3993-48e5-866a-ad2ada4c2a89")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f7898257-b41b-472f-bfbf-f18986272033")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FIXME" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0fc9cd29-acc2-4f55-9fb5-6c25509455be")
 			(effects
 				(font
 					(size 1 1)
@@ -26589,7 +31360,7 @@
 				)
 			)
 		)
-		(property "DPFNOTES" ""
+		(property "DPFNOTES" "50V 2.2uF X5R ±10% 0805  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -26608,6 +31379,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "afaa204e-3226-46f2-845a-dcce963bac90")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC Basic Part" "Basic"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ad800ac6-64ba-4abd-b918-e4c9f1128865")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manu Part" "CL21A225KBQNNNE"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b8463e34-2b6a-4239-91ce-718bfdb93f21")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a72b3ec9-304c-4b3a-a9c3-7a1d410c59db")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FIXME" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0db43cb3-322c-4f2f-86d9-b97d5a4d22d2")
 			(effects
 				(font
 					(size 1 1)
@@ -26867,6 +31690,58 @@
 				)
 			)
 		)
+		(property "Manu Part" "0402WGF1801TCE"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "63ba93b2-7c20-4d5a-afef-368feb7d1582")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "569e8871-7eea-4300-b398-75eee2f34693")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FIXME" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "08de2d36-c7d9-40a4-8b57-194d1b9af5f9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC Basic Part" "Extended - Basic is C4177 but is 0603"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cd395a3b-a7d5-44f6-86de-e6ffc860137b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/96c396b4-5394-4a50-9288-ad4476d1492f/dd8b7152-5c81-42fe-b225-1e8271db89e8")
 		(sheetname "User Interface")
@@ -27054,7 +31929,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05A105KA5NQNC_C52923.pdf"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -27093,7 +31968,7 @@
 				)
 			)
 		)
-		(property "DPFNOTES" ""
+		(property "DPFNOTES" "25V 1uF X5R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -27112,6 +31987,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "5e2c49ac-f81f-47bc-a5fc-83f1df05954b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC Basic Part" "Basic"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a24df792-4c12-4a55-9d4c-f5369531e2fa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manu Part" "CL05A105KA5NQNC"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "97909036-2e46-42b0-95ce-32af7dc5420c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a4f46b25-667d-4ac9-af92-c4b378fca550")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FIXME" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d0b01eb6-ba7e-44a5-95d4-dfecfa1c5064")
 			(effects
 				(font
 					(size 1 1)
@@ -27306,7 +32233,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05A105KA5NQNC_C52923.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -27345,7 +32272,7 @@
 				)
 			)
 		)
-		(property "DPFNOTES" ""
+		(property "DPFNOTES" "25V 1uF X5R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -27364,6 +32291,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d77744ff-a009-4c72-9a7b-4ba63532e63d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC Basic Part" "Basic"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "412e8e21-b09a-4cd2-8e14-dcd417e7d62a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manu Part" "CL05A105KA5NQNC"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7f50d7cf-a9b9-42df-a23c-d70b68e24c03")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3731be80-9f37-418f-89e4-5a7741454311")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FIXME" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "67701cab-08d7-4014-a9e6-d772a46f62d9")
 			(effects
 				(font
 					(size 1 1)
@@ -27558,7 +32537,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010130_UNI-ROYAL-Uniroyal-Elec-0603WAF1000T5E_C22775.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2205311900_UNI-ROYAL-Uniroyal-Elec-0402WGF1000TCE_C25076.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -27584,7 +32563,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C22775"
+		(property "LCSC" "C25076"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -27597,7 +32576,7 @@
 				)
 			)
 		)
-		(property "DPFNOTES" "100mW Thick Film Resistors 75V ±1% ±200ppm/℃ 100Ω 0603 Chip Resistor - Surface Mount ROHS"
+		(property "DPFNOTES" "62.5mW Thick Film Resistors 50V ±1% ±200ppm/℃ 100Ω 0402 Chip Resistor - Surface Mount ROHS"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -27616,6 +32595,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "4a8da97c-0272-4f2c-9ea1-ab8fb5b6f960")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manu Part" "0402WGF1000TCE"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ff81f6e5-8a2f-4d23-93cc-cd384c261520")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d2c479d7-7f88-40c6-b2e1-88bef2bd004c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FIXME" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "de1a4a12-a886-44a2-9631-207c78dd64de")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC Basic Part" "Basic"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cb5e09fd-f856-4e44-ab49-eddd218d15bc")
 			(effects
 				(font
 					(size 1 1)
@@ -27849,7 +32880,7 @@
 				)
 			)
 		)
-		(property "DPFNOTES" ""
+		(property "DPFNOTES" "50V 2.2uF X5R ±10% 0805  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -27868,6 +32899,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "51e4d21e-3fb9-4003-9c35-1d25bcabcf08")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC Basic Part" "Basic"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "57b93a38-0f42-4e00-91c0-e0f93c9def70")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manu Part" "CL21A225KBQNNNE"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e7195b45-3f50-4d05-a571-7dc7c32d10ce")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6e6f08ab-3682-433f-887a-15f0223b518f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FIXME" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4520a949-a304-420b-bf00-6aa803c197f4")
 			(effects
 				(font
 					(size 1 1)
@@ -28062,7 +33145,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05A105KA5NQNC_C52923.pdf"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -28101,7 +33184,7 @@
 				)
 			)
 		)
-		(property "DPFNOTES" ""
+		(property "DPFNOTES" "25V 1uF X5R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -28120,6 +33203,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f4ec9d8c-32a6-4eca-acc1-b92864429e31")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC Basic Part" "Basic"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "891ee960-3faa-4aa4-ba50-275f87f9dc26")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manu Part" "CL05A105KA5NQNC"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3a2570c0-ca1e-473a-a540-f4bfffc50763")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4cd8dacf-1bd2-4d2d-a1d6-59f723393c32")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FIXME" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0cd916cf-fbc8-419d-8387-7e43c2a058a1")
 			(effects
 				(font
 					(size 1 1)
@@ -28314,7 +33449,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10A106MA8NRNC_C96446.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -28372,6 +33507,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "16cc6b07-c084-4d10-bd4b-ecf45f0086c1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC Basic Part" "Basic"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "47c23970-d2b7-4745-af45-db752636b766")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manu Part" "CL10A106MA8NRNC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ad6edbe4-e9bd-4b0d-a221-16626daef75f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d9c6aa11-e5a7-4abb-bb4b-ff82408c20f8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FIXME" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c539a702-18ea-4fc1-9453-8a100a1597a8")
 			(effects
 				(font
 					(size 1 1)
@@ -28613,7 +33800,7 @@
 				)
 			)
 		)
-		(property "DPFNOTES" "In-stock 3.5mm TRS"
+		(property "DPFNOTES" "-20℃~+70℃ 3.5mm Headphone Jack 30V 500mA SMD Audio Connectors (Headphones) ROHS"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -28632,6 +33819,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "2e616ad5-f9bb-4004-aeab-ce068d1ad638")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC Basic Part" "Extended"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d0fc8ea2-4245-4f5f-9b64-f4fb0d72e0d9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manu Part" "PJ-321A-4A"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7d6d2641-8855-4b6c-a18c-819ff6e2e67d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Korean Hroparts Elec"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "83e79408-2a32-4118-8de0-9451f38862d4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FIXME" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "08539d00-5f41-4f81-8015-3658d2b8f056")
 			(effects
 				(font
 					(size 1 1)
@@ -28892,7 +34131,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0402WGF1501TCE_C25867.pdf"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -28931,7 +34170,7 @@
 				)
 			)
 		)
-		(property "DPFNOTES" ""
+		(property "DPFNOTES" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 1.5kΩ 0402 Chip Resistor - Surface Mount ROHS"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -28950,6 +34189,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "16bc6294-d2cb-47da-ae0f-66c49c4e2144")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manu Part" "0402WGF1501TCE"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "70a5a0d7-1e33-40ad-b7ac-40a889c25b01")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "91fd38df-29ee-4920-b971-bfffef0d3b97")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC Basic Part" "Basic"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b04c2138-ec56-408e-8b88-bbd6e052093b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FIXME" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eb7fb8f5-eed9-4d9b-bce2-6347dca1e204")
 			(effects
 				(font
 					(size 1 1)
@@ -29202,6 +34493,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c8434bec-d5e9-4756-92de-7f597bc356e3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC Basic Part" "Extended"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cbf206cf-02cd-41af-92c3-894ff542c85e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manu Part" "19-217/GHC-YR1S2/3T"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "76e9a801-7ec0-4129-8845-a1c8863c30fd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Everlight Elec"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f7638b24-5f4d-46a4-849f-65274c07ef4b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FIXME" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "47202cc0-8ed1-4fc4-984c-f34b0c0dd36f")
 			(effects
 				(font
 					(size 1 1)
@@ -29484,6 +34827,45 @@
 				)
 			)
 		)
+		(property "Manu Part" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e54c76f9-5117-4172-b2d8-05e203ca2f0a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "222a8f1c-b2a1-4266-91b1-bca467e838a1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FIXME" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "715b7a66-92b1-4b69-bd68-a74effaafd31")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*")
 		(path "/96c396b4-5394-4a50-9288-ad4476d1492f/0e328488-a56b-412b-85fc-da48a06fb3b9")
 		(sheetname "User Interface")
@@ -29629,6 +35011,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "1c84cc10-89cc-4bc3-9753-14416a817bd3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC Basic Part" "Extended"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dcce87aa-4710-454f-a77d-40206f9643ab")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manu Part" "ESD9B5.0ST5G"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b930ee29-a90b-4132-9a26-37104ad77e8d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "onsemi"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "99ecb625-d3d9-4c42-bc4d-959e573ab37e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FIXME" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cde516f5-b686-4d66-9ae2-f14661d37d9c")
 			(effects
 				(font
 					(size 1 1)
@@ -30048,6 +35482,58 @@
 				)
 			)
 		)
+		(property "Manu Part" "4D03WGJ0560T5E"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e884f6d8-3d66-49a9-912b-88a1ce156773")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "788b331a-56af-4d8b-8f86-9a55b2141e0f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FIXME" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cde789c9-8e25-403b-8419-852e7975713a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC Basic Part" "Extended"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e44e5b3d-fa95-4cd7-9281-a92daf9430ed")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/c9577070-7433-48cd-ae0f-c607bda27147/9169825c-527a-4f77-bdcb-0eaa3f3c74fe")
 		(sheetname "Audio Output")
 		(sheetfile "audio_out.kicad_sch")
@@ -30343,6 +35829,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "60567a49-8b26-4513-87f7-fb2da30d1f67")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC Basic Part" "Basic"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b997dd82-b1d5-4e6d-b98c-1191e4dc9ad4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manu Part" "1N4148W"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "532d66f6-6b4c-48f7-9f54-04130c3f2339")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "ST(Semtech)"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d58e976c-6c15-4d49-b57c-de5a1357f5a7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FIXME" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "63ce2dfd-f84c-4815-87a9-84ea40fadd14")
 			(effects
 				(font
 					(size 1 1)
@@ -30685,6 +36223,45 @@
 				)
 			)
 		)
+		(property "Manu Part" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e273bcb5-3029-4a4a-b503-e07e42d86f1f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e51c3626-2c1d-4ca5-87ca-d99830ddf503")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FIXME" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ad18dd23-d3f4-493c-afe8-01c0169032e1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*")
 		(path "/96c396b4-5394-4a50-9288-ad4476d1492f/cabd4cf9-f8dc-45f4-9938-6271af3a9d65")
 		(sheetname "User Interface")
@@ -30772,7 +36349,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1810101813_Everlight-Elec-19-213-Y2C-CQ2R2L-3T-CY_C72038.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -30837,12 +36414,51 @@
 				)
 			)
 		)
-		(property "Basic Part" "C72041 but not in stock ... 5mA Colorless transparent lens -40℃~+85℃ 465nm~475nm Blue 120° 110mW 0603 LED Indication - Discrete ROHS (Note: If out of stock, Yellow is C72038)"
+		(property "JLC Basic Part" "Basic - C72041 but not in stock ... 5mA Colorless transparent lens -40℃~+85℃ 465nm~475nm Blue 120° 110mW 0603 LED Indication - Discrete ROHS (Note: If out of stock, Yellow is C72038)"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "fc049fce-7baf-4882-b688-d8ee02c0955b")
+			(uuid "349889dc-167d-4a27-9dd8-d8681443ce56")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manu Part" "19-213/Y2C-CQ2R2L/3T(CY)"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7fa032e3-bd0d-4766-8469-a7011bd92303")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Everlight Elec"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "de349884-02e4-4fac-8d1d-13d74db8c9d9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FIXME" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c44ddd5e-a3a3-4dd2-93ba-154f93b32907")
 			(effects
 				(font
 					(size 1 1)
@@ -31124,6 +36740,58 @@
 				)
 			)
 		)
+		(property "Manu Part" "0402WGF470JTCE"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "38e15766-7f9f-485a-b1f7-eb0a712b7057")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8f557eaa-05ea-4037-852e-638bc0d350d9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FIXME" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9d89cf24-fb74-4e26-a69a-7c381b59eee0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC Basic Part" "Extended - Basic is C23182 but 0603"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0e9688e8-b6d7-42c9-b88d-3429105786f8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/d4c8579f-7658-4ad2-a672-2baa765565aa/d0ca9adf-c62c-4854-a8b7-e9cfa1cc327c")
 		(sheetname "MIDI")
@@ -31351,6 +37019,71 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "caf1c12f-9304-499c-8b47-998421f640b5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manu Part" "TS-1187A-B-A-B"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3077f067-634c-468d-9b66-8b416c09358a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "XKB Connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "45ce7531-15f5-46c6-ad17-65de3400b0e4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FIXME" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a1f58f46-a539-429d-bb46-6032e5277c7e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DPFNOTES" "None Without 50mA 5.1mm 100000 Times 160gf 12V 5.1mm 1.5mm Round Button Standing paste SPST SMD Tactile Switches ROHS"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "442aaf67-e55d-434b-a859-35ac2a87c31c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC Basic Part" "Basic"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "381fd8a3-3b2f-463f-b726-88f65c1619e7")
 			(effects
 				(font
 					(size 1 1)
@@ -31644,7 +37377,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05A105KA5NQNC_C52923.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -31683,7 +37416,7 @@
 				)
 			)
 		)
-		(property "DPFNOTES" ""
+		(property "DPFNOTES" "25V 1uF X5R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -31702,6 +37435,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "604850cf-a562-41a8-a9ca-1b84b8a2a9ff")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC Basic Part" "Basic"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d82a35b0-8aa8-459a-8837-39531d6dbfc3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manu Part" "CL05A105KA5NQNC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bb455533-1113-462f-9142-aedd4048deae")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a0f6eb86-29f3-43bd-8a23-827b042760a7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FIXME" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bdd05570-6e8c-4480-8dea-0d122552ebd9")
 			(effects
 				(font
 					(size 1 1)
@@ -31961,6 +37746,58 @@
 				)
 			)
 		)
+		(property "Manu Part" "0402WGF470JTCE"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ad388c8d-3bac-42da-86fb-c8f3ebb6cd7d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ecbae6f0-ceb6-4f73-95ea-9ce191d359b0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FIXME" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "37096c72-ad46-412b-a0fb-cc734abde898")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC Basic Part" "Extended - Basic is C23182 but 0603"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1096a647-3768-468c-a860-68da1839327c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/d4c8579f-7658-4ad2-a672-2baa765565aa/6b7a0f9b-66ee-48eb-8f96-d9be519af77e")
 		(sheetname "MIDI")
@@ -32148,7 +37985,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05B104KB54PNC_C307331.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -32187,7 +38024,7 @@
 				)
 			)
 		)
-		(property "DPFNOTES" ""
+		(property "DPFNOTES" "50V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -32206,6 +38043,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c2869d3e-be98-4cdf-95fd-0354562fa987")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC Basic Part" "Basic"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0e840b18-3792-452b-8a96-b7aa9e9bf2ae")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manu Part" "CL05B104KB54PNC"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a7bb9bb6-274e-467a-af71-96b9f7aa8040")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b2de05d4-2322-4204-ba13-e6e58ab4f3ff")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FIXME" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a72270cf-48e6-4b1c-9f7b-f1c4830e50b5")
 			(effects
 				(font
 					(size 1 1)
@@ -32465,6 +38354,45 @@
 				)
 			)
 		)
+		(property "Manu Part" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2efbd742-a776-4b2d-835a-f8ef8518b5b0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "91593320-4e50-4d57-be21-b94e5259cd20")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FIXME" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1cb00283-7511-48c6-8baf-3b5586059885")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Fiducial*")
 		(path "/96c396b4-5394-4a50-9288-ad4476d1492f/c10198c2-46cf-4d18-bb92-7cdff6461584")
 		(sheetname "User Interface")
@@ -32611,6 +38539,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d911b468-b3ba-481f-87b8-b89edb8a91ed")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manu Part" "0402WGF1002TCE"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "22e3bcff-15cb-4831-a20d-40e3d1e42f4c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6a1260cf-2fcd-4000-bd09-ee457d35d340")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC Basic Part" "Basic"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "34f4d2f3-20d7-4a70-b25d-172779c706a8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FIXME" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "da4c9cdb-d35b-412d-b4df-efe354ea883a")
 			(effects
 				(font
 					(size 1 1)
@@ -32805,7 +38785,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0402WGF1501TCE_C25867.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -32844,7 +38824,7 @@
 				)
 			)
 		)
-		(property "DPFNOTES" ""
+		(property "DPFNOTES" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 1.5kΩ 0402 Chip Resistor - Surface Mount ROHS"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -32863,6 +38843,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b0397e33-38d7-4926-a419-bbb83f9d1ed0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manu Part" "0402WGF1501TCE"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "11d476df-06bd-4ae8-811b-5cc996ee9d58")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a706bcca-38cb-4a8b-b917-c4aaaf2ea527")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC Basic Part" "Basic"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "92c8fc27-bdc0-457a-8ef1-f769ecd9f89b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FIXME" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "31183c64-0769-4a7f-8e83-ab5641d67277")
 			(effects
 				(font
 					(size 1 1)
@@ -33096,7 +39128,7 @@
 				)
 			)
 		)
-		(property "DPFNOTES" "Hubei KENTO Elec KT-0603R"
+		(property "DPFNOTES" "-40℃~+85℃ Red 0603 LED Indication - Discrete ROHS"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -33115,6 +39147,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "1208b101-5061-4687-b4e9-e88a5b19857b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC Basic Part" "Basic"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "54feaabb-fd42-4640-b3f6-2bcdda2a9a83")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manu Part" "KT-0603R"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c2487a45-6881-407c-84c3-008b37ce2bff")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Hubei KENTO Elec"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7beef7c3-fc23-4720-aef7-327ae75323f0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FIXME" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6f8bd283-ff8f-4fef-ade7-397ee6769cdf")
 			(effects
 				(font
 					(size 1 1)
@@ -33396,6 +39480,58 @@
 				)
 			)
 		)
+		(property "Manu Part" "0402WGF2200TCE"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9ec53284-0b13-4194-9285-4de39a7f35a6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "62db62ca-5302-4e27-a487-415fe11b5bb1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FIXME" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aa59d05b-20ce-4c84-9297-5077009ee951")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC Basic Part" "Basic"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0e06e0f4-ade3-4617-87d2-54d4c2516759")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/d4c8579f-7658-4ad2-a672-2baa765565aa/d54615a8-9422-45ba-a9cf-af1265f5cd2f")
 		(sheetname "MIDI")
@@ -33641,6 +39777,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "bc1953c3-0f27-4bd2-841e-036cfb961796")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC Basic Part" "Extended"
+			(at 0 0 45)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ed067459-eada-4df4-b034-bb90f3ce66f8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manu Part" "ESD9B5.0ST5G"
+			(at 0 0 45)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "084feaf1-0c07-47f9-81f7-47efa4797e04")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "onsemi"
+			(at 0 0 45)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "34a5705d-368b-46b0-9818-dbd6e84e7418")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FIXME" ""
+			(at 0 0 45)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e2063edf-e04b-4d1e-baae-c827c191b5ce")
 			(effects
 				(font
 					(size 1 1)
@@ -34045,6 +40233,45 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "7792769e-0c28-4c21-8b00-21e97a8477e7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manu Part" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c9d07dd9-79db-44c1-b98f-b9ccab6924f0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "685480ca-826b-4504-9101-d4862ad797f6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FIXME" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "357efcd1-0118-4cc6-af66-bf3c756fab24")
 			(effects
 				(font
 					(size 1 1)
