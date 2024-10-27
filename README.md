@@ -87,4 +87,19 @@ After that, do these routings:
 
 Fill in some positive power areas with fill.
 
-Finally, the signal layers will be filled with GND at the end.
+Finally, the signal layers will be filled with GND at the end,
+and the ground planes should be stitched together with lots
+of vias.
+
+
+# BOM Notes
+
+* Docs say you need a 4.7 uF ceramic capacitor with low ESR DS11853 Rev 9 page 105
+  * Samsung CL10A475KO8NNNC works *but* Datasheet doesn't say what the ESR is, just "low ESR"
+  * [Notes on the Cap](https://community.st.com/t5/stm32-mcus-products/how-supply-stm32f446ret6/td-p/635424)
+
+
+# Notes for future
+
+* Use fewer header types, they're all extended parts
+* 

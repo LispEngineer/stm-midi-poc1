@@ -7668,6 +7668,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manu Part" ""
+			(at 135.89 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 135.89 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FIXME" ""
+			(at 135.89 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "19"
 			(uuid "cd9a6109-7a61-4472-9a2d-d34e5a718855")
 		)
@@ -7906,7 +7933,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05B104KB54PNC_C307331.pdf"
 			(at 115.57 40.64 0)
 			(effects
 				(font
@@ -7933,7 +7960,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPFNOTES" ""
+		(property "DPFNOTES" "50V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 115.57 40.64 0)
 			(effects
 				(font
@@ -7943,6 +7970,42 @@
 			)
 		)
 		(property "DPFURL" ""
+			(at 115.57 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Basic Part" "Basic"
+			(at 115.57 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manu Part" ""
+			(at 115.57 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 115.57 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FIXME" ""
 			(at 115.57 40.64 0)
 			(effects
 				(font
@@ -8136,7 +8199,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05B104KB54PNC_C307331.pdf"
 			(at 63.5 40.64 0)
 			(effects
 				(font
@@ -8163,7 +8226,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPFNOTES" ""
+		(property "DPFNOTES" "50V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 63.5 40.64 0)
 			(effects
 				(font
@@ -8173,6 +8236,42 @@
 			)
 		)
 		(property "DPFURL" ""
+			(at 63.5 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Basic Part" "Basic"
+			(at 63.5 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manu Part" ""
+			(at 63.5 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 63.5 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FIXME" ""
 			(at 63.5 40.64 0)
 			(effects
 				(font
@@ -8278,6 +8377,42 @@
 				(hide yes)
 			)
 		)
+		(property "JLC Basic Part" "Extended"
+			(at 182.88 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manu Part" "ESD9B5.0ST5G"
+			(at 182.88 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "onsemi"
+			(at 182.88 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FIXME" ""
+			(at 182.88 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0745d0b9-3b66-4b69-814d-4ee161c17705")
 		)
@@ -8364,6 +8499,33 @@
 			)
 		)
 		(property "DPFURL" ""
+			(at 71.12 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manu Part" ""
+			(at 71.12 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 71.12 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FIXME" ""
 			(at 71.12 69.85 0)
 			(effects
 				(font
@@ -8464,6 +8626,42 @@
 			)
 		)
 		(property "DPFURL" ""
+			(at 187.96 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Basic Part" "Extended"
+			(at 187.96 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manu Part" "ESD9B5.0ST5G"
+			(at 187.96 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "onsemi"
+			(at 187.96 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FIXME" ""
 			(at 187.96 104.14 0)
 			(effects
 				(font
@@ -8775,7 +8973,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0402WGF5101TCE_C25905.pdf"
 			(at 254 83.82 0)
 			(effects
 				(font
@@ -8802,7 +9000,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPFNOTES" ""
+		(property "DPFNOTES" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 5.1kΩ 0402 Chip Resistor - Surface Mount ROHS"
 			(at 254 83.82 0)
 			(effects
 				(font
@@ -8812,6 +9010,42 @@
 			)
 		)
 		(property "DPFURL" ""
+			(at 254 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manu Part" "0402WGF5101TCE"
+			(at 254 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 254 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Basic Part" "Basic"
+			(at 254 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FIXME" ""
 			(at 254 83.82 0)
 			(effects
 				(font
@@ -8938,7 +9172,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05C100JB5NNNC_C32949.pdf"
 			(at 59.69 96.52 0)
 			(effects
 				(font
@@ -8965,7 +9199,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPFNOTES" ""
+		(property "DPFNOTES" "50V 10pF C0G ±5% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 59.69 96.52 0)
 			(effects
 				(font
@@ -8975,6 +9209,42 @@
 			)
 		)
 		(property "DPFURL" ""
+			(at 59.69 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Basic Part" "Basic"
+			(at 59.69 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manu Part" ""
+			(at 59.69 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 59.69 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FIXME" ""
 			(at 59.69 96.52 0)
 			(effects
 				(font
@@ -9035,7 +9305,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05B103KB5NNNC_C15195.pdf"
 			(at 172.72 40.64 0)
 			(effects
 				(font
@@ -9072,6 +9342,42 @@
 			)
 		)
 		(property "DPFURL" ""
+			(at 172.72 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Basic Part" "Basic"
+			(at 172.72 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manu Part" ""
+			(at 172.72 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 172.72 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FIXME" ""
 			(at 172.72 40.64 0)
 			(effects
 				(font
@@ -9132,7 +9438,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05B104KB54PNC_C307331.pdf"
 			(at 77.47 40.64 0)
 			(effects
 				(font
@@ -9159,7 +9465,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPFNOTES" ""
+		(property "DPFNOTES" "50V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 77.47 40.64 0)
 			(effects
 				(font
@@ -9169,6 +9475,42 @@
 			)
 		)
 		(property "DPFURL" ""
+			(at 77.47 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Basic Part" "Basic"
+			(at 77.47 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manu Part" ""
+			(at 77.47 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 77.47 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FIXME" ""
 			(at 77.47 40.64 0)
 			(effects
 				(font
@@ -9227,7 +9569,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2009171304_TAI-TECH-FCM1608KF-601T05_C133937.pdf"
 			(at 194.31 36.83 0)
 			(effects
 				(font
@@ -9254,7 +9596,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPFNOTES" "TAI-TECH FCM1608KF-601T05, used on Nucleo-F767ZI"
+		(property "DPFNOTES" "TAI-TECH FCM1608KF-601T05, used on Nucleo-F767ZI --- 500mΩ ±25% 600Ω@100MHz 0603 Ferrite Beads ROHS"
 			(at 194.31 36.83 0)
 			(effects
 				(font
@@ -9264,6 +9606,42 @@
 			)
 		)
 		(property "DPFURL" ""
+			(at 194.31 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manu Part" "FCM1608KF-601T05"
+			(at 194.31 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TAI-TECH"
+			(at 194.31 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Basic Part" "Extended"
+			(at 194.31 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FIXME" ""
 			(at 194.31 36.83 0)
 			(effects
 				(font
@@ -9351,7 +9729,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPFNOTES" "7pF crystal, 3-5pF Cs, 7 - 3 = 4 x 2 = 8 -> 7 - 5 = 2 x 2 = 4"
+		(property "DPFNOTES" "7pF crystal, 3-5pF Cs, 7 - 3 = 4 x 2 = 8 -> 7 - 5 = 2 x 2 = 4 --- 50V 4.7pF C0G 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 82.55 119.38 0)
 			(effects
 				(font
@@ -9361,6 +9739,42 @@
 			)
 		)
 		(property "DPFURL" ""
+			(at 82.55 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Basic Part" "Extended"
+			(at 82.55 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manu Part" "0402CG4R7C500NT"
+			(at 82.55 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 82.55 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FIXME" ""
 			(at 82.55 119.38 0)
 			(effects
 				(font
@@ -9588,6 +10002,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manu Part" ""
+			(at 36.83 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 36.83 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FIXME" ""
+			(at 36.83 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ae961f2e-898d-4e6d-8b49-c8e014e80481")
 		)
@@ -9739,7 +10180,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPFNOTES" "7pF crystal, 3-5pF Cs, 7 - 3 = 4 x 2 = 8 -> 7 - 5 = 2 x 2 = 4"
+		(property "DPFNOTES" "7pF crystal, 3-5pF Cs, 7 - 3 = 4 x 2 = 8 -> 7 - 5 = 2 x 2 = 4 --- 50V 4.7pF C0G 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 67.31 119.38 0)
 			(effects
 				(font
@@ -9749,6 +10190,42 @@
 			)
 		)
 		(property "DPFURL" ""
+			(at 67.31 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Basic Part" "Extended"
+			(at 67.31 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manu Part" "0402CG4R7C500NT"
+			(at 67.31 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 67.31 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FIXME" ""
 			(at 67.31 119.38 0)
 			(effects
 				(font
@@ -9902,7 +10379,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05C100JB5NNNC_C32949.pdf"
 			(at 45.72 96.52 0)
 			(effects
 				(font
@@ -9929,7 +10406,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPFNOTES" ""
+		(property "DPFNOTES" "50V 10pF C0G ±5% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 45.72 96.52 0)
 			(effects
 				(font
@@ -9939,6 +10416,42 @@
 			)
 		)
 		(property "DPFURL" ""
+			(at 45.72 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Basic Part" "Basic"
+			(at 45.72 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manu Part" ""
+			(at 45.72 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 45.72 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FIXME" ""
 			(at 45.72 96.52 0)
 			(effects
 				(font
@@ -10336,6 +10849,42 @@
 				(hide yes)
 			)
 		)
+		(property "Manu Part" "0402WGF1002TCE"
+			(at 85.09 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 85.09 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Basic Part" "Basic"
+			(at 85.09 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FIXME" ""
+			(at 85.09 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c9d7a016-c25a-4c64-a120-4a4f0fbe4f4f")
 		)
@@ -10388,7 +10937,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2312191005_G-Switch-GT-USB-7010i_C5362630.pdf --- https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
 			(at 226.06 81.28 0)
 			(effects
 				(font
@@ -10424,7 +10973,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPFNOTES" ""
+		(property "DPFNOTES" "Female Type-C USB Connectors ROHS"
 			(at 226.06 81.28 0)
 			(effects
 				(font
@@ -10434,6 +10983,42 @@
 			)
 		)
 		(property "DPFURL" ""
+			(at 226.06 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manu Part" "GT-USB-7010i"
+			(at 226.06 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "G-Switch"
+			(at 226.06 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Basic Part" "Extended"
+			(at 226.06 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FIXME" ""
 			(at 226.06 81.28 0)
 			(effects
 				(font
@@ -10536,7 +11121,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05B104KB54PNC_C307331.pdf"
 			(at 102.87 40.64 0)
 			(effects
 				(font
@@ -10563,7 +11148,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPFNOTES" ""
+		(property "DPFNOTES" "50V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 102.87 40.64 0)
 			(effects
 				(font
@@ -10573,6 +11158,42 @@
 			)
 		)
 		(property "DPFURL" ""
+			(at 102.87 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Basic Part" "Basic"
+			(at 102.87 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manu Part" ""
+			(at 102.87 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 102.87 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FIXME" ""
 			(at 102.87 40.64 0)
 			(effects
 				(font
@@ -10633,7 +11254,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05A105KA5NQNC_C52923.pdf"
 			(at 185.42 40.64 0)
 			(effects
 				(font
@@ -10660,7 +11281,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPFNOTES" ""
+		(property "DPFNOTES" "25V 1uF X5R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 185.42 40.64 0)
 			(effects
 				(font
@@ -10670,6 +11291,42 @@
 			)
 		)
 		(property "DPFURL" ""
+			(at 185.42 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Basic Part" "Basic"
+			(at 185.42 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manu Part" ""
+			(at 185.42 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 185.42 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FIXME" ""
 			(at 185.42 40.64 0)
 			(effects
 				(font
@@ -10823,7 +11480,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05B104KB54PNC_C307331.pdf"
 			(at 46.99 60.96 0)
 			(effects
 				(font
@@ -10850,7 +11507,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPFNOTES" ""
+		(property "DPFNOTES" "50V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 46.99 60.96 0)
 			(effects
 				(font
@@ -10860,6 +11517,42 @@
 			)
 		)
 		(property "DPFURL" ""
+			(at 46.99 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Basic Part" "Basic"
+			(at 46.99 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manu Part" ""
+			(at 46.99 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 46.99 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FIXME" ""
 			(at 46.99 60.96 0)
 			(effects
 				(font
@@ -10920,7 +11613,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL21A226MAQNNNE_C45783.pdf"
 			(at 62.23 173.99 0)
 			(effects
 				(font
@@ -10947,7 +11640,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPFNOTES" ""
+		(property "DPFNOTES" "25V 22uF X5R ±20% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 62.23 173.99 0)
 			(effects
 				(font
@@ -10957,6 +11650,42 @@
 			)
 		)
 		(property "DPFURL" ""
+			(at 62.23 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Basic Part" "Basic"
+			(at 62.23 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manu Part" "CL21A226MAQNNNE"
+			(at 62.23 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 62.23 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FIXME" ""
 			(at 62.23 173.99 0)
 			(effects
 				(font
@@ -11061,6 +11790,33 @@
 			)
 		)
 		(property "DPFURL" ""
+			(at 74.93 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manu Part" ""
+			(at 74.93 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 74.93 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FIXME" ""
 			(at 74.93 115.57 0)
 			(effects
 				(font
@@ -11188,7 +11944,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05B104KB54PNC_C307331.pdf"
 			(at 90.17 40.64 0)
 			(effects
 				(font
@@ -11215,7 +11971,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPFNOTES" ""
+		(property "DPFNOTES" "50V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 90.17 40.64 0)
 			(effects
 				(font
@@ -11225,6 +11981,42 @@
 			)
 		)
 		(property "DPFURL" ""
+			(at 90.17 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Basic Part" "Basic"
+			(at 90.17 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manu Part" ""
+			(at 90.17 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 90.17 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FIXME" ""
 			(at 90.17 40.64 0)
 			(effects
 				(font
@@ -11285,7 +12077,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL21A226MAQNNNE_C45783.pdf"
 			(at 36.83 173.99 0)
 			(effects
 				(font
@@ -11312,7 +12104,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPFNOTES" ""
+		(property "DPFNOTES" "25V 22uF X5R ±20% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 36.83 173.99 0)
 			(effects
 				(font
@@ -11322,6 +12114,42 @@
 			)
 		)
 		(property "DPFURL" ""
+			(at 36.83 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Basic Part" "Basic"
+			(at 36.83 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manu Part" "CL21A226MAQNNNE"
+			(at 36.83 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 36.83 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FIXME" ""
 			(at 36.83 173.99 0)
 			(effects
 				(font
@@ -11447,7 +12275,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0402WGF5101TCE_C25905.pdf"
 			(at 246.38 81.28 0)
 			(effects
 				(font
@@ -11474,7 +12302,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPFNOTES" ""
+		(property "DPFNOTES" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 5.1kΩ 0402 Chip Resistor - Surface Mount ROHS"
 			(at 246.38 81.28 0)
 			(effects
 				(font
@@ -11484,6 +12312,42 @@
 			)
 		)
 		(property "DPFURL" ""
+			(at 246.38 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manu Part" "0402WGF5101TCE"
+			(at 246.38 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 246.38 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Basic Part" "Basic"
+			(at 246.38 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FIXME" ""
 			(at 246.38 81.28 0)
 			(effects
 				(font
@@ -11581,6 +12445,42 @@
 			)
 		)
 		(property "DPFURL" ""
+			(at 195.58 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Basic Part" "Extended"
+			(at 195.58 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manu Part" "ESD9B5.0ST5G"
+			(at 195.58 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "onsemi"
+			(at 195.58 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FIXME" ""
 			(at 195.58 104.14 0)
 			(effects
 				(font
@@ -11743,6 +12643,33 @@
 			)
 		)
 		(property "DPFURL" ""
+			(at 53.34 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manu Part" ""
+			(at 53.34 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 53.34 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FIXME" ""
 			(at 53.34 88.9 0)
 			(effects
 				(font
@@ -11928,7 +12855,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPFNOTES" "Hubei KENTO Elec KT-0603R"
+		(property "DPFNOTES" "-40℃~+85℃ Red 0603 LED Indication - Discrete ROHS"
 			(at 73.66 170.18 0)
 			(effects
 				(font
@@ -11938,6 +12865,42 @@
 			)
 		)
 		(property "DPFURL" ""
+			(at 73.66 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Basic Part" "Basic"
+			(at 73.66 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manu Part" "KT-0603R"
+			(at 73.66 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Hubei KENTO Elec"
+			(at 73.66 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FIXME" ""
 			(at 73.66 170.18 0)
 			(effects
 				(font
@@ -11998,7 +12961,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05A105KA5NQNC_C52923.pdf"
 			(at 201.93 40.64 0)
 			(effects
 				(font
@@ -12025,7 +12988,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPFNOTES" ""
+		(property "DPFNOTES" "25V 1uF X5R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 201.93 40.64 0)
 			(effects
 				(font
@@ -12035,6 +12998,42 @@
 			)
 		)
 		(property "DPFURL" ""
+			(at 201.93 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Basic Part" "Basic"
+			(at 201.93 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manu Part" ""
+			(at 201.93 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 201.93 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FIXME" ""
 			(at 201.93 40.64 0)
 			(effects
 				(font
@@ -12255,7 +13254,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0402WGF1501TCE_C25867.pdf"
 			(at 204.47 93.98 0)
 			(effects
 				(font
@@ -12282,7 +13281,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPFNOTES" ""
+		(property "DPFNOTES" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 1.5kΩ 0402 Chip Resistor - Surface Mount ROHS"
 			(at 204.47 93.98 0)
 			(effects
 				(font
@@ -12292,6 +13291,42 @@
 			)
 		)
 		(property "DPFURL" ""
+			(at 204.47 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manu Part" "0402WGF1501TCE"
+			(at 204.47 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 204.47 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Basic Part" "Basic"
+			(at 204.47 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FIXME" ""
 			(at 204.47 93.98 0)
 			(effects
 				(font
@@ -12395,6 +13430,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manu Part" ""
+			(at 49.53 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 49.53 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FIXME" ""
+			(at 49.53 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "bb321a8e-615b-4946-8097-8d12ecd08484")
 		)
@@ -12450,7 +13512,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0603WAF1002T5E_C25804.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10A475KO8NNNC_C19666.pdf"
 			(at 109.22 127 0)
 			(effects
 				(font
@@ -12468,7 +13530,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25804"
+		(property "LCSC" "C19666"
 			(at 109.22 127 0)
 			(effects
 				(font
@@ -12477,7 +13539,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPFNOTES" "ESR between 0.1 and 0.2 ohms per DS11853 Rev 9 page 105"
+		(property "DPFNOTES" "NEEDED: ESR between 0.1 and 0.2 ohms per DS11853 Rev 9 page 105 --- 16V 4.7uF X5R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 109.22 127 0)
 			(effects
 				(font
@@ -12487,6 +13549,42 @@
 			)
 		)
 		(property "DPFURL" ""
+			(at 109.22 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Basic Part" "Basic"
+			(at 109.22 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manu Part" "CL10A475KO8NNNC"
+			(at 109.22 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 109.22 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FIXME" ""
 			(at 109.22 127 0)
 			(effects
 				(font
@@ -12613,7 +13711,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10A106MA8NRNC_C96446.pdf"
 			(at 50.8 40.64 0)
 			(effects
 				(font
@@ -12650,6 +13748,42 @@
 			)
 		)
 		(property "DPFURL" ""
+			(at 50.8 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Basic Part" "Basic"
+			(at 50.8 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manu Part" ""
+			(at 50.8 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 50.8 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FIXME" ""
 			(at 50.8 40.64 0)
 			(effects
 				(font
@@ -12776,7 +13910,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0402WGF1501TCE_C25867.pdf"
 			(at 82.55 173.99 0)
 			(effects
 				(font
@@ -12803,7 +13937,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPFNOTES" ""
+		(property "DPFNOTES" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 1.5kΩ 0402 Chip Resistor - Surface Mount ROHS"
 			(at 82.55 173.99 0)
 			(effects
 				(font
@@ -12813,6 +13947,42 @@
 			)
 		)
 		(property "DPFURL" ""
+			(at 82.55 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manu Part" "0402WGF1501TCE"
+			(at 82.55 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 82.55 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Basic Part" "Basic"
+			(at 82.55 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FIXME" ""
 			(at 82.55 173.99 0)
 			(effects
 				(font

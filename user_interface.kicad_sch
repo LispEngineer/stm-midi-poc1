@@ -4848,6 +4848,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manu Part" ""
+			(at 234.95 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 234.95 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FIXME" ""
+			(at 234.95 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "stm-midi-poc1"
 				(path "/7cd74113-1f92-4dcc-8610-19aa9fc81e5f/96c396b4-5394-4a50-9288-ad4476d1492f"
@@ -5071,6 +5098,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manu Part" ""
+			(at 234.95 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 234.95 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FIXME" ""
+			(at 234.95 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "stm-midi-poc1"
 				(path "/7cd74113-1f92-4dcc-8610-19aa9fc81e5f/96c396b4-5394-4a50-9288-ad4476d1492f"
@@ -5154,6 +5208,33 @@
 			)
 		)
 		(property "DPFURL" ""
+			(at 234.95 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manu Part" ""
+			(at 234.95 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 234.95 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FIXME" ""
 			(at 234.95 147.32 0)
 			(effects
 				(font
@@ -5250,6 +5331,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manu Part" ""
+			(at 220.98 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 220.98 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FIXME" ""
+			(at 220.98 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "091fe254-ccfe-4174-94df-0e80d825ed94")
 		)
@@ -5302,7 +5410,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1810101813_Everlight-Elec-19-213-Y2C-CQ2R2L-3T-CY_C72038.pdf"
 			(at 81.28 38.1 0)
 			(effects
 				(font
@@ -5347,8 +5455,35 @@
 				(hide yes)
 			)
 		)
-		(property "Basic Part" "C72041 but not in stock ... 5mA Colorless transparent lens -40℃~+85℃ 465nm~475nm Blue 120° 110mW 0603 LED Indication - Discrete ROHS (Note: If out of stock, Yellow is C72038)"
-			(at 81.28 38.1 90)
+		(property "JLC Basic Part" "Basic - C72041 but not in stock ... 5mA Colorless transparent lens -40℃~+85℃ 465nm~475nm Blue 120° 110mW 0603 LED Indication - Discrete ROHS (Note: If out of stock, Yellow is C72038)"
+			(at 81.28 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manu Part" "19-213/Y2C-CQ2R2L/3T(CY)"
+			(at 81.28 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 81.28 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FIXME" ""
+			(at 81.28 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5460,6 +5595,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manu Part" ""
+			(at 123.19 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 123.19 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FIXME" ""
+			(at 123.19 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8c0f327e-0dce-4ed4-8f92-c09b3122dd64")
 		)
@@ -5554,6 +5716,42 @@
 			)
 		)
 		(property "DPFURL" ""
+			(at 39.37 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manu Part" "DS1021-1x5SF11-B"
+			(at 39.37 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CONNFLY Elec"
+			(at 39.37 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Basic Part" "Extended"
+			(at 39.37 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FIXME" ""
 			(at 39.37 90.17 0)
 			(effects
 				(font
@@ -5688,7 +5886,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2207291800_ZHOURI-2-54-1-4_C5116483.pdf"
 			(at 95.25 119.38 0)
 			(effects
 				(font
@@ -5707,6 +5905,51 @@
 			)
 		)
 		(property "LCSC" "C5116483"
+			(at 95.25 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manu Part" "2.54-1*4"
+			(at 95.25 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "ZHOURI"
+			(at 95.25 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPFNOTES" "4P 2.54mm Single Row 1x4P Plugin,P=2.54mm Pin Headers ROHS"
+			(at 95.25 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Basic Part" "Extended"
+			(at 95.25 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FIXME" ""
 			(at 95.25 129.54 0)
 			(effects
 				(font
@@ -5807,6 +6050,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manu Part" ""
+			(at 161.29 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 161.29 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FIXME" ""
+			(at 161.29 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c65aa780-0762-40ad-b47b-b191a1ac1f50")
 		)
@@ -5865,7 +6135,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0402WGF1501TCE_C25867.pdf"
 			(at 43.18 50.8 0)
 			(effects
 				(font
@@ -5892,7 +6162,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPFNOTES" ""
+		(property "DPFNOTES" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 1.5kΩ 0402 Chip Resistor - Surface Mount ROHS"
 			(at 43.18 50.8 0)
 			(effects
 				(font
@@ -5902,6 +6172,42 @@
 			)
 		)
 		(property "DPFURL" ""
+			(at 43.18 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manu Part" "0402WGF1501TCE"
+			(at 43.18 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 43.18 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Basic Part" "Basic"
+			(at 43.18 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FIXME" ""
 			(at 43.18 50.8 0)
 			(effects
 				(font
@@ -6094,7 +6400,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010130_UNI-ROYAL-Uniroyal-Elec-0603WAF1000T5E_C22775.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2205311900_UNI-ROYAL-Uniroyal-Elec-0402WGF1000TCE_C25076.pdf"
 			(at 133.35 52.07 0)
 			(effects
 				(font
@@ -6112,7 +6418,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C22775"
+		(property "LCSC" "C25076"
 			(at 133.35 52.07 0)
 			(effects
 				(font
@@ -6121,7 +6427,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPFNOTES" "100mW Thick Film Resistors 75V ±1% ±200ppm/℃ 100Ω 0603 Chip Resistor - Surface Mount ROHS"
+		(property "DPFNOTES" "62.5mW Thick Film Resistors 50V ±1% ±200ppm/℃ 100Ω 0402 Chip Resistor - Surface Mount ROHS"
 			(at 133.35 52.07 0)
 			(effects
 				(font
@@ -6131,6 +6437,42 @@
 			)
 		)
 		(property "DPFURL" ""
+			(at 133.35 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manu Part" "0402WGF1000TCE"
+			(at 133.35 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 133.35 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FIXME" "WRONG"
+			(at 133.35 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Basic Part" "Basic"
 			(at 133.35 52.07 0)
 			(effects
 				(font
@@ -6233,6 +6575,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manu Part" ""
+			(at 109.22 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 109.22 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FIXME" ""
+			(at 109.22 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "37a59b4f-3b09-4916-9340-0c82f246d22f")
 		)
@@ -6285,7 +6654,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0402WGF1501TCE_C25867.pdf"
 			(at 81.28 50.8 0)
 			(effects
 				(font
@@ -6312,7 +6681,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPFNOTES" ""
+		(property "DPFNOTES" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 1.5kΩ 0402 Chip Resistor - Surface Mount ROHS"
 			(at 81.28 50.8 0)
 			(effects
 				(font
@@ -6322,6 +6691,42 @@
 			)
 		)
 		(property "DPFURL" ""
+			(at 81.28 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manu Part" "0402WGF1501TCE"
+			(at 81.28 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 81.28 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Basic Part" "Basic"
+			(at 81.28 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FIXME" ""
 			(at 81.28 50.8 0)
 			(effects
 				(font
@@ -6566,6 +6971,42 @@
 				(hide yes)
 			)
 		)
+		(property "Manu Part" "2.54-2*8P"
+			(at 67.31 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "BOOMELE(Boom Precision Elec)"
+			(at 67.31 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Basic Part" "Extended"
+			(at 67.31 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FIXME" ""
+			(at 67.31 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "11"
 			(uuid "07bfb8b4-6c05-4a6d-b0e9-bda83e377e4d")
 		)
@@ -6660,7 +7101,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010130_UNI-ROYAL-Uniroyal-Elec-0603WAF1000T5E_C22775.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2205311900_UNI-ROYAL-Uniroyal-Elec-0402WGF1000TCE_C25076.pdf"
 			(at 171.45 52.07 0)
 			(effects
 				(font
@@ -6678,7 +7119,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C22775"
+		(property "LCSC" "C25076"
 			(at 171.45 52.07 0)
 			(effects
 				(font
@@ -6687,7 +7128,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPFNOTES" "100mW Thick Film Resistors 75V ±1% ±200ppm/℃ 100Ω 0603 Chip Resistor - Surface Mount ROHS"
+		(property "DPFNOTES" "62.5mW Thick Film Resistors 50V ±1% ±200ppm/℃ 100Ω 0402 Chip Resistor - Surface Mount ROHS"
 			(at 171.45 52.07 0)
 			(effects
 				(font
@@ -6697,6 +7138,42 @@
 			)
 		)
 		(property "DPFURL" ""
+			(at 171.45 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manu Part" "0402WGF1000TCE"
+			(at 171.45 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 171.45 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FIXME" "WRONG"
+			(at 171.45 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Basic Part" "Basic"
 			(at 171.45 52.07 0)
 			(effects
 				(font
@@ -6784,7 +7261,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPFNOTES" "Hubei KENTO Elec KT-0603R"
+		(property "DPFNOTES" "-40℃~+85℃ Red 0603 LED Indication - Discrete ROHS"
 			(at 43.18 38.1 0)
 			(effects
 				(font
@@ -6794,6 +7271,42 @@
 			)
 		)
 		(property "DPFURL" ""
+			(at 43.18 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Basic Part" "Basic"
+			(at 43.18 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manu Part" ""
+			(at 43.18 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 43.18 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FIXME" ""
 			(at 43.18 38.1 0)
 			(effects
 				(font
@@ -6920,7 +7433,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0402WGF1501TCE_C25867.pdf"
 			(at 62.23 50.8 0)
 			(effects
 				(font
@@ -6947,7 +7460,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPFNOTES" ""
+		(property "DPFNOTES" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 1.5kΩ 0402 Chip Resistor - Surface Mount ROHS"
 			(at 62.23 50.8 0)
 			(effects
 				(font
@@ -6957,6 +7470,42 @@
 			)
 		)
 		(property "DPFURL" ""
+			(at 62.23 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manu Part" "0402WGF1501TCE"
+			(at 62.23 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 62.23 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Basic Part" "Basic"
+			(at 62.23 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FIXME" ""
 			(at 62.23 50.8 0)
 			(effects
 				(font
@@ -7017,7 +7566,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010116_UNI-ROYAL-Uniroyal-Elec-0603WAF4701T5E_C23162.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0402WGF4701TCE_C25900.pdf"
 			(at 171.45 34.29 0)
 			(effects
 				(font
@@ -7035,7 +7584,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C23162"
+		(property "LCSC" "C25900"
 			(at 171.45 34.29 0)
 			(effects
 				(font
@@ -7044,7 +7593,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPFNOTES" "100mW Thick Film Resistors 75V ±100ppm/℃ ±1% 4.7kΩ 0603 Chip Resistor - Surface Mount ROHS"
+		(property "DPFNOTES" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 4.7kΩ 0402 Chip Resistor - Surface Mount ROHS"
 			(at 171.45 34.29 0)
 			(effects
 				(font
@@ -7054,6 +7603,42 @@
 			)
 		)
 		(property "DPFURL" ""
+			(at 171.45 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manu Part" "0402WGF4701TCE"
+			(at 171.45 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 171.45 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FIXME" ""
+			(at 171.45 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Basic Part" "Basic"
 			(at 171.45 34.29 0)
 			(effects
 				(font
@@ -7151,6 +7736,42 @@
 			)
 		)
 		(property "DPFURL" ""
+			(at 62.23 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Basic Part" "Extended"
+			(at 62.23 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manu Part" "19-217/GHC-YR1S2/3T"
+			(at 62.23 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 62.23 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FIXME" ""
 			(at 62.23 38.1 0)
 			(effects
 				(font
@@ -7277,7 +7898,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010116_UNI-ROYAL-Uniroyal-Elec-0603WAF4701T5E_C23162.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0402WGF4701TCE_C25900.pdf"
 			(at 133.35 34.29 0)
 			(effects
 				(font
@@ -7295,7 +7916,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C23162"
+		(property "LCSC" "C25900"
 			(at 133.35 34.29 0)
 			(effects
 				(font
@@ -7304,7 +7925,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPFNOTES" "100mW Thick Film Resistors 75V ±100ppm/℃ ±1% 4.7kΩ 0603 Chip Resistor - Surface Mount ROHS"
+		(property "DPFNOTES" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 4.7kΩ 0402 Chip Resistor - Surface Mount ROHS"
 			(at 133.35 34.29 0)
 			(effects
 				(font
@@ -7314,6 +7935,42 @@
 			)
 		)
 		(property "DPFURL" ""
+			(at 133.35 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manu Part" "0402WGF4701TCE"
+			(at 133.35 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 133.35 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FIXME" ""
+			(at 133.35 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Basic Part" "Basic"
 			(at 133.35 34.29 0)
 			(effects
 				(font
@@ -7408,6 +8065,33 @@
 			)
 		)
 		(property "DPFURL" ""
+			(at 152.4 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manu Part" ""
+			(at 152.4 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 152.4 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FIXME" ""
 			(at 152.4 83.82 0)
 			(effects
 				(font
@@ -7666,7 +8350,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05B104KB54PNC_C307331.pdf"
 			(at 171.45 44.45 0)
 			(effects
 				(font
@@ -7693,7 +8377,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPFNOTES" ""
+		(property "DPFNOTES" "50V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 171.45 44.45 0)
 			(effects
 				(font
@@ -7703,6 +8387,42 @@
 			)
 		)
 		(property "DPFURL" ""
+			(at 171.45 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Basic Part" "Basic"
+			(at 171.45 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manu Part" ""
+			(at 171.45 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 171.45 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FIXME" ""
 			(at 171.45 44.45 0)
 			(effects
 				(font
@@ -7797,7 +8517,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPFNOTES" "In-stock 3.5mm TRS"
+		(property "DPFNOTES" "-20℃~+70℃ 3.5mm Headphone Jack 30V 500mA SMD Audio Connectors (Headphones) ROHS"
 			(at 234.95 53.34 0)
 			(effects
 				(font
@@ -7807,6 +8527,42 @@
 			)
 		)
 		(property "DPFURL" "https://jlcpcb.com/partdetail/Korean_HropartsElec-PJ_321A4A/C879743"
+			(at 234.95 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Basic Part" "Extended"
+			(at 234.95 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manu Part" "PJ-321A-4A"
+			(at 234.95 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Korean Hroparts Elec"
+			(at 234.95 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FIXME" ""
 			(at 234.95 53.34 0)
 			(effects
 				(font
@@ -7904,6 +8660,33 @@
 			)
 		)
 		(property "DPFURL" ""
+			(at 210.82 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manu Part" ""
+			(at 210.82 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 210.82 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FIXME" ""
 			(at 210.82 142.24 0)
 			(effects
 				(font
@@ -8075,6 +8858,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manu Part" ""
+			(at 234.9284 120.8173 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 234.9284 120.8173 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FIXME" ""
+			(at 234.9284 120.8173 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "stm-midi-poc1"
 				(path "/7cd74113-1f92-4dcc-8610-19aa9fc81e5f/96c396b4-5394-4a50-9288-ad4476d1492f"
@@ -8158,6 +8968,33 @@
 			)
 		)
 		(property "DPFURL" ""
+			(at 234.95 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manu Part" ""
+			(at 234.95 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 234.95 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FIXME" ""
 			(at 234.95 142.24 0)
 			(effects
 				(font
@@ -8386,6 +9223,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manu Part" ""
+			(at 119.38 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 119.38 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FIXME" ""
+			(at 119.38 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d6be909e-352d-463f-b519-f0fe86552e6a")
 		)
@@ -8437,7 +9301,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2312201431_CONNFLY-Elec-DS1021-1x5SF11-B_C7430361.pdf"
 			(at 38.1 118.11 0)
 			(effects
 				(font
@@ -8464,7 +9328,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPFNOTES" ""
+		(property "DPFNOTES" "Direct Insert 5P 2.54mm Single Row 1x5P Plugin,P=2.54mm  Pin Headers ROHS"
 			(at 38.1 129.54 0)
 			(effects
 				(font
@@ -8474,6 +9338,42 @@
 			)
 		)
 		(property "DPFURL" ""
+			(at 38.1 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manu Part" "DS1021-1x5SF11-B"
+			(at 38.1 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CONNFLY Elec"
+			(at 38.1 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Basic Part" "Extended"
+			(at 38.1 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FIXME" ""
 			(at 38.1 129.54 0)
 			(effects
 				(font
@@ -8569,6 +9469,42 @@
 			)
 		)
 		(property "LCSC" "C5156676"
+			(at 135.89 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manu Part" "PZ2.54-2*4"
+			(at 135.89 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "ZHOURI"
+			(at 135.89 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Basic Part" "Extended"
+			(at 135.89 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FIXME" ""
 			(at 135.89 91.44 0)
 			(effects
 				(font
@@ -8681,7 +9617,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPFNOTES" "In-stock 3.5mm TRS"
+		(property "DPFNOTES" "-20℃~+70℃ 3.5mm Headphone Jack 30V 500mA SMD Audio Connectors (Headphones) ROHS"
 			(at 222.25 34.29 0)
 			(effects
 				(font
@@ -8691,6 +9627,42 @@
 			)
 		)
 		(property "DPFURL" "https://jlcpcb.com/partdetail/Korean_HropartsElec-PJ_321A4A/C879743"
+			(at 222.25 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Basic Part" "Extended"
+			(at 222.25 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manu Part" "PJ-321A-4A"
+			(at 222.25 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Korean Hroparts Elec"
+			(at 222.25 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FIXME" ""
 			(at 222.25 34.29 0)
 			(effects
 				(font
@@ -8862,6 +9834,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manu Part" ""
+			(at 162.56 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 162.56 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FIXME" ""
+			(at 162.56 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e949b20a-a509-4bdf-abbf-3b025427ddc7")
 		)
@@ -8959,6 +9958,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manu Part" ""
+			(at 234.95 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 234.95 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FIXME" ""
+			(at 234.95 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project ""
 				(path "/7cd74113-1f92-4dcc-8610-19aa9fc81e5f/96c396b4-5394-4a50-9288-ad4476d1492f"
@@ -9005,7 +10031,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05B104KB54PNC_C307331.pdf"
 			(at 133.35 44.45 0)
 			(effects
 				(font
@@ -9032,7 +10058,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPFNOTES" ""
+		(property "DPFNOTES" "50V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 133.35 44.45 0)
 			(effects
 				(font
@@ -9042,6 +10068,42 @@
 			)
 		)
 		(property "DPFURL" ""
+			(at 133.35 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Basic Part" "Basic"
+			(at 133.35 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manu Part" ""
+			(at 133.35 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 133.35 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FIXME" ""
 			(at 133.35 44.45 0)
 			(effects
 				(font
@@ -9147,6 +10209,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manu Part" ""
+			(at 234.95 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 234.95 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FIXME" ""
+			(at 234.95 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "stm-midi-poc1"
 				(path "/7cd74113-1f92-4dcc-8610-19aa9fc81e5f/96c396b4-5394-4a50-9288-ad4476d1492f"
@@ -9228,6 +10317,33 @@
 			)
 		)
 		(property "DPFURL" ""
+			(at 200.66 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manu Part" ""
+			(at 200.66 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 200.66 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FIXME" ""
 			(at 200.66 142.24 0)
 			(effects
 				(font
