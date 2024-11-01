@@ -66,6 +66,8 @@ Discussions:
   * [EasyEDA](https://easyeda.com)
 * Useful tools:
   * [EasyEDA2KiCAD](https://github.com/uPesy/easyeda2kicad.py)
+  * [JLC Parts Finder](https://yaqwsx.github.io/jlcparts/)
+
 
 # KiCAD Configuration Notes
 
@@ -81,6 +83,7 @@ Using EasyEDA2KiCAD:
 * Create a Symbol Library
   * `easyeda2kicad` Nickname
   * `${EASYEDA2KICAD}/easyeda2kicad.kicad_sym` Library Path
+
 
 # Status
 
@@ -100,6 +103,7 @@ Using EasyEDA2KiCAD:
 * Use a 4-pin 32kHz clock?
 * RN1 footprint and 3D model look a little bit off - footprint is a bit too small?
 * Test points/pins
+
 
 # Board Layout Notes
 
