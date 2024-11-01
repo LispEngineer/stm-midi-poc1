@@ -9,6 +9,7 @@
   * [See LICENSE.md](LICENSE.md) or [CC site](https://creativecommons.org/licenses/by-sa/4.0/deed.en)
 * Started 2024-09-28
 * Last updated 2024-10-25
+* [Repo Self-Link](https://github.com/LispEngineer/stm-midi-poc1)
 
 Overviews:
 * Front 3D View
@@ -22,6 +23,14 @@ Design documents:
 * Designed in [KiCAD 8](https://www.kicad.org/)
 * LCSC part numbers included for assembly by [JLCPCB](https://jlcpcb.com/)
 
+Software:
+* [Pinout](https://github.com/LispEngineer/stm-midi-poc1-sw)
+* [STM Synth](https://github.com/LispEngineer/nucleo-uart)
+* [My KiCAD Libraries](https://github.com/LispEngineer/KiCAD_Libraries)
+
+Discussions:
+* [Smaller Optoisolator](https://www.reddit.com/r/synthdiy/comments/1gghujj/smaller_midi_optoisolator/)
+
 
 # Production Runs
 
@@ -30,6 +39,7 @@ Design documents:
 * Submitted: 2024-10-27
 * Git Commit: `6f9e281abe9c22ef3b995376c3df42217fc04524`
 * Producer: JLCPCB
+  * Order #W202410271206812 
 * Boards: 5
 * Assemblies: 2
 * [BOM](jlcpcb/production_files/BOM-stm-midi-poc1.csv)
@@ -39,6 +49,12 @@ Design documents:
   ![JLCPCB Corrected Part Placement](9042618026565632-Produce_DanZhi.SMT_Snapshot.Top.8392316A_Y2.SMT024102760115.png)
 * [JLCPCB Submission](<jlcpcb-production/run1-20241027/stm-midi-poc1 6f9e281abe9c22ef3b995376c3df42217fc04524_Y2.zip>)
 * Status: Production complete; in DHL's hands for delivery Nov 8
+* Cost:
+  * PCB: $28.02
+  * Assembly: $79.66
+  * Shipping: $32.60
+  * Sales tax: $11.22
+  * Total: $151.50
 
 
 # Miscellaneous Notes
