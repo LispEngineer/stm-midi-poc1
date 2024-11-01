@@ -1,5 +1,7 @@
 # MIDI Synthesizer Proof of Concept 1
 
+**Feedback is very welcome!**
+
 * Author: [Douglas P. Fields, Jr.](mailto:symbolics@lisp.engineer)
 * My portions Copyright 2024 Douglas P. Fields, Jr.
 * My portions License: Creative Commons Attribution-ShareAlike 4.0
@@ -8,12 +10,39 @@
 * Started 2024-09-28
 * Last updated 2024-10-25
 
-More documentation to come.
+Overviews:
+* Front 3D View
+  ![Front 3D View](stm-midi-poc1-3d-front-head-on-1.png)
+* [Schematic PDF](stm-midi-poc1.pdf)
+* [Board Plots as PDF](plots/stm-midi-poc1__Assembly.pdf)
+* [Interactive BOM](bom/ibom.html)
+
+Design documents:
+* [Design notes](Design.md)
+* Designed in [KiCAD 8](https://www.kicad.org/)
+* LCSC part numbers included for assembly by [JLCPCB](https://jlcpcb.com/)
+
+
+# Production Runs
+
+## Run 1
+
+* Submitted: 2024-10-27
+* Git Commit: `6f9e281abe9c22ef3b995376c3df42217fc04524`
+* Producer: JLCPCB
+* Boards: 5
+* Assemblies: 2
+* [BOM](jlcpcb/production_files/BOM-stm-midi-poc1.csv)
+* [CPL](jlcpcb/production_files/CPL-stm-midi-poc1.csv)
+* [Gerbers](jlcpcb/production_files/GERBER-stm-midi-poc1.zip)
+* JLCPCB Corrected Part Placement
+  ![JLCPCB Corrected Part Placement](9042618026565632-Produce_DanZhi.SMT_Snapshot.Top.8392316A_Y2.SMT024102760115.png)
+* [JLCPCB Submission](<jlcpcb-production/run1-20241027/stm-midi-poc1 6f9e281abe9c22ef3b995376c3df42217fc04524_Y2.zip>)
+* Status: Production complete; in DHL's hands for delivery Nov 8
+
 
 # Miscellaneous Notes
 
-* Designed in [KiCAD 8](https://www.kicad.org/)
-* LCSC part numbers included for assembly by [JLCPCB](https://jlcpcb.com/)
 * Footprints, models, etc., by their respective authors
 * Some footprints, schematics, models are from these sources:
   * [Component Search Engine](https://componentsearchengine.com)
@@ -21,7 +50,6 @@ More documentation to come.
   * [EasyEDA](https://easyeda.com)
 * Useful tools:
   * [EasyEDA2KiCAD](https://github.com/uPesy/easyeda2kicad.py)
-* Feedback is welcome
 
 # KiCAD Configuration Notes
 
@@ -46,11 +74,8 @@ Using EasyEDA2KiCAD:
 * Schematic symbols: Done
 * Footprints: Done
 * 3D models: Done
-* PCB Layout:
-  * Take 3 in progress
-  * (Take 1 was a 2-layer PCB)
-  * (Take 2 extended that to a 4-layer with two signal layers)
-  * (Take 3 is a Manhattan routing manual re-do of the whole routing)
+* PCB Layout: Done
+* Production 1 run: Done - in shipping
 
 
 ## TODOs
@@ -58,6 +83,7 @@ Using EasyEDA2KiCAD:
 * Find a much smaller Opto-isolator for MIDI than the one chosen here
 * Use a 4-pin 32kHz clock?
 * RN1 footprint and 3D model look a little bit off - footprint is a bit too small?
+* Test points/pins
 
 # Board Layout Notes
 
