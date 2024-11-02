@@ -99,6 +99,9 @@ Schematic References:
   * Package: SOIC-6
   * [Mouser](https://www.mouser.com/ProductDetail/Toshiba/TLP2361TPLE?qs=HVbQlW5zcXUn%252BfokbzIatg%3D%3D&utm_id=10348264317&gad_source=1)
   * [LCSC](https://www.lcsc.com/product-detail/Optocouplers---Logic-Output_TOSHIBA-TOSHIBA-TLP2361V4-TPL%2CE_C123773.html)
+  * "if you need to save space, use a SO-5 chip like the TLP2361 (which has a CMOS output, so it does not need a pull-up resistor)" [source](https://electronics.stackexchange.com/questions/165255/midi-in-many-circuits)
+* [Toshiba TLP2362](https://toshiba.semicon-storage.com/us/semiconductor/product/isolators-solid-state-relays/detail.TLP2362.html)
+  * Used by Ksoloti - see their schematic
 * [Vishay VO0600](https://www.vishay.com/en/product/84607/)
   * Package: SOIC-8
   * [LCSC](https://www.lcsc.com/product-detail/Logic-Output-Optoisolators_Vishay-Intertech-VO0600T_C5830851.html)
