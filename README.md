@@ -103,7 +103,7 @@ Using EasyEDA2KiCAD:
 * Use a 4-pin 32kHz clock?
 * RN1 footprint and 3D model look a little bit off - footprint is a bit too small?
 * Test points/pins
-
+* MCU Pin 24 is not used - it is I2S1_MCK
 
 # Board Layout Notes
 

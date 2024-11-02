@@ -35,6 +35,7 @@ Schematic References:
 * [Blue Pill](https://stm32-base.org/boards/STM32F103C8T6-Blue-Pill.html)
   * [More on Blue Pill](https://www.hackster.io/MakerIoT2020/remaking-the-stm32-blue-pill-d3ae30)
 * [Pimoroni Pico Audio Pack PIM544](https://shop.pimoroni.com/products/pico-audio-pack?variant=32369490853971)
+  * [Pimoroni Pico Audio Pack PIM544 Schematic](https://cdn.shopify.com/s/files/1/0174/1800/files/pico_audio_pack_schematic.pdf?v=1647429199)
   * [PCM5102A I2S DAC](https://www.ti.com/product/PCM5102A)
   * [PCM5102 and STM32](http://elastic-notes.blogspot.com/2020/11/use-pcm5102-with-stm32_76.html)
   * [Wikipedia I²S](https://en.wikipedia.org/wiki/I%C2%B2S)

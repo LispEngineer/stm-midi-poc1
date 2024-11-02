@@ -6,7 +6,7 @@
 	(paper "USLetter")
 	(title_block
 		(title "Block Diagram")
-		(date "2024-10-26")
+		(date "2024-11-02")
 		(rev "1")
 		(company "Douglas P. Fields, Jr.")
 		(comment 1 "symbolics@lisp.engineer")
