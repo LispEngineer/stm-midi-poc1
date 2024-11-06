@@ -100,6 +100,10 @@ Using EasyEDA2KiCAD:
 ## TODOs
 
 * Find a much smaller Opto-isolator for MIDI than the one chosen here
+  * [TLP2362](https://toshiba.semicon-storage.com/us/semiconductor/product/isolators-solid-state-relays/detail.TLP2362.html)
+    is used by [Ksoloti 0.6](https://ksoloti.github.io/5-resources.html). Tested to work with
+    1.8kΩ pull-up resistor instead of the schematic's 2.7kΩ.
+    (Also worked with no pull-up resistor!)
 * Use a 4-pin 32kHz clock?
 * RN1 footprint and 3D model look a little bit off - footprint is a bit too small?
 * Test points/pins
@@ -154,7 +158,8 @@ of vias.
 # Notes for future
 
 * Use fewer header types, they're all extended parts
-* Find a smaller opto-isolator, or a dual one
-  * Remember MIDI is < 50 kHz
 * Don't use the Resistor Network - due to the Extended parts fee from JLC
   * OTOH there are no 56Ω resistors in the Basic parts library
+  * C25127 is an extended part 0402
+  * C17714 is an 0805 47Ω
+* Add I/O activity LEDs for MIDI & serial?
