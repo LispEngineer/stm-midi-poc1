@@ -1,0 +1,64 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "ff4e0357-63ee-4d7f-b321-b867ed3049c6")
+	(paper "USLetter")
+	(title_block
+		(title "Revision History")
+		(date "2024-11-05")
+		(rev "2")
+		(company "Douglas P. Fields, Jr.")
+	)
+	(lib_symbols)
+	(text "Revision 1: EVT #1"
+		(exclude_from_sim no)
+		(at 25.146 26.924 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "197a2a94-913c-4e3e-bcf0-a72114be479f")
+	)
+	(text "* Fix connections for 3.5mm jacks (tip & sleeve were reversed)"
+		(exclude_from_sim no)
+		(at 25.4 42.418 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify left)
+		)
+		(uuid "1c8591c2-d291-4341-8fad-d59d62e706b5")
+	)
+	(text "Revision 2: EVT #2"
+		(exclude_from_sim no)
+		(at 25.4 39.624 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "75326b60-882c-44fb-b172-c5371c10937e")
+	)
+	(text "* Initial version"
+		(exclude_from_sim no)
+		(at 25.146 29.718 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify left)
+		)
+		(uuid "e3b2d195-e264-4c05-993b-ee2849e0993e")
+	)
+)

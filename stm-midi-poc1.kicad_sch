@@ -6,8 +6,8 @@
 	(paper "USLetter")
 	(title_block
 		(title "Block Diagram")
-		(date "2024-11-02")
-		(rev "1")
+		(date "2024-11-05")
+		(rev "2")
 		(company "Douglas P. Fields, Jr.")
 		(comment 1 "symbolics@lisp.engineer")
 		(comment 2 "https://creativecommons.org/licenses/by-sa/4.0/ ")
@@ -277,6 +277,44 @@
 			)
 		)
 		(uuid "efec8f44-788f-410d-a938-cfb9d9ecd7d2")
+	)
+	(sheet
+		(at 25.4 177.8)
+		(size 12.7 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "75d610bb-085b-4096-b6fc-a7ccaa5321b2")
+		(property "Sheetname" "Revision History"
+			(at 25.4 177.0884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "revisions.kicad_sch"
+			(at 25.4 191.0846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "stm-midi-poc1"
+				(path "/7cd74113-1f92-4dcc-8610-19aa9fc81e5f"
+					(page "6")
+				)
+			)
+		)
 	)
 	(sheet
 		(at 234.95 124.46)
