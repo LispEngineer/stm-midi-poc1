@@ -154,6 +154,13 @@ of vias.
   * Samsung CL10A475KO8NNNC works *but* Datasheet doesn't say what the ESR is, just "low ESR"
   * [Notes on the Cap](https://community.st.com/t5/stm32-mcus-products/how-supply-stm32f446ret6/td-p/635424)
 
+* [ISOM8710](https://www.ti.com/product/ISOM8710) 
+  is a drop-in replacement for the
+  [TLP2362](https://toshiba.semicon-storage.com/us/semiconductor/product/isolators-solid-state-relays/detail.TLP2362.html)
+  * Same form factor
+  * Same functionality (tested on a breadboard)
+  * Same circuit
+
 
 # Notes for future
 
