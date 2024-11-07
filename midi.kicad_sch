@@ -3152,17 +3152,6 @@
 		)
 		(uuid "68d7c01d-7ed3-4d68-92c1-6b153378db2b")
 	)
-	(label "OI2→U3R"
-		(at 102.87 107.95 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left bottom)
-		)
-		(uuid "7e8b33c8-b9bf-4ee9-95bd-7a7a79319708")
-	)
 	(label "MO1-SNK"
 		(at 36.83 29.21 0)
 		(fields_autoplaced yes)
@@ -3228,17 +3217,6 @@
 			(justify left bottom)
 		)
 		(uuid "f1680b39-dae6-492b-ae7b-219c6db2de97")
-	)
-	(label "OI1→U3R"
-		(at 102.87 55.88 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left bottom)
-		)
-		(uuid "f3a046a7-c61a-4978-9895-b4aed12733e5")
 	)
 	(label "MI2-SRC"
 		(at 38.1 100.33 0)

@@ -4193,6 +4193,16 @@
 		)
 		(uuid "4a9a9e19-eac3-4ab3-9082-0faffbe4063f")
 	)
+	(text "Note: Buttons are high when not pressed"
+		(exclude_from_sim no)
+		(at 127.508 63.246 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "87fdde95-397e-4704-b860-5b9c9483738b")
+	)
 	(text "Route 2 or 4 signals\nunderneath\n0805 = ?  (R35)\n1206 = 3  (R31)\n2010 = 4+ (R30)\n\nTODO: Find a 0-ohm\nresistor network"
 		(exclude_from_sim no)
 		(at 197.866 145.796 0)
@@ -5243,6 +5253,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
