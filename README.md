@@ -160,6 +160,7 @@ of vias.
   * Same form factor
   * Same functionality (tested on a breadboard)
   * Same circuit
+  * Does not seem to be carried at JLCPCB
 
 
 # Notes for future
