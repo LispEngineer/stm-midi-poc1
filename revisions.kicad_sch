@@ -6,7 +6,7 @@
 	(paper "USLetter")
 	(title_block
 		(title "Revision History")
-		(date "2024-11-06")
+		(date "2024-11-10")
 		(rev "2")
 		(company "Douglas P. Fields, Jr.")
 	)
@@ -24,7 +24,7 @@
 		)
 		(uuid "197a2a94-913c-4e3e-bcf0-a72114be479f")
 	)
-	(text "* Fix connections for 3.5mm jacks (tip & sleeve were reversed)\n* Revise MIDI In circuits with smaller opto-isolator\n...\n* Miscellaneous cleanups"
+	(text "* Fix connections for 3.5mm jacks (tip & sleeve were reversed)\n* Revise MIDI In circuits with smaller opto-isolator\n* Add USB 5V pin header\n...\n* Miscellaneous cleanups"
 		(exclude_from_sim no)
 		(at 25.4 42.418 0)
 		(effects

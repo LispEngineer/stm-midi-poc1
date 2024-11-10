@@ -171,3 +171,7 @@ of vias.
   * C25127 is an extended part 0402
   * C17714 is an 0805 47Ω
 * Add I/O activity LEDs for MIDI & serial?
+* Add a pin for VBUS (5V from USB) and USB GND
+* Add pins for the TRS jacks
+* Get a 4-way switch for gain?
+* Rewrire the headphone amp like Pimoroni?

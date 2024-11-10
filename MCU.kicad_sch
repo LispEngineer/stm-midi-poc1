@@ -6,7 +6,7 @@
 	(paper "USLetter")
 	(title_block
 		(title "MCU, Crystals, USB and Power")
-		(date "2024-11-06")
+		(date "2024-11-10")
 		(rev "1")
 		(company "Douglas P. Fields, Jr.")
 	)
@@ -2794,6 +2794,123 @@
 				)
 			)
 		)
+		(symbol "easyeda2kicad:2541WV-02P"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -2.032 5.842 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "2541WV-02P"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:HDR-TH_2P-P2.54-V-M-1"
+				(at 0 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C5383111"
+				(at 0 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "2541WV-02P_0_1"
+				(rectangle
+					(start -2.54 3.81)
+					(end 0 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -1.27 2.54)
+					(radius 0.38)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 1.27 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -1.27 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "easyeda2kicad:GT-USB-7010I"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4286,6 +4403,12 @@
 		(uuid "9765b83d-0826-40b5-9b8d-3b75daad301c")
 	)
 	(junction
+		(at 101.6 171.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ab387d72-1891-4df8-8555-ff02486a54c4")
+	)
+	(junction
 		(at 50.8 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5151,7 +5274,7 @@
 	)
 	(polyline
 		(pts
-			(xy 95.25 184.15) (xy 26.67 184.15)
+			(xy 105.41 184.15) (xy 26.67 184.15)
 		)
 		(stroke
 			(width 0)
@@ -5178,6 +5301,16 @@
 			(type default)
 		)
 		(uuid "68d67e04-1101-406a-8155-e7d896267261")
+	)
+	(wire
+		(pts
+			(xy 101.6 171.45) (xy 101.6 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69081ae4-5f5e-4b9d-b3c4-55a63bb2256a")
 	)
 	(wire
 		(pts
@@ -5228,6 +5361,16 @@
 			(type default)
 		)
 		(uuid "6c7b324f-074d-4062-96cb-e3e2887839a1")
+	)
+	(wire
+		(pts
+			(xy 97.79 171.45) (xy 101.6 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "732f7c22-615c-4e6c-9cd7-41a2409218d5")
 	)
 	(wire
 		(pts
@@ -5791,6 +5934,16 @@
 	)
 	(wire
 		(pts
+			(xy 97.79 173.99) (xy 101.6 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf77f57b-90a4-4af9-8012-fdde07919d2a")
+	)
+	(wire
+		(pts
 			(xy 200.66 99.06) (xy 204.47 99.06)
 		)
 		(stroke
@@ -5821,7 +5974,7 @@
 	)
 	(polyline
 		(pts
-			(xy 95.25 158.75) (xy 95.25 184.15)
+			(xy 105.41 158.75) (xy 105.41 184.15)
 		)
 		(stroke
 			(width 0)
@@ -5978,6 +6131,16 @@
 			(type default)
 		)
 		(uuid "d1f60153-1239-4437-99fb-65ebe83b900f")
+	)
+	(wire
+		(pts
+			(xy 101.6 173.99) (xy 101.6 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2af865e-0c23-4b28-a093-0c1b1b0bcfea")
 	)
 	(wire
 		(pts
@@ -6261,7 +6424,7 @@
 	)
 	(polyline
 		(pts
-			(xy 26.67 158.75) (xy 95.25 158.75)
+			(xy 26.67 158.75) (xy 105.41 158.75)
 		)
 		(stroke
 			(width 0)
@@ -9434,6 +9597,110 @@
 		)
 	)
 	(symbol
+		(lib_id "easyeda2kicad:2541WV-02P")
+		(at 92.71 172.72 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4c2b26b3-88c8-4222-bfe2-c481b466ad8e")
+		(property "Reference" "J7"
+			(at 93.98 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USB-5V"
+			(at 93.98 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:HDR-TH_2P-P2.54-V-M-1"
+			(at 92.71 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "2-pin 2.54mm male header, through hole"
+			(at 92.71 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C5383111"
+			(at 92.71 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5383111"
+			(at 92.71 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPFNOTES" ""
+			(at 92.71 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPFURL" ""
+			(at 92.71 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0ef72945-002f-4421-b85d-6c7a39c9c003")
+		)
+		(pin "2"
+			(uuid "3d03306e-16af-4ca8-a6cf-af6d4cd94a61")
+		)
+		(instances
+			(project ""
+				(path "/7cd74113-1f92-4dcc-8610-19aa9fc81e5f/fb10b81b-747c-4030-b31b-dec45474bc0e"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 77.47 40.64 0)
 		(unit 1)
@@ -9891,6 +10158,72 @@
 			(project "stm-midi-poc1"
 				(path "/7cd74113-1f92-4dcc-8610-19aa9fc81e5f/fb10b81b-747c-4030-b31b-dec45474bc0e"
 					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 101.6 168.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5fbb439f-f1af-487c-b738-b43adce5edda")
+		(property "Reference" "#PWR040"
+			(at 101.6 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 101.6 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 101.6 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8b52d6fe-b47a-46c2-a31b-9875cd1a7b67")
+		)
+		(instances
+			(project "stm-midi-poc1"
+				(path "/7cd74113-1f92-4dcc-8610-19aa9fc81e5f/fb10b81b-747c-4030-b31b-dec45474bc0e"
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
