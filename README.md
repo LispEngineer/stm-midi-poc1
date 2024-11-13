@@ -175,3 +175,5 @@ of vias.
 * Add pins for the TRS jacks
 * Get a 4-way switch for gain?
 * Rewrire the headphone amp like Pimoroni?
+* Move console from UART3 to UART2
+  * Move console pins next to SWD pins for easy use with STLink
