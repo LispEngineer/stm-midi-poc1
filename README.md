@@ -56,8 +56,9 @@ Discussions:
   * Sales tax: $11.22
   * Total: $151.50
 
-![EVT1 Front Picture](EVT1-front.jpg)
+I received two fully populated boards. One was missing the J5 header.
 
+![EVT1 Front Picture](EVT1-front.jpg)
 
 # Miscellaneous Notes
 
