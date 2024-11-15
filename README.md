@@ -56,6 +56,8 @@ Discussions:
   * Sales tax: $11.22
   * Total: $151.50
 
+![EVT1 Front Picture](EVT1-front.jpg)
+
 
 # Miscellaneous Notes
 
@@ -177,3 +179,19 @@ of vias.
 * Rewrire the headphone amp like Pimoroni?
 * Move console from UART3 to UART2
   * Move console pins next to SWD pins for easy use with STLink
+
+Longer term
+* Move to an STM32H7 device
+* Move to a [higher pin-count device](https://www.st.com/en/microcontrollers-microprocessors/stm32h7-series/products.html)
+  * LQFP 64, 100, 144, 176, 208
+    * low-profile quad flat package - LQFP 64 currently in use
+  * TFBGA 216, 225, 240+25
+    * Thin Profile Fine Pitch Ball Grid Array
+    * thinner than other BGA packages - Gemini
+  * UFBGA 144, 169, 176+25
+    * ultra fine pitch ball grid array
+  * VFQFPN 68
+    * thermally enhanced very thin profile fine pitch quad flat package no lead (Gemini)
+  * WLCSP 132, 156
+    * [Wafer-Level Chip Scale Packaging](https://www.flashpcb.com/blog/QFP-QFN-BGA-WLSCP)
+* Add an SDRAM
