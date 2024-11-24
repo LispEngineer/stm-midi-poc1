@@ -31,6 +31,24 @@ Software:
 Discussions:
 * [Smaller Optoisolator](https://www.reddit.com/r/synthdiy/comments/1gghujj/smaller_midi_optoisolator/)
 
+## Key Reference Documents
+
+* [DS11853](TODO) - Datasheet: Arm® Cortex®-M7 32b MCU+FPU, 462DMIPS, up to 512KB Flash
+  256+16+4KB RAM, USB OTG HS/FS, 18 TIMs, 3 ADCs, 21 com IF
+* [RM0431](TODO) - STM32F72xxx ... advanced Arm®-based 32-bit MCUs
+* [PM0253](TODO) - STM32F7 Series and STM32H7 Series Cortex®-M7 processor programming manual
+* [ES0360](TODO) - STM32F72xxx and STM32F73xxx device limitations
+* [AN2867](TODO) - Guidelines for oscillator design on ... STM32 MCUs/MPUs
+* [AN4661](TODO) - Getting started with STM32F7 Series MCU hardware development
+* [AN5612](TODO) - ESD protection of STM32 MCUs
+* [AN4879](TODO) - Introduction to USB hardware and PCB guidelines using STM32 MCUs
+* [AN4989](TODO) - STM32 microcontroller debug toolbox
+* [AN4676](TODO) - STM32F7 Series peripheral interconnections
+* [AN4031](TODO) - Using the STM32F2, STM32F4 and STM32F7 Series DMA controller
+
+Moving to STM32H7:
+* [AN5293](TODO) - Migration guide from STM32F7 Series to STMH74x/75x, STM32H72x/73x and STMH7A3/7Bx devices
+* [AN4936](TODO) - Migration of microcontroller applications from STM32F7 Series to STM32H743/753 line
 
 # Production Runs
 
