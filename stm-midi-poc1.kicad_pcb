@@ -21494,7 +21494,7 @@
 		)
 		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/HDR-M-2.54_1x2.wrl"
 			(offset
-				(xyz 0 -0 0)
+				(xyz 1.3 -0 0)
 			)
 			(scale
 				(xyz 1 1 1)
