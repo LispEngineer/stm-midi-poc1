@@ -6,7 +6,7 @@
 	(paper "USLetter")
 	(title_block
 		(title "Audio Output")
-		(date "2024-11-02")
+		(date "2024-12-21")
 		(rev "1")
 		(company "Douglas P. Fields, Jr.")
 		(comment 1 "https://shop.pimoroni.com/products/pico-audio-pack")

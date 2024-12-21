@@ -6,7 +6,7 @@
 	(paper "USLetter")
 	(title_block
 		(title "MCU, Crystals, USB and Power")
-		(date "2024-11-10")
+		(date "2024-12-21")
 		(rev "1")
 		(company "Douglas P. Fields, Jr.")
 	)
