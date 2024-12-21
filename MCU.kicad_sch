@@ -153,8 +153,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "Y"
-				(at 1.27 4.445 0)
+			(property "Reference" "X1"
+				(at 1.778 -1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -162,8 +162,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "Crystal_GND24_Small"
-				(at 1.27 2.54 0)
+			(property "Value" "16MHz 10pF"
+				(at 1.27 3.302 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -171,7 +171,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
 				(at 0 0 0)
 				(effects
 					(font
@@ -180,7 +180,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2403291504_YXC-Crystal-Oscillators-X322516MMB4SI_C112972.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -190,6 +190,69 @@
 				)
 			)
 			(property "Description" "Four pin crystal, GND on pins 2 and 4, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C112972"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "DPFNOTES" "16MHz Surface Mount Crystal 10pF ±10ppm ±20ppm SMD3225-4P Crystals ROHS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "DPFURL" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manu Part" "X322516MMB4SI"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "YXC Crystal Oscillators"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "FIXME" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "JLC Basic Part" "Extended"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2915,7 +2978,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U5"
+			(property "Reference" "CN1"
 				(at 3.4641 12.7 0)
 				(effects
 					(font
@@ -2942,7 +3005,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2312191005_G-Switch-GT-USB-7010i_C5362630.pdf --- https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2951,7 +3014,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "USB 2.0-only 14P Type-C Receptacle connector"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2962,6 +3025,69 @@
 			)
 			(property "LCSC Part" "C5362630"
 				(at 0 -22.86 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C5362630"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "DPFNOTES" "Female Type-C USB Connectors ROHS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "DPFURL" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manu Part" "GT-USB-7010i"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "G-Switch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "JLC Basic Part" "Extended"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "FIXME" ""
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -11291,24 +11417,21 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9b81b688-c1ee-4998-bb80-0fd7c6f5296c")
-		(property "Reference" "J1"
-			(at 229.5241 68.58 0)
+		(property "Reference" "CN7"
+			(at 237.49 73.914 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "GT-USB-7010I"
-			(at 229.5241 71.12 0)
+		(property "Value" "USB-C"
+			(at 237.49 76.454 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "easyeda2kicad:USB-C-SMD_GT-USB-7010I"
@@ -11461,7 +11584,7 @@
 		(instances
 			(project ""
 				(path "/7cd74113-1f92-4dcc-8610-19aa9fc81e5f/fb10b81b-747c-4030-b31b-dec45474bc0e"
-					(reference "J1")
+					(reference "CN7")
 					(unit 1)
 				)
 			)
@@ -12971,7 +13094,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c68e4ef5-eed5-4b68-9f4c-9bce4cae9a12")
-		(property "Reference" "Y1"
+		(property "Reference" "X2"
 			(at 55.118 90.17 0)
 			(effects
 				(font
@@ -13094,7 +13217,7 @@
 		(instances
 			(project "stm-midi-poc1"
 				(path "/7cd74113-1f92-4dcc-8610-19aa9fc81e5f/fb10b81b-747c-4030-b31b-dec45474bc0e"
-					(reference "Y1")
+					(reference "X2")
 					(unit 1)
 				)
 			)
