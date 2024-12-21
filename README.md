@@ -8,15 +8,18 @@
   * AKA `CC BY-SA 4.0`
   * [See LICENSE.md](LICENSE.md) or [CC site](https://creativecommons.org/licenses/by-sa/4.0/deed.en)
 * Started 2024-09-28
-* Last updated 2024-10-25
+* Last updated 2024-12-21
 * [Repo Self-Link](https://github.com/LispEngineer/stm-midi-poc1)
 
 Overviews:
-* Front 3D View
-  ![Front 3D View](stm-midi-poc1-3d-front-head-on-1.png)
+* 3D Views
+  * ![Front 3D View](stm-midi-poc1-3d-front-head-on-1.png)
+  * ![Rear 3D View](stm-midi-poc1-3d-rear-head-on-1.png)
 * [Schematic PDF](stm-midi-poc1.pdf)
 * [Board Plots as PDF](plots/stm-midi-poc1__Assembly.pdf)
+  * From Board2PDF KiCAD Plugin
 * [Interactive BOM](bom/ibom.html)
+  * From Interactive BOM KiCAD Plugin
 
 Design documents:
 * [Design notes](Design.md)
@@ -36,8 +39,8 @@ Discussions:
 * [DS11853](TODO) - Datasheet: Arm® Cortex®-M7 32b MCU+FPU, 462DMIPS, up to 512KB Flash
   256+16+4KB RAM, USB OTG HS/FS, 18 TIMs, 3 ADCs, 21 com IF
 * [RM0431](TODO) - STM32F72xxx ... advanced Arm®-based 32-bit MCUs
-* [PM0253](TODO) - STM32F7 Series and STM32H7 Series Cortex®-M7 processor programming manual
-* [ES0360](TODO) - STM32F72xxx and STM32F73xxx device limitations
+* [PM0253](TODO) - STM32F7 Series ... Cortex®-M7 processor programming manual
+* [ES0360](TODO) - STM32F72xxx ... device limitations
 * [AN2867](TODO) - Guidelines for oscillator design on ... STM32 MCUs/MPUs
 * [AN4661](TODO) - Getting started with STM32F7 Series MCU hardware development
 * [AN5612](TODO) - ESD protection of STM32 MCUs
@@ -214,3 +217,10 @@ Longer term
   * WLCSP 132, 156
     * [Wafer-Level Chip Scale Packaging](https://www.flashpcb.com/blog/QFP-QFN-BGA-WLSCP)
 * Add an SDRAM
+
+
+# EasyEDA 2 KiCAD Notes
+
+`python -m easyeda2kicad --full --lcsc_id=Cxxxxx`
+
+[My imported library is in GitHub](https://github.com/LispEngineer/KiCAD_Libraries).

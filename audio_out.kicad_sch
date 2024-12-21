@@ -741,179 +741,6 @@
 				)
 			)
 		)
-		(symbol "Switch:SW_SPDT"
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SW_SPDT"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Switch, single pole double throw"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "switch single-pole double-throw spdt ON-ON"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SW_SPDT_0_1"
-				(circle
-					(center -2.032 0)
-					(radius 0.4572)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.651 0.254) (xy 1.651 2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 -2.54)
-					(radius 0.4572)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 2.54)
-					(radius 0.4572)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SW_SPDT_1_1"
-				(rectangle
-					(start -3.175 3.81)
-					(end 3.175 -3.81)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "easyeda2kicad:4D03WGJ0560T5E"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2431,10 +2258,6 @@
 		(uuid "26e582ab-76ce-43eb-b728-01a1ef7f394e")
 	)
 	(no_connect
-		(at 240.03 137.16)
-		(uuid "46424faf-193d-46d2-a61c-196ce9c63231")
-	)
-	(no_connect
 		(at 33.02 45.72)
 		(uuid "af74a56e-6a24-459b-85d1-c48dc678d7c7")
 	)
@@ -2467,16 +2290,6 @@
 			(type default)
 		)
 		(uuid "08b93edc-c506-40ff-bc15-5923d83e6429")
-	)
-	(wire
-		(pts
-			(xy 154.94 73.66) (xy 157.48 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a790d2b-0c93-4531-9da2-f3599b8a32ef")
 	)
 	(wire
 		(pts
@@ -2517,16 +2330,6 @@
 			(type default)
 		)
 		(uuid "18ea83a7-3165-4711-beb4-0a95b248bf00")
-	)
-	(wire
-		(pts
-			(xy 171.45 59.69) (xy 171.45 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b3c8801-14a0-49ca-9e5a-e2e8eea60f20")
 	)
 	(wire
 		(pts
@@ -2590,16 +2393,6 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 137.16) (xy 240.03 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3307eefd-b69e-4ec6-a0ae-54946e442013")
-	)
-	(wire
-		(pts
 			(xy 115.57 69.85) (xy 115.57 68.58)
 		)
 		(stroke
@@ -2647,16 +2440,6 @@
 			(type default)
 		)
 		(uuid "3ea67bcf-856c-435a-8a71-8d48a947ffe1")
-	)
-	(wire
-		(pts
-			(xy 177.8 68.58) (xy 180.34 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40102bf4-3810-4a67-8648-dfda0bfa370d")
 	)
 	(wire
 		(pts
@@ -2830,6 +2613,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 62.23) (xy 195.58 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60ee5cbd-1f55-4280-9125-cdfae5db941e")
+	)
+	(wire
+		(pts
 			(xy 104.14 69.85) (xy 115.57 69.85)
 		)
 		(stroke
@@ -2940,16 +2733,6 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 71.12) (xy 190.5 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7226b970-f5bc-4709-b234-a4e69112e132")
-	)
-	(wire
-		(pts
 			(xy 72.39 30.48) (xy 72.39 33.02)
 		)
 		(stroke
@@ -2987,16 +2770,6 @@
 			(type default)
 		)
 		(uuid "816869c6-dbca-40c7-8524-f1fad742c3ad")
-	)
-	(wire
-		(pts
-			(xy 194.31 59.69) (xy 171.45 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "820cb285-b855-4367-a696-fa0a59560eec")
 	)
 	(wire
 		(pts
@@ -3160,7 +2933,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 71.12) (xy 167.64 71.12)
+			(xy 157.48 59.69) (xy 194.31 59.69)
 		)
 		(stroke
 			(width 0)
@@ -3230,16 +3003,6 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 73.66) (xy 180.34 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b547d182-62ab-4e5f-ab65-2e93e453d7e7")
-	)
-	(wire
-		(pts
 			(xy 193.04 57.15) (xy 193.04 54.61)
 		)
 		(stroke
@@ -3250,7 +3013,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 59.69) (xy 195.58 71.12)
+			(xy 195.58 59.69) (xy 195.58 62.23)
 		)
 		(stroke
 			(width 0)
@@ -3397,16 +3160,6 @@
 			(type default)
 		)
 		(uuid "d711b6cc-df94-477b-a63e-cc6e25eebeaa")
-	)
-	(wire
-		(pts
-			(xy 154.94 68.58) (xy 157.48 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d87f14ac-9562-4e65-a5a8-894ea7c1c72b")
 	)
 	(wire
 		(pts
@@ -4756,16 +4509,6 @@
 		)
 		(uuid "981720f0-6c60-4dfd-8c95-28d7a68b823f")
 	)
-	(text "This chip does not need MCK.\nLeave it disconnected for simplicity."
-		(exclude_from_sim no)
-		(at 227.584 132.334 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "b9d485cb-8648-46d0-8755-43f6e160e32c")
-	)
 	(text "Pimoroni used a different INx- configuration;\nthis is from the datasheet."
 		(exclude_from_sim no)
 		(at 165.354 83.312 0)
@@ -4796,17 +4539,6 @@
 			(justify left bottom)
 		)
 		(uuid "02d0559f-bad2-4d79-b0d7-9cfe053931a0")
-	)
-	(label "Gain0"
-		(at 187.96 59.69 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "19728fb9-2502-4255-9e09-993ea3db796d")
 	)
 	(label "INR+_CR"
 		(at 165.1 46.99 0)
@@ -4862,28 +4594,6 @@
 			(justify left bottom)
 		)
 		(uuid "69797f5a-19cb-439f-911f-a60652e0d91c")
-	)
-	(label "Gain1"
-		(at 195.58 69.85 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "70577d61-0c97-4f8b-8986-a9b607be6bfe")
-	)
-	(label "HP_EN"
-		(at 185.42 57.15 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "75b3dbfc-2f27-4e74-a3ae-725cb3575c84")
 	)
 	(label "DAC_CAPP"
 		(at 86.36 45.72 0)
@@ -5116,6 +4826,28 @@
 			)
 		)
 	)
+	(global_label "HP_GAIN0"
+		(shape input)
+		(at 157.48 59.69 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "569237e2-627f-4076-8664-45d17475a484")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 145.4233 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "LINE_L"
 		(shape input)
 		(at 152.4 44.45 180)
@@ -5270,9 +5002,9 @@
 			)
 		)
 	)
-	(global_label "I2S1_MCK"
-		(shape output)
-		(at 228.6 137.16 180)
+	(global_label "HP_GAIN1"
+		(shape input)
+		(at 157.48 62.23 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5280,9 +5012,9 @@
 			)
 			(justify right)
 		)
-		(uuid "f884fdd6-11f5-49c2-b3f9-0e6f63866f31")
+		(uuid "d7e15f0b-d9be-4f4e-8428-cfbfbe360371")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 216.4225 137.16 0)
+			(at 145.4233 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6401,73 +6133,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 154.94 73.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "402497ab-f1bc-4a82-b267-7af7cac9087a")
-		(property "Reference" "#PWR068"
-			(at 154.94 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 154.94 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 154.94 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 154.94 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 154.94 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b6555ab6-66d0-44a3-a638-9f6098d0b61a")
-		)
-		(instances
-			(project "stm-midi-poc1"
-				(path "/7cd74113-1f92-4dcc-8610-19aa9fc81e5f/c9577070-7433-48cd-ae0f-c607bda27147"
-					(reference "#PWR068")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 45.72 191.77 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7522,139 +7187,6 @@
 			(project "stm-midi-poc1"
 				(path "/7cd74113-1f92-4dcc-8610-19aa9fc81e5f/c9577070-7433-48cd-ae0f-c607bda27147"
 					(reference "C35")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_SPDT")
-		(at 185.42 71.12 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5f24697f-8066-42fd-9b73-935bcb044b8f")
-		(property "Reference" "SW3"
-			(at 185.42 65.786 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Gain1"
-			(at 185.42 76.708 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPDT_PCM12"
-			(at 185.42 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1808041445_ALPSALPINE-SSSS811101_C109335.pdf"
-			(at 185.42 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Switch, single pole double throw"
-			(at 185.42 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C109335"
-			(at 185.42 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DPFNOTES" "ALPSALPINE SSSS811101, Like C&K PCM-12-SMT PCM12SMTR --- 300mA Horizontal attachment Single Pole Double Throw (SPDT) 5V 10,000 times SMD Slide Switches ROHS"
-			(at 185.42 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DPFURL" ""
-			(at 185.42 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manu Part" "SSSS811101"
-			(at 185.42 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "ALPSALPINE"
-			(at 185.42 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FIXME" ""
-			(at 185.42 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC Basic Part" "Extended"
-			(at 185.42 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "0bc2998c-5936-4013-84c9-b9cba2b1117b")
-		)
-		(pin "1"
-			(uuid "8d0a2552-1143-44a9-ac93-48fe96419f3d")
-		)
-		(pin "2"
-			(uuid "49eaea27-4e9d-443b-b4f0-e9c710c40f87")
-		)
-		(instances
-			(project "stm-midi-poc1"
-				(path "/7cd74113-1f92-4dcc-8610-19aa9fc81e5f/c9577070-7433-48cd-ae0f-c607bda27147"
-					(reference "SW3")
 					(unit 1)
 				)
 			)
@@ -9229,99 +8761,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 154.94 68.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9b731d88-0fe9-4eff-a92d-7fbf5927c4a8")
-		(property "Reference" "#PWR067"
-			(at 154.94 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3VDAC"
-			(at 154.94 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 154.94 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 154.94 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 154.94 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 154.94 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DPFNOTES" ""
-			(at 154.94 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DPFURL" ""
-			(at 154.94 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a0bbb32e-b3c0-4f46-b6a6-60a5e9233ef6")
-		)
-		(instances
-			(project "stm-midi-poc1"
-				(path "/7cd74113-1f92-4dcc-8610-19aa9fc81e5f/c9577070-7433-48cd-ae0f-c607bda27147"
-					(reference "#PWR067")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 200.66 69.85 270)
 		(unit 1)
@@ -10097,99 +9536,6 @@
 			(project ""
 				(path "/7cd74113-1f92-4dcc-8610-19aa9fc81e5f/c9577070-7433-48cd-ae0f-c607bda27147"
 					(reference "#PWR046")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 177.8 68.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b850eea9-6ee5-4a0d-a656-6d65a5344b85")
-		(property "Reference" "#PWR069"
-			(at 177.8 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3VDAC"
-			(at 177.8 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 177.8 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 177.8 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 177.8 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 177.8 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DPFNOTES" ""
-			(at 177.8 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DPFURL" ""
-			(at 177.8 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "19e6eae8-e697-4edd-b46e-f81bcc611198")
-		)
-		(instances
-			(project "stm-midi-poc1"
-				(path "/7cd74113-1f92-4dcc-8610-19aa9fc81e5f/c9577070-7433-48cd-ae0f-c607bda27147"
-					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -11055,73 +10401,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 177.8 73.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f1d219fd-bb99-4c40-bb56-f0d671a59369")
-		(property "Reference" "#PWR070"
-			(at 177.8 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 177.8 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 177.8 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 177.8 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 177.8 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fba5b124-43dd-4866-a790-27c5588548e7")
-		)
-		(instances
-			(project "stm-midi-poc1"
-				(path "/7cd74113-1f92-4dcc-8610-19aa9fc81e5f/c9577070-7433-48cd-ae0f-c607bda27147"
-					(reference "#PWR070")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 80.01 184.15 0)
 		(unit 1)
@@ -11249,139 +10528,6 @@
 			(project "stm-midi-poc1"
 				(path "/7cd74113-1f92-4dcc-8610-19aa9fc81e5f/c9577070-7433-48cd-ae0f-c607bda27147"
 					(reference "C27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_SPDT")
-		(at 162.56 71.12 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fc365eba-28d5-4db1-ad21-0eb865d1dfde")
-		(property "Reference" "SW2"
-			(at 162.56 65.786 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Gain0"
-			(at 162.56 76.708 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPDT_PCM12"
-			(at 162.56 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1808041445_ALPSALPINE-SSSS811101_C109335.pdf"
-			(at 162.56 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Switch, single pole double throw"
-			(at 162.56 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C109335"
-			(at 162.56 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DPFNOTES" "ALPSALPINE SSSS811101, Like C&K PCM-12-SMT PCM12SMTR --- 300mA Horizontal attachment Single Pole Double Throw (SPDT) 5V 10,000 times SMD Slide Switches ROHS"
-			(at 162.56 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DPFURL" ""
-			(at 162.56 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manu Part" "SSSS811101"
-			(at 162.56 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "ALPSALPINE"
-			(at 162.56 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FIXME" ""
-			(at 162.56 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC Basic Part" "Extended"
-			(at 162.56 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "f69b268c-7e9a-493c-bf5c-f1fe19b78907")
-		)
-		(pin "1"
-			(uuid "52afddbd-8f9d-4b3b-9704-74f54204a1b2")
-		)
-		(pin "2"
-			(uuid "f51a5a0f-3358-43fd-ba54-ae8697c9ba17")
-		)
-		(instances
-			(project "stm-midi-poc1"
-				(path "/7cd74113-1f92-4dcc-8610-19aa9fc81e5f/c9577070-7433-48cd-ae0f-c607bda27147"
-					(reference "SW2")
 					(unit 1)
 				)
 			)

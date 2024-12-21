@@ -6826,7 +6826,7 @@
 			)
 		)
 	)
-	(global_label "I2S1_MCK"
+	(global_label "GPIO_PC4"
 		(shape input)
 		(at 116.84 90.17 180)
 		(fields_autoplaced yes)
@@ -6838,7 +6838,7 @@
 		)
 		(uuid "1edc5677-7d12-4107-907c-1b71123fac38")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 104.6625 90.17 0)
+			(at 104.6624 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6870,8 +6870,8 @@
 			)
 		)
 	)
-	(global_label "GPIO_PB1"
-		(shape bidirectional)
+	(global_label "HP_GAIN1"
+		(shape output)
 		(at 154.94 102.87 0)
 		(fields_autoplaced yes)
 		(effects
@@ -6882,7 +6882,7 @@
 		)
 		(uuid "40f1e642-9b3e-403d-a0aa-46c314ed120a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 168.2289 102.87 0)
+			(at 166.9967 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6936,8 +6936,8 @@
 			)
 		)
 	)
-	(global_label "GPIO_PB2"
-		(shape bidirectional)
+	(global_label "HP_GAIN0"
+		(shape output)
 		(at 154.94 105.41 0)
 		(fields_autoplaced yes)
 		(effects
@@ -6948,7 +6948,7 @@
 		)
 		(uuid "5b6bb36f-efdf-4357-ab6d-09731da5039c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 168.2289 105.41 0)
+			(at 166.9967 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7091,7 +7091,7 @@
 		)
 	)
 	(global_label "I2S1_SD"
-		(shape input)
+		(shape output)
 		(at 154.94 74.93 0)
 		(fields_autoplaced yes)
 		(effects
@@ -7310,8 +7310,8 @@
 			)
 		)
 	)
-	(global_label "GPIO_PA15"
-		(shape bidirectional)
+	(global_label "SPI2_CS"
+		(shape output)
 		(at 154.94 95.25 0)
 		(fields_autoplaced yes)
 		(effects
@@ -7322,7 +7322,7 @@
 		)
 		(uuid "bce07f31-75f8-4d97-90d6-15f946b3b94c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 169.257 95.25 0)
+			(at 165.6661 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7574,8 +7574,8 @@
 			)
 		)
 	)
-	(global_label "GPIO_PB5"
-		(shape bidirectional)
+	(global_label "SPI2_RESET"
+		(shape output)
 		(at 154.94 113.03 0)
 		(fields_autoplaced yes)
 		(effects
@@ -7586,7 +7586,7 @@
 		)
 		(uuid "dcbcc933-bd68-4ba7-8560-578e8f5a779c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 168.2289 113.03 0)
+			(at 168.9317 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7684,8 +7684,8 @@
 			)
 		)
 	)
-	(global_label "GPIO_PB8"
-		(shape bidirectional)
+	(global_label "SPI2_DC"
+		(shape output)
 		(at 154.94 120.65 0)
 		(fields_autoplaced yes)
 		(effects
@@ -7696,7 +7696,7 @@
 		)
 		(uuid "ecbe3246-3307-4292-b915-c37c7c865b3e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 168.2289 120.65 0)
+			(at 165.7266 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
