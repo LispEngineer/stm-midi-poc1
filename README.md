@@ -55,7 +55,7 @@ Moving to STM32H7:
 
 # Production Runs
 
-## Run 1
+## Run 1 - EVT#1
 
 * Submitted: 2024-10-27
 * Git Commit: `6f9e281abe9c22ef3b995376c3df42217fc04524`

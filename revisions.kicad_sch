@@ -24,7 +24,7 @@
 		)
 		(uuid "197a2a94-913c-4e3e-bcf0-a72114be479f")
 	)
-	(text "* Fix connections for 3.5mm jacks (tip & sleeve were reversed)\n* Revise MIDI In circuits with smaller opto-isolator\n* Add USB 5V pin header\n* Move Gain0/1 from switches to GPIO pins\n* Revise SPI header with pins for ILI9341 SPI screen\n* Consolidate SWD and Console USART2 to a single header\n* Consolidate all unused MIDI into a single header\n...\n* Miscellaneous cleanups\nTODO\n* Revise DAC to HP Amp input with Pimoroni suggestion\n* Add MIDI in/out LEDs\n* Add test pins for:\n  * Audio, MIDI\n  * USB Gnd/5v/D+/D-\n  * MIDI raw UART RX/TX\n"
+	(text "* Fix connections for 3.5mm jacks (tip & sleeve were reversed)\n* Revise MIDI In circuits with smaller opto-isolator\n* Add USB 5V pin header\n* Move Gain0/1 from switches to GPIO pins\n* Revise SPI header with pins for ILI9341 SPI screen\n* Consolidate SWD and Console USART2 to a single header\n* Consolidate all unused MIDI into a single header\n* Add Jumper to HP Amp inputs to experiment with\n  resistor values per Pimoroni circuit\n...\n* Miscellaneous cleanups\nTODO\n* Consider replacing J7 with same type as J9 for BOM reduction\n* Add MIDI in/out LEDs\n* Add test pins for:\n  * Audio, MIDI\n  * USB Gnd/5v/D+/D-\n  * MIDI raw UART RX/TX\n"
 		(exclude_from_sim no)
 		(at 25.4 42.418 0)
 		(effects
