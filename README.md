@@ -68,18 +68,41 @@ Moving to STM32H7:
 * [Gerbers](jlcpcb/production_files/GERBER-stm-midi-poc1.zip)
 * JLCPCB Corrected Part Placement
   ![JLCPCB Corrected Part Placement](9042618026565632-Produce_DanZhi.SMT_Snapshot.Top.8392316A_Y2.SMT024102760115.png)
-* [JLCPCB Submission](<jlcpcb-production/run1-20241027/stm-midi-poc1 6f9e281abe9c22ef3b995376c3df42217fc04524_Y2.zip>)
+* [JLCPCB Submission](jlcpcb-production/run1-20241027/stm-midi-poc1 6f9e281abe9c22ef3b995376c3df42217fc04524_Y2.zip)
 * Status: Production complete; in DHL's hands for delivery Nov 8
 * Cost:
   * PCB: $28.02
   * Assembly: $79.66
-  * Shipping: $32.60
+  * Shipping: $32.60 (DHL)
   * Sales tax: $11.22
   * Total: $151.50
 
 I received two fully populated boards. One was missing the J5 header.
 
 ![EVT1 Front Picture](EVT1-front.jpg)
+
+## Run 2 - EVT#2
+
+* Submitted: 2024-10-21 (11PM NYC time)
+* Git Commit: `e48a22093a1c81bb14c9082240e3d44837e7d75e`
+* Producer: JLCPCB
+* Order #W202412221204947 
+* Boards: 5
+* Assemblies: 2
+* [BOM](jlcpcb/production_files/BOM-stm-midi-poc1.csv)
+* [CPL](jlcpcb/production_files/CPL-stm-midi-poc1.csv)
+* [Gerbers](jlcpcb/production_files/GERBER-stm-midi-poc1.zip)
+* JLCPCB Corrected Part Placement
+  ![JLCPCB Corrected Part Placement](TODO)
+* [JLCPCB Submission](TODO)
+* Status: Submitted
+* Cost:
+  * PCB: $8.00
+  * Assembly: $86.40
+  * Shipping: $58.36 (FedEx - "remote area" charge)
+  * Sales tax: $12.22
+  * Total: $164.98
+
 
 # Miscellaneous Notes
 
