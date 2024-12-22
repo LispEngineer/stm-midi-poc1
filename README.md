@@ -55,6 +55,19 @@ Moving to STM32H7:
 
 # Production Runs
 
+I have been using JLCPCB.
+
+* [JLCPCB instructions](https://jlcpcb.com/help/article/how-to-generate-gerber-and-drill-files-in-kicad-8)
+  on creating Gerber and Drill files for KiCAD 8.
+* You can also use the
+  [JLCPCB KiCAD plugin](https://github.com/Bouni/kicad-jlcpcb-tools).
+  * Installed using the *Plugin and Content Manager* in KiCAD.
+  * This usefully shows you the stock count for your parts, and whether
+    they are Basic or Extended.
+  * Current version (2024-12-21) gives a lot of errors about redundant
+    parts already in the catalog though (annoying).
+* Or maybe I was using [this JLCPCB KiCAD plugin](https://github.com/bennymeg/Fabrication-Toolkit).
+
 ## Run 1 - EVT#1
 
 * Submitted: 2024-10-27
