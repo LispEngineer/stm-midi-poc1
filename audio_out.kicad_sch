@@ -4781,6 +4781,16 @@
 		)
 		(uuid "e0f0e9bd-cadf-4664-80d9-1622cc8ce512")
 	)
+	(text "TODO: Swap all Caps in Audio Signal Path\nfor Class 1 MLCC caps instead of Class 2\n(C0G)"
+		(exclude_from_sim no)
+		(at 109.22 86.614 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e81bb4bf-1a41-42c9-bc0b-4012774c6b7b")
+	)
 	(text "DAC"
 		(exclude_from_sim no)
 		(at 21.336 20.574 0)

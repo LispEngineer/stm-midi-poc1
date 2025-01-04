@@ -96,7 +96,8 @@ I received two fully populated boards. One was missing the J5 header.
 
 ## Run 2 - EVT#2
 
-* Submitted: 2024-10-21 (11PM NYC time)
+* Submitted: 2024-12-21 (11PM NYC time)
+  * PCB and PCBA confirmed: 2024-12-22
 * Git Commit: `e48a22093a1c81bb14c9082240e3d44837e7d75e`
 * Producer: JLCPCB
 * Order #W202412221204947 
@@ -106,16 +107,34 @@ I received two fully populated boards. One was missing the J5 header.
 * [CPL](jlcpcb/production_files/CPL-stm-midi-poc1.csv)
 * [Gerbers](jlcpcb/production_files/GERBER-stm-midi-poc1.zip)
 * JLCPCB Corrected Part Placement
-  ![JLCPCB Corrected Part Placement](TODO)
-* [JLCPCB Submission](TODO)
-* Status: Submitted
+  ![JLCPCB Corrected Part Placement](jlcpcb-production/run2-20241221/front_9082090021593088-Produce_DanZhi.SMT_Snapshot.Top.8392316A_Y3.SMT024122260152.png)
+* [JLCPCB Submission](jlcpcb-production/run2-20241221/GERBER-stm-midi-poc1_Y3.zip)
+* Status: Confirmed for PCB/PCBA
 * Cost:
   * PCB: $8.00
   * Assembly: $86.40
   * Shipping: $58.36 (FedEx - "remote area" charge)
   * Sales tax: $12.22
   * Total: $164.98
+* Received: 2025-01-03 (delivered on 2025-01-02)
 
+Results:
+* They did not add assembly holes this time (interesting, maybe re-used the mounting holes)
+* STM32 Debugger (ST-Link v3) does not seem to reliably connect anymore.
+  * It did allow me to download the firmware but is not reliable.
+  * Sometimes it says "Failed to enable Live Expressions"
+* SPI display works
+* Audio Gain pins work
+* Audio mute works
+* Headphone output works
+* Buttons & LEDs work
+
+TODO:
+* Test MIDI in/out
+* Test Line out
+* Test various resistors for the headphone
+* Test I2C
+* Test GPIO
 
 # Miscellaneous Notes
 
