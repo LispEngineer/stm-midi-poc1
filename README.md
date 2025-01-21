@@ -8,7 +8,7 @@
   * AKA `CC BY-SA 4.0`
   * [See LICENSE.md](LICENSE.md) or [CC site](https://creativecommons.org/licenses/by-sa/4.0/deed.en)
 * Started 2024-09-28
-* Last updated 2024-12-21
+* Last updated 2025-01-20
 * [Repo Self-Link](https://github.com/LispEngineer/stm-midi-poc1)
 
 Overviews:
@@ -146,6 +146,9 @@ TODO:
 * Useful tools:
   * [EasyEDA2KiCAD](https://github.com/uPesy/easyeda2kicad.py)
   * [JLC Parts Finder](https://yaqwsx.github.io/jlcparts/)
+  * [Altium Viewer](https://www.altium365.com/viewer/)
+    * If you have Altium files and want to get details out of them
+      but only use KiCAD
 
 
 # KiCAD Configuration Notes
@@ -178,15 +181,30 @@ Using EasyEDA2KiCAD:
 
 ## TODOs
 
-* Find a much smaller Opto-isolator for MIDI than the one chosen here
-  * [TLP2362](https://toshiba.semicon-storage.com/us/semiconductor/product/isolators-solid-state-relays/detail.TLP2362.html)
-    is used by [Ksoloti 0.6](https://ksoloti.github.io/5-resources.html). Tested to work with
-    1.8kΩ pull-up resistor instead of the schematic's 2.7kΩ.
-    (Also worked with no pull-up resistor!)
+* Use STDC14 connector for ST-Link v3
+  * Digikey [1175-1632-ND](https://www.digikey.com/en/products/detail/cnc-tech/3220-14-0300-00/3883270?s=N4IgTCBcDaIIxwOwFYC0cBsBmMqByAIgAQgC6AvkA)
+    * Not in JLCPCB
+  * Mouser [SHF-107-01-L-D-SM](https://www.mouser.com/ProductDetail/Samtec/SHF-107-01-L-D-SM?qs=%252BZP6%2F%252BtExtBY5XT826bN4g%3D%3D)
+    * [Footprint](https://kinetictest.samtec.com/partnumber/shf-107-01-l-d-sm#featureinformation)
+    * [JLCPCB C17640678](https://jlcpcb.com/partdetail/Samtec-SHF_107_01_L_DSM/C17640678) - $2???
+    * [LCSC Alternative 1](https://www.lcsc.com/product-detail/Pin-Headers_Hanbo-Electronic-Hanbo-Electronic-HB-PH9-12727PB2GOB_C6332251.html) C6332251
+    * [LCSC Alternative 2](https://www.lcsc.com/product-detail/Pin-Headers_HCTL-HCTL-PZ127-2-07-S_C3975190.html) C3975190 - 11¢
+    * [LCSC Alternative 3](https://www.lcsc.com/product-detail/Pin-Headers_XKB-Connection-XKB-Connection-X1321WVS-2x07J-C40D53_C2881912.html) C2881912
 * Use a 4-pin 32kHz clock?
 * RN1 footprint and 3D model look a little bit off - footprint is a bit too small?
 * Test points/pins
 * MCU Pin 24 is not used - it is I2S1_MCK
+* Incorporate my own ST-Link?
+  * [See Hackaday](https://hackaday.io/project/179054-custom-st-link-v20-v21-v30)
+
+### DONE
+
+* DONE(EVT2): Find a much smaller Opto-isolator for MIDI than the one chosen here
+  * [TLP2362](https://toshiba.semicon-storage.com/us/semiconductor/product/isolators-solid-state-relays/detail.TLP2362.html)
+    is used by [Ksoloti 0.6](https://ksoloti.github.io/5-resources.html). Tested to work with
+    1.8kΩ pull-up resistor instead of the schematic's 2.7kΩ.
+    (Also worked with no pull-up resistor!)
+
 
 # Board Layout Notes
 
