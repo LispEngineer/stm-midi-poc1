@@ -8,7 +8,7 @@
   * AKA `CC BY-SA 4.0`
   * [See LICENSE.md](LICENSE.md) or [CC site](https://creativecommons.org/licenses/by-sa/4.0/deed.en)
 * Started 2024-09-28
-* Last updated 2025-01-20
+* Last updated 2025-04-20
 * [Repo Self-Link](https://github.com/LispEngineer/stm-midi-poc1)
 
 Overviews:
@@ -25,6 +25,13 @@ Design documents:
 * [Design notes](Design.md)
 * Designed in [KiCAD 8](https://www.kicad.org/)
 * LCSC part numbers included for assembly by [JLCPCB](https://jlcpcb.com/)
+
+Debuggers:
+* Segger J-Link EDU Mini
+* Segger J-Link Plus v10.1 (second hand)
+  * Built in VCOM port - only seems to work at 115,200 baud
+* ST-Link v3
+* FTDI USB to TTL UART
 
 Software:
 * [Pinout](https://github.com/LispEngineer/stm-midi-poc1-sw)
@@ -274,6 +281,10 @@ of vias.
 * Rewrire the headphone amp like Pimoroni?
 * Move console from UART3 to UART2
   * Move console pins next to SWD pins for easy use with STLink
+* Install UART to USB bridge
+  * [FTDI FT234XD](https://ftdichip.com/products/ft234xd/) is a nice 12-pin package
+  * [Example Circuit](https://github.com/z4yx/USB-C-Serial)
+  * [JLCPCB Part](https://jlcpcb.com/partdetail/Ftdi-FT234XDR/C132158)
 
 Longer term
 * Move to an STM32H7 device
